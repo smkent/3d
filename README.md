@@ -1,7 +1,7 @@
 # 3d.smkent.net
 
-[![Build](https://img.shields.io/github/checks-status/smkent/3d/main?label=build)][gh-actions]
-[![GitHub stars](https://img.shields.io/github/stars/smkent/3d?style=social)][repo]
+[![Build](https://img.shields.io/github/checks-status/smkent/3d.smkent.net/main?label=build)][gh-actions]
+[![GitHub stars](https://img.shields.io/github/stars/smkent/3d.smkent.net?style=social)][repo]
 
 ## Development
 
@@ -42,8 +42,8 @@ Created from [smkent/cookie-python][cookie-python] using
 
 [cookie-python]: https://github.com/smkent/cookie-python
 [cookiecutter]: https://github.com/cookiecutter/cookiecutter
-[gh-actions]: https://github.com/smkent/3d/actions?query=branch%3Amain
+[gh-actions]: https://github.com/smkent/3d.smkent.net/actions?query=branch%3Amain
 [mkdocs]: https://www.mkdocs.org
 [pipx]: https://pypa.github.io/pipx/
 [poetry]: https://python-poetry.org/docs/#installation
-[repo]: https://github.com/smkent/3d
+[repo]: https://github.com/smkent/3d.smkent.net
