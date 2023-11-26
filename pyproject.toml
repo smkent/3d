@@ -19,6 +19,8 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
+mkdocs = "^1.5.3"
+mkdocs-cinder = "^1.2.0"
 
 [tool.poetry.dev-dependencies]
 cruft = "*"
