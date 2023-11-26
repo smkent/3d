@@ -1,5 +1,35 @@
 site_name: 3d.smkent.net
 site_url: https://3d.smkent.net
+repo_name: smkent/3d.smkent.net
 repo_url: https://github.com/smkent/3d.smkent.net
 
-theme: cinder
+theme:
+  name: material
+  logo: img/favicon.ico
+  favicon: img/favicon.ico
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
+      accent: yellow
+      toggle:
+        name: Switch to light mode
+        icon: material/lightbulb-outline
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      toggle:
+        name: Switch to dark mode
+        icon: material/lightbulb
+
+extra:
+  social:
+    - name: bulbasaur0 on Printables
+      link: https://www.printables.com/@bulbasaur0_1139994
+      icon: simple/printables
+    - name: bulbasaur0 on Thingiverse
+      link: https://www.thingiverse.com/bulbasaur0/makes
+      icon: simple/thingiverse
+    - name: smkent on GitHub
+      link: https://github.com/smkent
+      icon: fontawesome/brands/github
