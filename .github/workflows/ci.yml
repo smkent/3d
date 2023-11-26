@@ -1,15 +1,14 @@
 ---
 name: Test
 
-env:
-  ENABLE_COVERAGE: false
-
 on:
   pull_request:
   push:
     branches:
       - main
-  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   Test:
@@ -38,8 +37,12 @@ jobs:
       - name: 🔥 Run static checks
         run: poetry run poe lint
 
-      - name: 🏗️ Build and deploy site
+      - name: 🏗️ Build site
+        run: poetry run mkdocs build
+
+      - name: 🚀 Deploy site
         run: poetry run mkdocs gh-deploy
+        if: ${{ github.ref == 'refs/heads/main' }}
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
