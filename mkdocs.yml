@@ -33,3 +33,9 @@ extra:
     - name: smkent on GitHub
       link: https://github.com/smkent
       icon: fontawesome/brands/github
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: false
+      type: timeago
+  - search
