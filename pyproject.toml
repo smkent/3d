@@ -20,7 +20,7 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.8"
 mkdocs = "^1.5.3"
-mkdocs-cinder = "^1.2.0"
+mkdocs-material = "^9.4.14"
 
 [tool.poetry.dev-dependencies]
 cruft = "*"
