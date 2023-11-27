@@ -1,12 +1,18 @@
-site_name: 3d.smkent.net
+site_name: smkent's 3D printing guide with the Sovol SV06 Plus
 site_url: https://3d.smkent.net
 repo_name: smkent/3d
 repo_url: https://github.com/smkent/3d
 
 theme:
   name: material
-  logo: img/favicon.ico
+  icon:
+    logo: material/printer-3d-nozzle
   favicon: img/favicon.ico
+  features:
+    - navigation.footer
+    - navigation.sections
+    - navigation.tabs
+    - toc.integrate
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -21,6 +27,17 @@ theme:
       toggle:
         name: Switch to dark mode
         icon: material/lightbulb
+
+nav:
+  - Getting Started:
+    - getting-started/index.md
+    - Background and Safety: getting-started/background-and-safety.md
+    - Printer setup: getting-started/printer-setup.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 extra:
   social:
