@@ -141,7 +141,7 @@ Steps:
 * Move the piece of paper slightly while it is underneath the nozzle. It should
   move freely with no resistance.
 * While still slightly moving the paper under the nozzle, lower the Z offset by
-  0.05 millimeters at a time until you s tart to feel resistance while moving
+  0.05 millimeters at a time until you start to feel resistance while moving
   the paper.
 * Slide the paper out from underneath the nozzle. You should feel some
   resistance, but the paper should not rip or tear. If it does, the nozzle is
