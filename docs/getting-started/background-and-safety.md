@@ -40,8 +40,8 @@ printing involves high temperatures and moving parts.
 ### Materials safety
 
 * 3D printing process emits VOCs, which can vary by material used and printing
-  temperature. The best place for a 3D p rinter to live is in a ventilated space
-  or enclosure. (Building an enclosure can be a fun side project!)
+  temperature. The best permanent home for a 3D printer is a ventilated space or
+  enclosure. (Building an enclosure can be a fun side project!)
 
 ### General safety
 
