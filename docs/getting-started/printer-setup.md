@@ -1,3 +1,7 @@
+---
+glightbox: false
+---
+
 # Printer setup
 
 ## About the Sovol SV06 Plus
