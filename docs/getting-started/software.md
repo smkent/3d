@@ -75,7 +75,14 @@ generic profiles. This guide will focus in printing with [PLA][wiki-pla] and
 each. Uncheck the other preselected filaments in the Filament Profiles Selection
 wizard page, and then click **Next**.
 
-![PrusaSlicer wizard filament profiles selection page][prusaslicer-wizard-8]{: data-gallery="pswiz"}
+![PrusaSlicer wizard filament profiles selection page][prusaslicer-wizard-7]{: data-gallery="pswiz"}
+
+### Automatic updates
+
+PrusaSlicer will check for application and configuration profile updates by
+default. I recommend leaving these checked. Click **Next** to continue.
+
+![PrusaSlicer wizard automatic updates page][prusaslicer-wizard-8]{: data-gallery="pswiz"}
 
 ### Optional settings
 
@@ -127,3 +134,4 @@ Click **Finish** at the bottom to complete the wizard!
 [prusaslicer-wizard-11]: ../img/prusaslicer-wizard-11.png
 [wiki-pla]: https://en.wikipedia.org/wiki/Polylactic_acid
 [wiki-petg]: https://en.wikipedia.org/wiki/PETG
+[printables]: https://printables.com
