@@ -6,7 +6,7 @@
     "cookiecutter": {
       "project_name": "3d",
       "project_slug": "3d",
-      "project_description": "3d.smkent.net",
+      "project_description": "3d",
       "project_license": "GPL-3.0-or-later",
       "enable_coverage": "no",
       "enable_pypi_publish": "no",

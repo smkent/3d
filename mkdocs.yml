@@ -1,7 +1,7 @@
 site_name: 3d.smkent.net
 site_url: https://3d.smkent.net
-repo_name: smkent/3d.smkent.net
-repo_url: https://github.com/smkent/3d.smkent.net
+repo_name: smkent/3d
+repo_url: https://github.com/smkent/3d
 
 theme:
   name: material
