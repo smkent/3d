@@ -30,7 +30,7 @@ theme:
 
 nav:
   - Getting Started:
-    - getting-started/index.md
+    - index.md
     - Background and Safety: getting-started/background-and-safety.md
     - Printer setup: getting-started/printer-setup.md
 
