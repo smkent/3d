@@ -22,6 +22,11 @@ prompt about SSL certificates. Check **Remember my choice** and then click
 
 ![SSL certificates dialog][prusaslicer-ssl-certs]{ .off-glb }
 
+PrusaSlicer may also ask whether it's OK to send system information. This is
+optional, so select whichever option you prefer.
+
+![PrusaSlicer data collection prompt][prusaslicer-data-collection]{: data-gallery="psdc" }
+
 ## Configuration wizard
 
 !!! tip
@@ -119,8 +124,9 @@ Click **Finish** at the bottom to complete the wizard!
 
 
 [cura]: https://ultimaker.com/software/ultimaker-cura/
+[printables]: https://printables.com
+[prusaslicer-data-collection]: ../img/prusaslicer-data-collection.png
 [prusaslicer-ssl-certs]: ../img/prusaslicer-ssl-certs.png
-[prusaslicer]: https://www.prusa3d.com/page/prusaslicer_424/
 [prusaslicer-wizard-1]: ../img/prusaslicer-wizard-1.png
 [prusaslicer-wizard-2]: ../img/prusaslicer-wizard-2.png
 [prusaslicer-wizard-3]: ../img/prusaslicer-wizard-3.png
@@ -132,6 +138,6 @@ Click **Finish** at the bottom to complete the wizard!
 [prusaslicer-wizard-9]: ../img/prusaslicer-wizard-9.png
 [prusaslicer-wizard-10]: ../img/prusaslicer-wizard-10.png
 [prusaslicer-wizard-11]: ../img/prusaslicer-wizard-11.png
-[wiki-pla]: https://en.wikipedia.org/wiki/Polylactic_acid
+[prusaslicer]: https://www.prusa3d.com/page/prusaslicer_424/
 [wiki-petg]: https://en.wikipedia.org/wiki/PETG
-[printables]: https://printables.com
+[wiki-pla]: https://en.wikipedia.org/wiki/Polylactic_acid
