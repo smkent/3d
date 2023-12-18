@@ -37,6 +37,12 @@ printing involves high temperatures and moving parts.
   print bed moves unexpectedly, your fingers or hand could get stuck between the
   bed and the frame.
 
+### Materials safety
+
+* 3D printing process emits VOCs, which can vary by material used and printing
+  temperature. The best place for a 3D p rinter to live is in a ventilated space
+  or enclosure. (Building an enclosure can be a fun side project!)
+
 ### General safety
 
 * Make sure the printer is on a stable surface with enough space for the print
@@ -51,6 +57,13 @@ printing involves high temperatures and moving parts.
 
 [All3DP has a more in-depth article about 3D printer safety][all3dp-printer-safety].
 
+For more information about VOCs and emissions, see:
+
+* [3D Printing Research at EPA][epa-3d-printing-research]
+* [3D Printing Fumes & Air Quality – A Practical Guide at All3DP][all3dp-fumes-air-quality]
+
 
 [all3dp-printer-safety]: https://all3dp.com/2/3d-printing-safety-simply-explained/
 [wiki-fff]: https://en.wikipedia.org/wiki/Fused_filament_fabrication
+[epa-3d-printing-research]: https://www.epa.gov/chemical-research/3d-printing-research-epa
+[all3dp-fumes-air-quality]: https://all3dp.com/1/3d-printing-emissions-air-quality/
