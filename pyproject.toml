@@ -5,7 +5,7 @@ build-backend = "poetry_dynamic_versioning.backend"
 [tool.poetry]
 name = "3d"
 version = "0.0.0"
-description = "3d.smkent.net"
+description = "3d"
 license = "GPL-3.0-or-later"
 authors = ["Stephen Kent <smkent@smkent.net>"]
 readme = "README.md"
