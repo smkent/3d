@@ -33,11 +33,17 @@ nav:
     - index.md
     - Background and Safety: getting-started/background-and-safety.md
     - Printer setup: getting-started/printer-setup.md
+    - Software: getting-started/software.md
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - meta
   - pymdownx.details
   - pymdownx.superfences
+
+extra_css:
+  - css/custom.css
 
 extra:
   social:
@@ -55,4 +61,6 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: false
       type: timeago
+  - glightbox:
+      auto_caption: true
   - search
