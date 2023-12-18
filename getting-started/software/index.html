@@ -8,13 +8,11 @@
       
       
       
-        <link rel="canonical" href="https://3d.smkent.net/getting-started/printer-setup/">
+        <link rel="canonical" href="https://3d.smkent.net/getting-started/software/">
       
       
-        <link rel="prev" href="../background-and-safety/">
+        <link rel="prev" href="../printer-setup/">
       
-      
-        <link rel="next" href="../software/">
       
       
       <link rel="icon" href="../../img/favicon.ico">
@@ -22,7 +20,7 @@
     
     
       
-        <title>Printer setup - smkent's 3D printing guide with the Sovol SV06 Plus</title>
+        <title>Software - smkent's 3D printing guide with the Sovol SV06 Plus</title>
       
     
     
@@ -59,7 +57,18 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -81,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#printer-setup" class="md-skip">
+        <a href="#software" class="md-skip">
           Skip to content
         </a>
       
@@ -115,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Printer setup
+              Software
             
           </span>
         </div>
@@ -369,6 +378,27 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../printer-setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Printer setup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -385,7 +415,7 @@
           
   
   <span class="md-ellipsis">
-    Printer setup
+    Software
   </span>
   
 
@@ -396,7 +426,7 @@
         
   
   <span class="md-ellipsis">
-    Printer setup
+    Software
   </span>
   
 
@@ -418,73 +448,55 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#about-the-sovol-sv06-plus" class="md-nav__link">
+  <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
-      About the Sovol SV06 Plus
+      Installation
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#assembly" class="md-nav__link">
+  <a href="#configuration-wizard" class="md-nav__link">
     <span class="md-ellipsis">
-      Assembly
+      Configuration wizard
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#calibration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Calibration
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Calibration">
+    <nav class="md-nav" aria-label="Configuration wizard">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#leveling-the-x-axis" class="md-nav__link">
+  <a href="#printer-selection" class="md-nav__link">
     <span class="md-ellipsis">
-      Leveling the X-axis
+      Printer selection
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#preparation-for-bed-calibration" class="md-nav__link">
+  <a href="#filament-profiles" class="md-nav__link">
     <span class="md-ellipsis">
-      Preparation for bed calibration
+      Filament profiles
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#setting-the-nozzle-height-offset-z-offset" class="md-nav__link">
+  <a href="#optional-settings" class="md-nav__link">
     <span class="md-ellipsis">
-      Setting the nozzle height offset (Z-offset)
+      Optional settings
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#leveling-the-bed" class="md-nav__link">
+  <a href="#view-mode" class="md-nav__link">
     <span class="md-ellipsis">
-      Leveling the bed
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#completing-calibration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Completing calibration
+      View mode
     </span>
   </a>
   
@@ -499,27 +511,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../software/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Software
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -550,187 +541,81 @@
   
 
 
-<h1 id="printer-setup">Printer setup</h1>
-<h2 id="about-the-sovol-sv06-plus">About the Sovol SV06 Plus</h2>
-<p>I selected the <a href="https://sovol3d.com/products/sovol-sv06-plus-fully-open-source-3d-printer-with-linear-rail-structure">Sovol SV06 Plus</a> for a handful of reasons:</p>
-<ul>
-<li>It has an all-metal hotend which supports a wide variety of materials</li>
-<li>The build area is large at 300 x 300 x 340 millimeters
-  (300 millimeters is about a foot)</li>
-<li>It's an open source clone of the popular
-  <a href="https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-3/">Prusa MK3S+ 3D printer</a>. This has a number of benefits from
-  repairability to software compatibility and community support.</li>
-</ul>
-<h2 id="assembly">Assembly</h2>
-<p>The SV06 Plus comes mostly pre-assembled except for the various body parts.
-Pages 3-12 of the <a href="../../static/User%20Manual_SV06%20Plus.pdf">user manual</a> describe how to
-assemble the printer. Assembly largely involves:</p>
-<ul>
-<li>Attaching the gantry (vertical assembly) to the horizontal base assembly</li>
-<li>Attaching the extruder, power supply, mainboard, and LCD components</li>
-<li>Connecting the wiring harnesses to the power supply, extruder, motors, and LCD</li>
-</ul>
-<p>Sovol also has
-<a href="https://www.youtube.com/watch?v=1ZwAHHkcED4">an assembly tutorial video</a>:</p>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1ZwAHHkcED4?si=RHlAd7f-gOVw2ChE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>After assembling the printer, check the voltage selector on the power
-supply. Mine was set to 230V out of the box. Change the selector to 115V for
-use in the US.</p>
+<h1 id="software">Software</h1>
+<p>A 3D printer works by building an object layer by layer. To print an object from
+a 3D model, the model needs to be converted to a layer-by-layer representation
+for the printer to use called <strong>G-code</strong>. This is done using a type of software
+called a <strong>slicer</strong>.</p>
+<p>There are many slicer softwares available. Two popular options are
+<a href="https://www.prusa3d.com/page/prusaslicer_424/">PrusaSlicer</a> and <a href="https://ultimaker.com/software/ultimaker-cura/">Ultimaker Cura</a>, which are free and open
+source.</p>
+<p>For the Sovol SV06 Plus, I've had the best results using PrusaSlicer.</p>
+<h2 id="installation">Installation</h2>
+<p>Download and install <a href="https://www.prusa3d.com/page/prusaslicer_424/">PrusaSlicer</a> on your computer. PrusaSlicer is
+available for Windows, Mac OS X, and Linux.</p>
+<p>Open PrusaSlicer after it is installed. On first run, PrusaSlicer may show a
+prompt about SSL certificates. Check <strong>Remember my choice</strong> and then click
+<strong>Yes</strong>.</p>
+<p><img alt="SSL certificates dialog" class="off-glb" src="../../img/prusaslicer-ssl-certs.png" /></p>
+<h2 id="configuration-wizard">Configuration wizard</h2>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Click any of the screenshots for a full-size or zoomable view.</p>
 </div>
-<h2 id="calibration">Calibration</h2>
-<p>Being 3-dimensional, a 3D printer has 3 axes: X (left to right), Y (front to
-back), and Z (top to bottom).</p>
-<p>Before using the printer, the X axis and Z axis
-need to be calibrated. Each calibration step is explained below.</p>
-<p><img alt="Axes illustration" src="../../img/axes.png" /></p>
-<p>Pages 13-16 of the <a href="../../static/User%20Manual_SV06%20Plus.pdf">user manual</a> explains how to
-level the printer for the first time. Sovol also has
-<a href="https://www.youtube.com/watch?v=qc4_DRD2l2M">a leveling tutorial video</a>.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qc4_DRD2l2M?si=sRzR6dqLxlRPJBZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<h3 id="leveling-the-x-axis">Leveling the X-axis</h3>
-<p>The X-axis are the horizontal rods that the extruder moves left and right on.
-The SV06 Plus uses two vertical rods for the Z-axis. The X-axis needs to be
-physically leveled relative to the two Z-axis rods so that the X-axis and Z-axis
-will be square to each other.</p>
-<p>Steps:</p>
-<ul>
-<li>Turn on the printer.</li>
-<li>Tap the <strong>Leveling</strong> option on the LCD.</li>
-<li>The printer will "home," which means the X-axis (extruder head),
-  Y-axis (print bed), and Z-axis (vertical lift) will one at a time move all the
-  way to the left, back, and bottom, respectively. In doing this, the printer
-  aligns its knowledge of the extruder's overall position with its actual
-  position. This is known as <strong>homing</strong>, <strong>auto-home</strong>, or <strong>moving to home</strong>.
-  The Leveling menu will appear when homing is complete.</li>
-<li>Tap <strong>Auto Z-Align</strong>.</li>
-<li>The printer will slowly raise the extruder all the way to the top of the
-  printer, and then gently press the extruder against the very top of the gantry
-  (top bar). This causes both ends of the X-axis to move as far up as they can,
-  which is what aligns the X-axis relative to the Z-axis.</li>
-</ul>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>It is normal for the Z-axis motors to briefly make a skipping noise
-as they attempt to turn past the top height during Auto Z-Align.</p>
-</div>
-<ul>
-<li>The printer will slowly lower the extruder back down to the bed and return to
-  the leveling menu. Remain on the leveling menu for the next calibration steps.</li>
-</ul>
-<h3 id="preparation-for-bed-calibration">Preparation for bed calibration</h3>
-<p>Both the print bed and nozzle are made of metal and heat up when printing.
-<a href="https://en.wikipedia.org/wiki/Thermal_expansion">Metal expands and contracts with temperature</a>.
-To simulate printing conditions for calibration, I recommend heating the nozzle
-and bed to a normal printing temperature before continuing.</p>
-<div class="admonition danger">
-<p class="admonition-title">Danger</p>
-<p>Don't touch the print bed or the nozzle when they are heated! The nozzle
-is hot enough to cause a burn if touched. The bed isn't as hot but is still
-very warm to the touch.</p>
-</div>
-<p>Steps:</p>
-<ul>
-<li>If the Leveling menu is displayed, tap <strong>&lt;</strong> on the LCD to return to the
-  main menu.</li>
-<li>Tap the print bed temperature display, and set the temperature to <strong>60°C</strong>.
-  The print bed will slowly start heating until it reaches this temperature.</li>
-<li>Tap the nozzle temperature display, and set the temperature to <strong>210°C</strong>. The
-  nozzle will start heating until it reaches this temperature. The nozzle is
-  much smaller than the print bed, so it heats more quickly than the print bed.</li>
-</ul>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>When the print bed / nozzle are heated from the LCD menu, they will remain
-at their heated temperatures until different temperatures are entered, a
-print job starts and completes, or the printer is switched off. The heaters
-can be manually turned off by setting the desired temperatures to <strong>0°C</strong>.</p>
-</div>
-<ul>
-<li>Wait until the print bed and the nozzle reach their configured temperatures.</li>
-<li>Tap the <strong>Leveling</strong> option on the main menu to return to the Leveling menu.
-  The printer will move to home once again before displaying the Leveling menu.</li>
-</ul>
-<h3 id="setting-the-nozzle-height-offset-z-offset">Setting the nozzle height offset (Z-offset)</h3>
-<p>The foundation of a good 3D print is the first or base layer. To make sure the
-first layer of a printed object sticks to the bed, the nozzle's initial height
-from the bed needs to be calibrated. This height is called the <strong>Z offset</strong>,
-which is the difference between the printer's detected baseline height when
-leveling and the correctly calibrated printing height.</p>
-<p>If the nozzle is too high, the printed object won't stick to the bed. If the
-nozzle is too low, the lower parts of the printed object will be squashed or
-bumped over by the nozzle as it moves.</p>
-<p>The Leveling menu on the LCD will display the current Z offset value, along with
-controls to increase (raise) and decrease (lower) the Z offset by 0.05 or 0.01
-millimeters. The goal is to set the nozzle height to approximately 0.2
-millimeters higher than the bed. This can be done with a spare sheet of printer
-paper, which is about the right thickness.</p>
-<p>Steps:</p>
-<ul>
-<li>Place the sheet of paper on the print bed. Remember, the bed is very warm!</li>
-<li>Try to gently slide the sheet of paper under the nozzle. If the paper won't
-  slide under, tap the Z offset increase button on the LCD a few times to raise
-  the nozzle slightly and try again. You may need to repeat this several times
-  depending on how the printer was calibrated at the factory.</li>
-<li>Move the piece of paper slightly while it is underneath the nozzle. It should
-  move freely with no resistance.</li>
-<li>While still slightly moving the paper under the nozzle, lower the Z offset by
-  0.05 millimeters at a time until you start to feel resistance while moving
-  the paper.</li>
-<li>Slide the paper out from underneath the nozzle. You should feel some
-  resistance, but the paper should not rip or tear. If it does, the nozzle is
-  too low.</li>
-<li>The Z offset is now calibrated. The Z offset value will vary from one printer
-  to another, and even from one print bed sheet to another. A normal Z offset
-  value is often negative.</li>
-<li>Tap <strong>Save</strong> on the LCD so the printer will remember it later after being
-  turned off.</li>
-</ul>
-<h3 id="leveling-the-bed">Leveling the bed</h3>
-<p>The print bed is a flexible and removable sheet with a special coating, on top
-of a larger metal plate with a heating element that is attached to the printer.</p>
-<p>While the print bed will appear to be flat, the bed height will vary slightly
-across the surface (normally fractions of a millimeter) due to manufacturing
-tolerances. To compensate for these variations, the printer needs to scan the
-bed at several points so it can compensate for this variation while printing.
-This is often referred to as <strong>bed leveling</strong> or <strong>leveling the bed</strong>.</p>
-<p>The SV06 Plus has a function to automatically perform this bed leveling scan.</p>
-<p>Steps:</p>
-<ul>
-<li>On the Leveling menu on the LCD, tap <strong>Auto-Level</strong>.</li>
-<li>The printer will automatically perform a scan at 25 different grid points on
-  the heated bed, and will display progress on the LCD screen.</li>
-<li>When finished, the extruder will move back to the center and re-display the
-  Leveling menu.</li>
-<li>The bed leveling scan is now complete. Tap <strong>Save</strong> on the LCD so the printer
-  will remember the scan data later after being turned off.</li>
-</ul>
-<h3 id="completing-calibration">Completing calibration</h3>
-<p>The nozzle and print bed were heated to prepare for calibrating the print bed.
-As the heaters were turned on manually from the main menu, they will remain set
-to their heated temperatures until turned off.</p>
-<p>Steps:</p>
-<ul>
-<li>If the Leveling menu is displayed, tap <strong>&lt;</strong> on the LCD to return to the
-  main menu.</li>
-<li>Tap the print bed temperature display, and set the temperature to <strong>0°C</strong>.
-  The print bed heater will turn off, and the print bed will start to cool until
-  it reaches room temperature.</li>
-<li>Tap the nozzle temperature display, and set the temperature to <strong>0°C</strong>. The
-  nozzle heater will turn off, and the nozzle will start to cool until it
-  reaches room temperature. The nozzle is much smaller than the print bed, so it
-  cools more quickly than the print bed.</li>
-</ul>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>The print bed and nozzle take some time to cool, so they will still be hot
-after turning the heaters off. Be careful not to touch while they are
-cooling.</p>
-</div>
-<p>Initial printer calibration is now complete!</p>
+<p>When Starting PrusaSlicer for the first time, a configuration wizard appears:</p>
+<p><a class="glightbox" href="../../img/prusaslicer-wizard-1.png" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard welcome page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard welcome page" data-gallery="pswiz" src="../../img/prusaslicer-wizard-1.png" /></a></p>
+<p>Click <strong>Next</strong> at the bottom to proceed through the wizard.</p>
+<h3 id="printer-selection">Printer selection</h3>
+<p>The first several pages in the configuration wizard lead you through the
+supported printers. By default, a Prusa printer profile is selected. Uncheck the
+checkbox under Original Prusa MK4 Input Shaper, and click <strong>Next</strong> to continue.</p>
+<p><a class="glightbox" href="../../img/prusaslicer-wizard-2.png" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard Prusa FFF printers page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard Prusa FFF printers page" data-gallery="pswiz" src="../../img/prusaslicer-wizard-2.png" /></a></p>
+<p>The next page provides options for Prusa SLA (resin) printers. Leave these
+unchecked and click <strong>Next</strong>.</p>
+<p><a class="glightbox" href="../../img/prusaslicer-wizard-3.png" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard Prusa SLA printers page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard Prusa SLA printers page" data-gallery="pswiz" src="../../img/prusaslicer-wizard-3.png" /></a></p>
+<p>Then, the configuration wizard provides options for selecting printers from
+other brands. The SV06 Plus is made by Sovol, so scroll down in the vendors list
+and click the <strong>Sovol</strong> checkbox. Then, click <strong>Next</strong>.</p>
+<p><a class="glightbox" href="../../img/prusaslicer-wizard-4.png" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard printer vendors selection page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard printer vendors selection page" data-gallery="pswiz" src="../../img/prusaslicer-wizard-4.png" /></a></p>
+<p>Now the configuration wizard provides options for selecting Sovol printers. By
+default, a SV06 profile is selected. Uncheck the <strong>SV06</strong> checkbox, and
+then check the <strong>SV06 Plus 0.4mm nozzle</strong> checkbox. Then, click <strong>Next</strong>.</p>
+<p><a class="glightbox" href="../../img/prusaslicer-wizard-5.png" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard Sovol printer profiles page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard Sovol printer profiles page" data-gallery="pswiz" src="../../img/prusaslicer-wizard-5.png" /></a></p>
+<p>The last printer selection page in the configuration wizard offers to provide a
+custom printer profile. Since there is a built-in profile for the SV06 Plus, a
+custom profile is not needed. Click <strong>Next</strong>.</p>
+<p><a class="glightbox" href="../../img/prusaslicer-wizard-6.png" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard custom printer profile page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard custom printer profile page" data-gallery="pswiz" src="../../img/prusaslicer-wizard-6.png" /></a></p>
+<h3 id="filament-profiles">Filament profiles</h3>
+<p>PrusaSlicer has both generic presets for various printing materials as well as
+specific presets for specific filaments. I have had good success using the
+generic profiles. This guide will focus in printing with <a href="https://en.wikipedia.org/wiki/Polylactic_acid">PLA</a> and
+<a href="https://en.wikipedia.org/wiki/PETG">PETG</a> filaments starting with the generic filament profiles for
+each. Uncheck the other preselected filaments in the Filament Profiles Selection
+wizard page, and then click <strong>Next</strong>.</p>
+<p><a class="glightbox" href="../../img/prusaslicer-wizard-8.png" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard filament profiles selection page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard filament profiles selection page" data-gallery="pswiz" src="../../img/prusaslicer-wizard-8.png" /></a></p>
+<h3 id="optional-settings">Optional settings</h3>
+<p>On this page, you can optionally enable PrusaSlicer's browser integration. With
+this enabled, you can click the PrusaSlicer logo next to a model file on
+[Printables][printables] and have it automatically download and open in
+PrusaSlicer. When finished configuring this feature, click <strong>Next</strong>.</p>
+<p><a class="glightbox" href="../../img/prusaslicer-wizard-9.png" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard download from URL settings page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard download from URL settings page" data-gallery="pswiz" src="../../img/prusaslicer-wizard-9.png" /></a></p>
+<p>The reload from disk feature makes reloading model files easier while you're
+developing a new model. Enabling this feature includes full file paths in your
+saved project files (which would include your username on your local computer).
+If you plan to share project files on the internet, it's a good idea to leave
+this disabled (unchecked). After making your choice, click <strong>Next</strong>.</p>
+<p><a class="glightbox" href="../../img/prusaslicer-wizard-10.png" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard reload from disk settings page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard reload from disk settings page" data-gallery="pswiz" src="../../img/prusaslicer-wizard-10.png" /></a></p>
+<h3 id="view-mode">View mode</h3>
+<p>The view mode page is the last configuration wizard page. I recommend setting
+the view mode to <strong>Expert</strong>, so all of the options will be visible when
+preparing a model to print. Simple, advanced, and expert options will have a
+green, yellow, or red dot next to them when preparing a model in PrusaSlicer.</p>
+<p>Finally, I strongly recommend leaving "Use inches" <strong>unchecked</strong>, so that
+PrusaSlicer will use millimeters. Nearly all model files on the internet use
+millimeters for sizing, so using millimeters in PrusaSlicer makes working with
+3D models easier.</p>
+<p>Click <strong>Finish</strong> at the bottom to complete the wizard!</p>
+<p><a class="glightbox" href="../../img/prusaslicer-wizard-11.png" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard view mode page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard view mode page" data-gallery="pswiz" src="../../img/prusaslicer-wizard-11.png" /></a></p>
 
   <hr>
 <div class="md-source-file">
@@ -763,7 +648,7 @@ cooling.</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../background-and-safety/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Background and Safety">
+          <a href="../printer-setup/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Printer setup">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -773,27 +658,11 @@ cooling.</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Background and Safety
+                Printer setup
               </div>
             </div>
           </a>
         
-        
-          
-          <a href="../software/" class="md-footer__link md-footer__link--next" aria-label="Next: Software">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              <div class="md-ellipsis">
-                Software
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-            </div>
-          </a>
         
       </nav>
     
@@ -858,5 +727,5 @@ cooling.</p>
         <script src="../../js/timeago_mkdocs_material.js"></script>
       
     
-  </body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
