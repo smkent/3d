@@ -1,8 +1,8 @@
 # Welcome!
 
-Several months ago I got my first 3D printer, and now I'm introducing others
-to the world of 3D printing! This guide is an introduction to 3D printing with
-the same printer I have, the [Sovol SV06 Plus][sovol-sv06-plus].
+Several months after getting my 3D printer, I'm introducing others to the world
+of 3D printing! This guide is an introduction to 3D printing with the same
+printer I have, the [Sovol SV06 Plus][sovol-sv06-plus].
 
 Feedback, suggestions, and [pull requests][repo-url] are welcome.
 
