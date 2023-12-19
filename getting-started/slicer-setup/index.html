@@ -633,7 +633,7 @@ optional, so select whichever option you prefer.</p>
 <p>Click <strong>Next</strong> at the bottom to proceed through the wizard.</p>
 <h3 id="printer-selection">Printer selection</h3>
 <p>The first several pages in the configuration wizard lead you through the
-supported printers. By default, a Prusa printer profile is selected. Uncheck the
+supported printers. By default, a Prusa printer preset is selected. Uncheck the
 checkbox under Original Prusa MK4 Input Shaper, and click <strong>Next</strong> to continue.</p>
 <p><a class="glightbox" href="../../img/prusaslicer-wizard-2.png" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard Prusa FFF printers page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard Prusa FFF printers page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-2.png" /></a></p>
 <p>The next page provides options for Prusa SLA (resin) printers. Leave these
@@ -644,11 +644,11 @@ other brands. The SV06 Plus is made by Sovol, so scroll down in the vendors list
 and click the <strong>Sovol</strong> checkbox. Then, click <strong>Next</strong>.</p>
 <p><a class="glightbox" href="../../img/prusaslicer-wizard-4.png" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard printer vendors selection page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard printer vendors selection page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-4.png" /></a></p>
 <p>Now the configuration wizard provides options for selecting Sovol printers. By
-default, a SV06 profile is selected. Uncheck the <strong>SV06</strong> checkbox, and
+default, a SV06 preset is selected. Uncheck the <strong>SV06</strong> checkbox, and
 then check the <strong>SV06 Plus 0.4mm nozzle</strong> checkbox. Then, click <strong>Next</strong>.</p>
-<p><a class="glightbox" href="../../img/prusaslicer-wizard-5.png" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard Sovol printer profiles page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard Sovol printer profiles page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-5.png" /></a></p>
+<p><a class="glightbox" href="../../img/prusaslicer-wizard-5.png" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard Sovol printer presets page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard Sovol printer presets page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-5.png" /></a></p>
 <p>The last printer selection page in the configuration wizard offers to provide a
-custom printer profile. Since there is a built-in profile for the SV06 Plus, a
+custom printer profile. Since there is a built-in preset for the SV06 Plus, a
 custom profile is not needed. Click <strong>Next</strong>.</p>
 <p><a class="glightbox" href="../../img/prusaslicer-wizard-6.png" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard custom printer profile page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard custom printer profile page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-6.png" /></a></p>
 <h3 id="filament-profiles">Filament profiles</h3>
@@ -660,7 +660,7 @@ each. Uncheck the other preselected filaments in the Filament Profiles Selection
 wizard page, and then click <strong>Next</strong>.</p>
 <p><a class="glightbox" href="../../img/prusaslicer-wizard-7.png" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard filament profiles selection page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard filament profiles selection page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-7.png" /></a></p>
 <h3 id="automatic-updates">Automatic updates</h3>
-<p>PrusaSlicer will check for application and configuration profile updates by
+<p>PrusaSlicer will check for application and configuration preset updates by
 default. I recommend leaving these checked. Click <strong>Next</strong> to continue.</p>
 <p><a class="glightbox" href="../../img/prusaslicer-wizard-8.png" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard automatic updates page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard automatic updates page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-8.png" /></a></p>
 <h3 id="optional-settings">Optional settings</h3>
@@ -758,30 +758,30 @@ more accurate print bed model image in the model preview.</p>
 <p>Steps animation:</p>
 <p><a class="glightbox" href="../../img/prusaslicer-bed-texture.gif" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer bed texture configuration" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer bed texture configuration" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-bed-texture.gif" /></a></p>
 <h3 id="saving-printer-settings">Saving printer settings</h3>
-<p>Now all that's left is to save these changes as a new printer profile.</p>
-<p>PrusaSlicer tracks configuration via profiles, which work in a hierarchical
-fashion. By creating a new printer profile, PrusaSlicer will use all of the
-default settings from the SV06 Plus profile plus the settings changes made
+<p>Now all that's left is to save these changes to a new printer preset.</p>
+<p>PrusaSlicer tracks configuration via presets, which work in a hierarchical
+fashion. By creating a new printer preset, PrusaSlicer will use all of the
+default settings from the SV06 Plus preset plus the settings changes made
 above.</p>
 <p>Steps:</p>
 <ul>
 <li>Click the <strong>Printer Settings</strong> tab at the top</li>
-<li>The printer profiles drop-down is at the top, with "SV06 PLUS (modified)" selected.
+<li>The printer presets drop-down is at the top, with "SV06 PLUS (modified)" selected.
   Click the save icon just to the right of that drop-down. A dialog will appear.</li>
-<li>Enter a name for your new printer profile, such as <strong>Sovol SV06 Plus</strong></li>
-<li>Click <strong>OK</strong> to save this new printer profile</li>
-<li>The new profile is now the active printer profile, seen in both the Printer
+<li>Enter a name for your new printer preset, such as <strong>Sovol SV06 Plus</strong></li>
+<li>Click <strong>OK</strong> to save this new printer preset</li>
+<li>The new preset is now the active printer preset, seen in both the Printer
   Settings tab and again on the Plater tab (main view).</li>
 </ul>
 <p>Steps animation:</p>
-<p><a class="glightbox" href="../../img/prusaslicer-save-printer-profile.gif" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer saving new printer profile" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer saving new printer profile" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-save-printer-profile.gif" /></a></p>
+<p><a class="glightbox" href="../../img/prusaslicer-save-printer-preset.gif" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer saving new printer preset" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer saving new printer preset" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-save-printer-preset.gif" /></a></p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-19T00:35:50+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-19</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-19T00:40:57+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-19</span>
       
     
   </small>
