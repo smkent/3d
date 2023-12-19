@@ -64,4 +64,5 @@ plugins:
       type: timeago
   - glightbox:
       auto_caption: true
+  - privacy
   - search
