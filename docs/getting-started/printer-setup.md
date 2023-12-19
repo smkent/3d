@@ -63,6 +63,8 @@ Steps:
 
 * Turn on the printer.
 * Tap the **Leveling** option on the LCD.
+  <br /><br />
+  ![Selecting the Leveling option on the LCD][lcd-leveling-select]
 * The printer will "home," which means the X-axis (extruder head),
   Y-axis (print bed), and Z-axis (vertical lift) will one at a time move all the
   way to the left, back, and bottom, respectively. In doing this, the printer
@@ -70,6 +72,8 @@ Steps:
   position. This is known as **homing**, **auto-home**, or **moving to home**.
   The Leveling menu will appear when homing is complete.
 * Tap **Auto Z-Align**.
+  <br /><br />
+  ![Auto Z-Align leveling menu option on the LCD][lcd-auto-z-align]
 * The printer will slowly raise the extruder all the way to the top of the
   printer, and then gently press the extruder against the very top of the gantry
   (top bar). This causes both ends of the X-axis to move as far up as they can,
@@ -105,6 +109,8 @@ Steps:
 * Tap the nozzle temperature display, and set the temperature to **210°C**. The
   nozzle will start heating until it reaches this temperature. The nozzle is
   much smaller than the print bed, so it heats more quickly than the print bed.
+  <br /><br />
+  ![Setting the nozzle and print bed temperatures on the LCD][lcd-set-temperature]
 
 !!! warning
 
@@ -116,6 +122,8 @@ Steps:
 * Wait until the print bed and the nozzle reach their configured temperatures.
 * Tap the **Leveling** option on the main menu to return to the Leveling menu.
   The printer will move to home once again before displaying the Leveling menu.
+  <br /><br />
+  ![Selecting the Leveling option on the LCD][lcd-leveling-select]
 
 ### Setting the nozzle height offset (Z-offset)
 
@@ -131,7 +139,11 @@ bumped over by the nozzle as it moves.
 
 The Leveling menu on the LCD will display the current Z offset value, along with
 controls to increase (raise) and decrease (lower) the Z offset by 0.05 or 0.01
-millimeters. The goal is to set the nozzle height to approximately 0.2
+millimeters.
+
+![Z offset on the Leveling menu on the LCD][lcd-z-offset]
+
+The goal is to set the nozzle height to approximately 0.2
 millimeters higher than the bed. This can be done with a spare sheet of printer
 paper, which is about the right thickness.
 
@@ -142,11 +154,15 @@ Steps:
   slide under, tap the Z offset increase button on the LCD a few times to raise
   the nozzle slightly and try again. You may need to repeat this several times
   depending on how the printer was calibrated at the factory.
+  <br /><br />
+  ![Raising the Z offset value on the LCD][lcd-increase-z-offset]
 * Move the piece of paper slightly while it is underneath the nozzle. It should
   move freely with no resistance.
 * While still slightly moving the paper under the nozzle, lower the Z offset by
   0.05 millimeters at a time until you start to feel resistance while moving
   the paper.
+  <br /><br />
+  ![Lowering the Z offset value on the LCD][lcd-lower-z-offset]
 * Slide the paper out from underneath the nozzle. You should feel some
   resistance, but the paper should not rip or tear. If it does, the nozzle is
   too low.
@@ -155,6 +171,8 @@ Steps:
   value is often negative.
 * Tap **Save** on the LCD so the printer will remember it later after being
   turned off.
+  <br /><br />
+  ![Saving the leveling settings on the LCD][lcd-leveling-save]
 
 ### Leveling the bed
 
@@ -171,13 +189,20 @@ The SV06 Plus has a function to automatically perform this bed leveling scan.
 
 Steps:
 
-* On the Leveling menu on the LCD, tap **Auto-Level**.
+* On the Leveling menu on the LCD, tap **Auto-Leveling**.
+  <br /><br />
+  ![Auto Leveling leveling menu option on the LCD][lcd-auto-level-select]
 * The printer will automatically perform a scan at 25 different grid points on
-  the heated bed, and will display progress on the LCD screen.
+  the heated bed, and will display progress on the LCD screen. (The below
+  animation is sped up.)
+  <br /><br />
+  ![Auto-leveling animation displayed on the LCD][lcd-auto-level-animation]
 * When finished, the extruder will move back to the center and re-display the
   Leveling menu.
 * The bed leveling scan is now complete. Tap **Save** on the LCD so the printer
   will remember the scan data later after being turned off.
+  <br /><br />
+  ![Saving the leveling settings on the LCD][lcd-leveling-save]
 
 ### Completing calibration
 
@@ -196,6 +221,8 @@ Steps:
   nozzle heater will turn off, and the nozzle will start to cool until it
   reaches room temperature. The nozzle is much smaller than the print bed, so it
   cools more quickly than the print bed.
+  <br /><br />
+  ![Setting the nozzle and print bed temperatures to 0 on the LCD][lcd-set-temperature-off]
 
 !!! warning
 
@@ -206,10 +233,21 @@ Steps:
 Initial printer calibration is now complete!
 
 
+[axes-image]: ../img/axes.png
+[lcd-auto-level-animation]: ../img/lcd-auto-level-animation.webp
+[lcd-auto-level-select]: ../img/lcd-auto-level-select.webp
+[lcd-auto-z-align]: ../img/lcd-auto-z-align.jpg
+[lcd-increase-z-offset]: ../img/lcd-increase-z-offset.webp
+[lcd-leveling-save]: ../img/lcd-leveling-save.jpg
+[lcd-leveling-save]: ../img/lcd-leveling-save.jpg
+[lcd-leveling-select]: ../img/lcd-leveling-select.webp
+[lcd-lower-z-offset]: ../img/lcd-lower-z-offset.jpg
+[lcd-set-temperature-off]: ../img/lcd-set-temperature-off.webp
+[lcd-set-temperature]: ../img/lcd-set-temperature.webp
+[lcd-z-offset]: ../img/lcd-z-offset.jpg
 [prusa-mk3s+]: https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-3/
 [sovol-sv06-plus-initial-leveling]: https://www.youtube.com/watch?v=qc4_DRD2l2M
 [sovol-sv06-plus-unboxing-assembly]: https://www.youtube.com/watch?v=1ZwAHHkcED4
-[sovol-sv06-plus]: https://sovol3d.com/products/sovol-sv06-plus-fully-open-source-3d-printer-with-linear-rail-structure
 [sovol-sv06-plus-user-manual]: ../static/User%20Manual_SV06%20Plus.pdf
-[axes-image]: ../img/axes.png
+[sovol-sv06-plus]: https://sovol3d.com/products/sovol-sv06-plus-fully-open-source-3d-printer-with-linear-rail-structure
 [wiki-thermal-expansion]: https://en.wikipedia.org/wiki/Thermal_expansion

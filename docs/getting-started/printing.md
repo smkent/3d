@@ -58,6 +58,7 @@ types of presets are:
    filament is called polylactic acid, or **PLA**. On first run, PrusaSlicer
    defaults to PETG, a different type of material. Click the **Filament**
    drop-down and change the selection to **Generic PLA**.
+   <br /><br />
    ![PrusaSlicer PLA material selection][prusaslicer-material-selection-pla]{class="psimg" data-gallery="psprint"}
 
 3. **Printer**: The printer to make G-code for. PrusaSlicer will default to the
@@ -80,6 +81,7 @@ Import your chosen model file (such as Cali Cat's `calicat.stl`) by doing one of
   PrusaSlicer window
 * Clicking the **Add** button on the top toolbar in the Plater view, and
   selecting `calicat.stl` in the file browser
+  <br /><br />
   ![PrusaSlicer toolbar add button][prusaslicer-toolbar-add]{ .off-glb }
 * Using the keyboard shortcut ++ctrl+i++ (++cmd+i++ on Mac), and selecting `calicat.stl`
   in the file browser
@@ -139,12 +141,12 @@ the extruder is all the way at the bottom, the extruder should be raised using
 the LCD controls. On the movement menu on the LCD, tap the **+Z** a few times to
 raise the extruder.
 
-![Raising the Z height on the LCD][lcd-raise-z]{data-gallery="lcdfilament"}
+![Raising the Z height on the LCD][lcd-raise-z]{ .off-glb }
 
 Alternatively, a specific **Z** value can be entered manually. The extruder will
 then move to the selected height.
 
-![Setting Z to 50mm on the LCD][lcd-set-z-50]{data-gallery="lcdfilament"}
+![Setting Z to 50mm on the LCD][lcd-set-z-50]{ .off-glb }
 
 On the LCD's main menu, tap the gear icon in the bottom row, and then tap
 **Refuel**. This menu allows you to turn the extruder backwards or forwards to
