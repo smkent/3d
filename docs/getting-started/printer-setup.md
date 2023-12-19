@@ -81,7 +81,7 @@ Steps:
     as they attempt to turn past the top height during Auto Z-Align.
 
 * The printer will slowly lower the extruder back down to the bed and return to
-  the leveling menu. Remain on the leveling menu for the next calibration steps.
+  the leveling menu.
 
 ### Preparation for bed calibration
 
