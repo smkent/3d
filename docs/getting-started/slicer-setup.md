@@ -1,9 +1,9 @@
 # Slicer setup
 
 A 3D printer works by building an object layer by layer. To print an object from
-a 3D model, the model needs to be converted to a layer-by-layer representation
-for the printer to use called **G-code**. This is done using a type of software
-called a **slicer**.
+a 3D model, a set of instructions on how to create the model layer-by-layer
+needs to be created. These instructions are called **G-code**. G-code is created
+using a type of software called a **slicer**.
 
 There are many slicer softwares available. Two popular options are
 [PrusaSlicer][prusaslicer] and [Ultimaker Cura][cura], which are free and open
@@ -23,12 +23,12 @@ Start PrusaSlicer after it is installed. On first run, PrusaSlicer may show a
 prompt about SSL certificates. Check **Remember my choice** and then click
 **Yes**.
 
-![SSL certificates dialog][prusaslicer-ssl-certs]{ .off-glb }
+![SSL certificates dialog][prusaslicer-ssl-certs]{ .psimg .off-glb }
 
 PrusaSlicer may also ask whether it's OK to send system information. This is
 optional, so select whichever option you prefer.
 
-![PrusaSlicer data collection prompt][prusaslicer-data-collection]{class="psimg" data-gallery="psdc" }
+![PrusaSlicer data collection prompt][prusaslicer-data-collection]{class="psimg" data-gallery="psdc"}
 
 ## Configuration wizard
 
