@@ -46,7 +46,7 @@ Click **Next** at the bottom to proceed through the wizard.
 ### Printer selection
 
 The first several pages in the configuration wizard lead you through the
-supported printers. By default, a Prusa printer profile is selected. Uncheck the
+supported printers. By default, a Prusa printer preset is selected. Uncheck the
 checkbox under Original Prusa MK4 Input Shaper, and click **Next** to continue.
 
 ![PrusaSlicer wizard Prusa FFF printers page][prusaslicer-wizard-2]{: class="psimg" data-gallery="pswiz"}
@@ -63,13 +63,13 @@ and click the **Sovol** checkbox. Then, click **Next**.
 ![PrusaSlicer wizard printer vendors selection page][prusaslicer-wizard-4]{: class="psimg" data-gallery="pswiz"}
 
 Now the configuration wizard provides options for selecting Sovol printers. By
-default, a SV06 profile is selected. Uncheck the **SV06** checkbox, and
+default, a SV06 preset is selected. Uncheck the **SV06** checkbox, and
 then check the **SV06 Plus 0.4mm nozzle** checkbox. Then, click **Next**.
 
-![PrusaSlicer wizard Sovol printer profiles page][prusaslicer-wizard-5]{: class="psimg" data-gallery="pswiz"}
+![PrusaSlicer wizard Sovol printer presets page][prusaslicer-wizard-5]{: class="psimg" data-gallery="pswiz"}
 
 The last printer selection page in the configuration wizard offers to provide a
-custom printer profile. Since there is a built-in profile for the SV06 Plus, a
+custom printer profile. Since there is a built-in preset for the SV06 Plus, a
 custom profile is not needed. Click **Next**.
 
 ![PrusaSlicer wizard custom printer profile page][prusaslicer-wizard-6]{: class="psimg" data-gallery="pswiz"}
@@ -87,7 +87,7 @@ wizard page, and then click **Next**.
 
 ### Automatic updates
 
-PrusaSlicer will check for application and configuration profile updates by
+PrusaSlicer will check for application and configuration preset updates by
 default. I recommend leaving these checked. Click **Next** to continue.
 
 ![PrusaSlicer wizard automatic updates page][prusaslicer-wizard-8]{: class="psimg" data-gallery="pswiz"}
@@ -215,26 +215,26 @@ Steps animation:
 
 ### Saving printer settings
 
-Now all that's left is to save these changes as a new printer profile.
+Now all that's left is to save these changes to a new printer preset.
 
-PrusaSlicer tracks configuration via profiles, which work in a hierarchical
-fashion. By creating a new printer profile, PrusaSlicer will use all of the
-default settings from the SV06 Plus profile plus the settings changes made
+PrusaSlicer tracks configuration via presets, which work in a hierarchical
+fashion. By creating a new printer preset, PrusaSlicer will use all of the
+default settings from the SV06 Plus preset plus the settings changes made
 above.
 
 Steps:
 
 * Click the **Printer Settings** tab at the top
-* The printer profiles drop-down is at the top, with "SV06 PLUS (modified)" selected.
+* The printer presets drop-down is at the top, with "SV06 PLUS (modified)" selected.
   Click the save icon just to the right of that drop-down. A dialog will appear.
-* Enter a name for your new printer profile, such as **Sovol SV06 Plus**
-* Click **OK** to save this new printer profile
-* The new profile is now the active printer profile, seen in both the Printer
+* Enter a name for your new printer preset, such as **Sovol SV06 Plus**
+* Click **OK** to save this new printer preset
+* The new preset is now the active printer preset, seen in both the Printer
   Settings tab and again on the Plater tab (main view).
 
 Steps animation:
 
-![PrusaSlicer saving new printer profile][prusaslicer-save-printer-profile]{: class="psimg" data-gallery="pswiz"}
+![PrusaSlicer saving new printer preset][prusaslicer-save-printer-preset]{: class="psimg" data-gallery="pswiz"}
 
 
 [catfisher4-build-plate-package]: https://www.printables.com/model/534551-sovol-sv06-plus-build-plate-package-texture-and-mo
@@ -248,7 +248,7 @@ Steps animation:
 [prusaslicer-github-releases]: https://github.com/prusa3d/PrusaSlicer/releases
 [prusaslicer-init-1]: ../img/prusaslicer-init-1.png
 [prusaslicer-retraction-settings]: ../img/prusaslicer-retraction-settings.gif
-[prusaslicer-save-printer-profile]: ../img/prusaslicer-save-printer-profile.gif
+[prusaslicer-save-printer-preset]: ../img/prusaslicer-save-printer-preset.gif
 [prusaslicer-ssl-certs]: ../img/prusaslicer-ssl-certs.png
 [prusaslicer-wizard-10]: ../img/prusaslicer-wizard-10.png
 [prusaslicer-wizard-11]: ../img/prusaslicer-wizard-11.png
