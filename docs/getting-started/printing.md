@@ -127,6 +127,47 @@ The microSD card is ready for the printer. Select the option to safely eject or
 remove the microSD card in your computer's file manager. Then, disconnect it
 from the computer.
 
+## Load filament into the printer
+
+Place the roll of filament you'd like to print with onto the printer's spool
+holder. Make a clean snip at the end of the filament, at a ~45° angle.
+
+Turn on the printer.
+
+Loading filament is best done some space between the nozzle and print bed. If
+the extruder is all the way at the bottom, the extruder should be raised using
+the LCD controls. On the movement menu on the LCD, tap the **Z** value and enter
+a value 30 to 50 millimeters greater than the displayed value (which is likely
+0mm). The extruder will then move upwards to the selected position.
+
+On the LCD's main menu, tap the gear icon in the bottom row, and then tap
+**Refuel**. This menu allows you to turn the extruder backwards or forwards to
+remove or add filament. I find **80mm** is a good distance value to use for
+loading filament, but you can always extrude more (or less) if this value
+doesn't fully load or unload filament.
+
+Tap the **Feed** button. Since the nozzle heater is off, the printer will prompt
+you to preheat the nozzle to **200°C**. Tap **Yes**, and wait for the nozzle to
+heat up.
+
+Guide this end of the filament through the filament runout sensor, and then down
+into the extruder's filament input on the top until you feel the filament stop
+moving.
+
+Tap the **Feed** button again. The extruder motor will turn and start to draw
+in the filament. After a few moments, filament should start coming out of the
+heated nozzle on the bottom of the extruder. If the extruder stops turning
+before filament comes out of the nozzle, then the extruder needs to turn
+forwards more to push the filament through the nozzle. Tap **Feed** again to
+repeat the process.
+
+After filament comes out of the nozzle and the extruder stops turning, filament
+is loaded and ready to print! Being *very careful* not to touch the hot nozzle,
+you can reach in to remove the piece of dangling filament so it doesn't get in
+the way when you print.
+
+Tap the back button on the LCD to return to the main menu.
+
 
 [benchy]: https://www.thingiverse.com/thing:763622
 [calicat]: https://www.thingiverse.com/thing:1545913
