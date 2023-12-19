@@ -215,7 +215,12 @@ Steps animation:
 
 ### Saving printer settings
 
-Now all that's left is to save these changes.
+Now all that's left is to save these changes as a new printer profile.
+
+PrusaSlicer tracks configuration via profiles, which work in a hierarchical
+fashion. By creating a new printer profile, PrusaSlicer will use all of the
+default settings from the SV06 Plus profile plus the settings changes made
+above.
 
 Steps:
 
