@@ -180,4 +180,4 @@ Tap the back button on the LCD to return to the main menu.
 [prusaslicer-material-selection-pla]: ../img/prusaslicer-material-selection-pla.png
 [prusaslicer-slice-now]: ../img/prusaslicer-slice-now.gif
 [prusaslicer-export-to-microsd-card]: ../img/prusaslicer-export-to-microsd-card.gif
-[slicer-setup]: ../slicer-setup/
+[slicer-setup]: slicer-setup.md
