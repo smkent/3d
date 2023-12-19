@@ -28,7 +28,7 @@ prompt about SSL certificates. Check **Remember my choice** and then click
 PrusaSlicer may also ask whether it's OK to send system information. This is
 optional, so select whichever option you prefer.
 
-![PrusaSlicer data collection prompt][prusaslicer-data-collection]{: class="psimg" data-gallery="psdc" }
+![PrusaSlicer data collection prompt][prusaslicer-data-collection]{class="psimg" data-gallery="psdc" }
 
 ## Configuration wizard
 
@@ -38,7 +38,7 @@ optional, so select whichever option you prefer.
 
 When Starting PrusaSlicer for the first time, a configuration wizard appears:
 
-![PrusaSlicer wizard welcome page][prusaslicer-wizard-1]{: class="psimg" data-gallery="pswiz"}
+![PrusaSlicer wizard welcome page][prusaslicer-wizard-1]{class="psimg" data-gallery="pswiz"}
 
 
 Click **Next** at the bottom to proceed through the wizard.
@@ -49,30 +49,30 @@ The first several pages in the configuration wizard lead you through the
 supported printers. By default, a Prusa printer preset is selected. Uncheck the
 checkbox under Original Prusa MK4 Input Shaper, and click **Next** to continue.
 
-![PrusaSlicer wizard Prusa FFF printers page][prusaslicer-wizard-2]{: class="psimg" data-gallery="pswiz"}
+![PrusaSlicer wizard Prusa FFF printers page][prusaslicer-wizard-2]{class="psimg" data-gallery="pswiz"}
 
 The next page provides options for Prusa SLA (resin) printers. Leave these
 unchecked and click **Next**.
 
-![PrusaSlicer wizard Prusa SLA printers page][prusaslicer-wizard-3]{: class="psimg" data-gallery="pswiz"}
+![PrusaSlicer wizard Prusa SLA printers page][prusaslicer-wizard-3]{class="psimg" data-gallery="pswiz"}
 
 Then, the configuration wizard provides options for selecting printers from
 other brands. The SV06 Plus is made by Sovol, so scroll down in the vendors list
 and click the **Sovol** checkbox. Then, click **Next**.
 
-![PrusaSlicer wizard printer vendors selection page][prusaslicer-wizard-4]{: class="psimg" data-gallery="pswiz"}
+![PrusaSlicer wizard printer vendors selection page][prusaslicer-wizard-4]{class="psimg" data-gallery="pswiz"}
 
 Now the configuration wizard provides options for selecting Sovol printers. By
 default, a SV06 preset is selected. Uncheck the **SV06** checkbox, and
 then check the **SV06 Plus 0.4mm nozzle** checkbox. Then, click **Next**.
 
-![PrusaSlicer wizard Sovol printer presets page][prusaslicer-wizard-5]{: class="psimg" data-gallery="pswiz"}
+![PrusaSlicer wizard Sovol printer presets page][prusaslicer-wizard-5]{class="psimg" data-gallery="pswiz"}
 
 The last printer selection page in the configuration wizard offers to provide a
 custom printer profile. Since there is a built-in preset for the SV06 Plus, a
 custom profile is not needed. Click **Next**.
 
-![PrusaSlicer wizard custom printer profile page][prusaslicer-wizard-6]{: class="psimg" data-gallery="pswiz"}
+![PrusaSlicer wizard custom printer profile page][prusaslicer-wizard-6]{class="psimg" data-gallery="pswiz"}
 
 ### Filament profiles
 
@@ -83,14 +83,14 @@ generic profiles. This guide will focus in printing with [PLA][wiki-pla] and
 each. Uncheck the other preselected filaments in the Filament Profiles Selection
 wizard page, and then click **Next**.
 
-![PrusaSlicer wizard filament profiles selection page][prusaslicer-wizard-7]{: class="psimg" data-gallery="pswiz"}
+![PrusaSlicer wizard filament profiles selection page][prusaslicer-wizard-7]{class="psimg" data-gallery="pswiz"}
 
 ### Automatic updates
 
 PrusaSlicer will check for application and configuration preset updates by
 default. I recommend leaving these checked. Click **Next** to continue.
 
-![PrusaSlicer wizard automatic updates page][prusaslicer-wizard-8]{: class="psimg" data-gallery="pswiz"}
+![PrusaSlicer wizard automatic updates page][prusaslicer-wizard-8]{class="psimg" data-gallery="pswiz"}
 
 ### Optional settings
 
@@ -99,7 +99,7 @@ this enabled, you can click the PrusaSlicer logo next to a model file on
 [Printables][printables] and have it automatically download and open in
 PrusaSlicer. When finished configuring this feature, click **Next**.
 
-![PrusaSlicer wizard download from URL settings page][prusaslicer-wizard-9]{: class="psimg" data-gallery="pswiz"}
+![PrusaSlicer wizard download from URL settings page][prusaslicer-wizard-9]{class="psimg" data-gallery="pswiz"}
 
 The reload from disk feature makes reloading model files easier while you're
 developing a new model. Enabling this feature includes full file paths in your
@@ -107,7 +107,7 @@ saved project files (which would include your username on your local computer).
 If you plan to share project files on the internet, it's a good idea to leave
 this disabled (unchecked). After making your choice, click **Next**.
 
-![PrusaSlicer wizard reload from disk settings page][prusaslicer-wizard-10]{: class="psimg" data-gallery="pswiz"}
+![PrusaSlicer wizard reload from disk settings page][prusaslicer-wizard-10]{class="psimg" data-gallery="pswiz"}
 
 ### View mode
 
@@ -123,12 +123,12 @@ millimeters for sizing, so using millimeters in PrusaSlicer makes working with
 
 Click **Finish** at the bottom to complete the wizard!
 
-![PrusaSlicer wizard view mode page][prusaslicer-wizard-11]{: class="psimg" data-gallery="pswiz"}
+![PrusaSlicer wizard view mode page][prusaslicer-wizard-11]{class="psimg" data-gallery="pswiz"}
 
 PrusaSlicer now shows the main view. This is where PrusaSlicer will open each
 time it is run.
 
-![PrusaSlicer initial view][prusaslicer-init-1]{: class="psimg" data-gallery="psinit"}
+![PrusaSlicer initial view][prusaslicer-init-1]{class="psimg" data-gallery="psinit"}
 
 ## Tuning configuration
 
@@ -158,7 +158,7 @@ Steps:
 
 Steps animation:
 
-![PrusaSlicer retraction settings adjustment][prusaslicer-retraction-settings]{: class="psimg" data-gallery="pswiz"}
+![PrusaSlicer retraction settings adjustment][prusaslicer-retraction-settings]{class="psimg" data-gallery="psprintprofile"}
 
 ### G-code flavor
 
@@ -180,7 +180,7 @@ Steps:
 
 Steps animation:
 
-![PrusaSlicer g-code flavor adjustment][prusaslicer-g-code-flavor]{: class="psimg" data-gallery="pswiz"}
+![PrusaSlicer g-code flavor adjustment][prusaslicer-g-code-flavor]{class="psimg" data-gallery="psprintprofile"}
 
 ### Custom print bed display
 
@@ -211,7 +211,7 @@ Then, follow these steps to update the print bed configuration in PrusaSlicer:
 
 Steps animation:
 
-![PrusaSlicer bed texture configuration][prusaslicer-bed-texture]{: class="psimg" data-gallery="pswiz"}
+![PrusaSlicer bed texture configuration][prusaslicer-bed-texture]{class="psimg" data-gallery="psprintprofile"}
 
 ### Saving printer settings
 
@@ -234,7 +234,7 @@ Steps:
 
 Steps animation:
 
-![PrusaSlicer saving new printer preset][prusaslicer-save-printer-preset]{: class="psimg" data-gallery="pswiz"}
+![PrusaSlicer saving new printer preset][prusaslicer-save-printer-preset]{class="psimg" data-gallery="psprintprofile"}
 
 
 [catfisher4-build-plate-package]: https://www.printables.com/model/534551-sovol-sv06-plus-build-plate-package-texture-and-mo
