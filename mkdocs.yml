@@ -33,7 +33,7 @@ nav:
     - index.md
     - Background and Safety: getting-started/background-and-safety.md
     - Printer setup: getting-started/printer-setup.md
-    - Software: getting-started/software.md
+    - Slicer setup: getting-started/slicer-setup.md
 
 markdown_extensions:
   - admonition
