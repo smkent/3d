@@ -620,14 +620,18 @@ will be square to each other.</p>
 <p>Steps:</p>
 <ul>
 <li>Turn on the printer.</li>
-<li>Tap the <strong>Leveling</strong> option on the LCD.</li>
+<li>Tap the <strong>Leveling</strong> option on the LCD.
+  <br /><br />
+  <img alt="Selecting the Leveling option on the LCD" src="../../img/lcd-leveling-select.webp" /></li>
 <li>The printer will "home," which means the X-axis (extruder head),
   Y-axis (print bed), and Z-axis (vertical lift) will one at a time move all the
   way to the left, back, and bottom, respectively. In doing this, the printer
   aligns its knowledge of the extruder's overall position with its actual
   position. This is known as <strong>homing</strong>, <strong>auto-home</strong>, or <strong>moving to home</strong>.
   The Leveling menu will appear when homing is complete.</li>
-<li>Tap <strong>Auto Z-Align</strong>.</li>
+<li>Tap <strong>Auto Z-Align</strong>.
+  <br /><br />
+  <img alt="Auto Z-Align leveling menu option on the LCD" src="../../img/lcd-auto-z-align.jpg" /></li>
 <li>The printer will slowly raise the extruder all the way to the top of the
   printer, and then gently press the extruder against the very top of the gantry
   (top bar). This causes both ends of the X-axis to move as far up as they can,
@@ -661,7 +665,9 @@ very warm to the touch.</p>
   The print bed will slowly start heating until it reaches this temperature.</li>
 <li>Tap the nozzle temperature display, and set the temperature to <strong>210°C</strong>. The
   nozzle will start heating until it reaches this temperature. The nozzle is
-  much smaller than the print bed, so it heats more quickly than the print bed.</li>
+  much smaller than the print bed, so it heats more quickly than the print bed.
+  <br /><br />
+  <img alt="Setting the nozzle and print bed temperatures on the LCD" src="../../img/lcd-set-temperature.webp" /></li>
 </ul>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -673,7 +679,9 @@ can be manually turned off by setting the desired temperatures to <strong>0°C</
 <ul>
 <li>Wait until the print bed and the nozzle reach their configured temperatures.</li>
 <li>Tap the <strong>Leveling</strong> option on the main menu to return to the Leveling menu.
-  The printer will move to home once again before displaying the Leveling menu.</li>
+  The printer will move to home once again before displaying the Leveling menu.
+  <br /><br />
+  <img alt="Selecting the Leveling option on the LCD" src="../../img/lcd-leveling-select.webp" /></li>
 </ul>
 <h3 id="setting-the-nozzle-height-offset-z-offset">Setting the nozzle height offset (Z-offset)</h3>
 <p>The foundation of a good 3D print is the first or base layer. To make sure the
@@ -686,7 +694,9 @@ nozzle is too low, the lower parts of the printed object will be squashed or
 bumped over by the nozzle as it moves.</p>
 <p>The Leveling menu on the LCD will display the current Z offset value, along with
 controls to increase (raise) and decrease (lower) the Z offset by 0.05 or 0.01
-millimeters. The goal is to set the nozzle height to approximately 0.2
+millimeters.</p>
+<p><img alt="Z offset on the Leveling menu on the LCD" src="../../img/lcd-z-offset.jpg" /></p>
+<p>The goal is to set the nozzle height to approximately 0.2
 millimeters higher than the bed. This can be done with a spare sheet of printer
 paper, which is about the right thickness.</p>
 <p>Steps:</p>
@@ -695,12 +705,16 @@ paper, which is about the right thickness.</p>
 <li>Try to gently slide the sheet of paper under the nozzle. If the paper won't
   slide under, tap the Z offset increase button on the LCD a few times to raise
   the nozzle slightly and try again. You may need to repeat this several times
-  depending on how the printer was calibrated at the factory.</li>
+  depending on how the printer was calibrated at the factory.
+  <br /><br />
+  <img alt="Raising the Z offset value on the LCD" src="../../img/lcd-increase-z-offset.webp" /></li>
 <li>Move the piece of paper slightly while it is underneath the nozzle. It should
   move freely with no resistance.</li>
 <li>While still slightly moving the paper under the nozzle, lower the Z offset by
   0.05 millimeters at a time until you start to feel resistance while moving
-  the paper.</li>
+  the paper.
+  <br /><br />
+  <img alt="Lowering the Z offset value on the LCD" src="../../img/lcd-lower-z-offset.jpg" /></li>
 <li>Slide the paper out from underneath the nozzle. You should feel some
   resistance, but the paper should not rip or tear. If it does, the nozzle is
   too low.</li>
@@ -708,7 +722,9 @@ paper, which is about the right thickness.</p>
   to another, and even from one print bed sheet to another. A normal Z offset
   value is often negative.</li>
 <li>Tap <strong>Save</strong> on the LCD so the printer will remember it later after being
-  turned off.</li>
+  turned off.
+  <br /><br />
+  <img alt="Saving the leveling settings on the LCD" src="../../img/lcd-leveling-save.jpg" /></li>
 </ul>
 <h3 id="leveling-the-bed">Leveling the bed</h3>
 <p>The print bed is a flexible and removable sheet with a special coating, on top
@@ -721,13 +737,20 @@ This is often referred to as <strong>bed leveling</strong> or <strong>leveling t
 <p>The SV06 Plus has a function to automatically perform this bed leveling scan.</p>
 <p>Steps:</p>
 <ul>
-<li>On the Leveling menu on the LCD, tap <strong>Auto-Level</strong>.</li>
+<li>On the Leveling menu on the LCD, tap <strong>Auto-Leveling</strong>.
+  <br /><br />
+  <img alt="Auto Leveling leveling menu option on the LCD" src="../../img/lcd-auto-level-select.webp" /></li>
 <li>The printer will automatically perform a scan at 25 different grid points on
-  the heated bed, and will display progress on the LCD screen.</li>
+  the heated bed, and will display progress on the LCD screen. (The below
+  animation is sped up.)
+  <br /><br />
+  <img alt="Auto-leveling animation displayed on the LCD" src="../../img/lcd-auto-level-animation.webp" /></li>
 <li>When finished, the extruder will move back to the center and re-display the
   Leveling menu.</li>
 <li>The bed leveling scan is now complete. Tap <strong>Save</strong> on the LCD so the printer
-  will remember the scan data later after being turned off.</li>
+  will remember the scan data later after being turned off.
+  <br /><br />
+  <img alt="Saving the leveling settings on the LCD" src="../../img/lcd-leveling-save.jpg" /></li>
 </ul>
 <h3 id="completing-calibration">Completing calibration</h3>
 <p>The nozzle and print bed were heated to prepare for calibrating the print bed.
@@ -743,7 +766,9 @@ to their heated temperatures until turned off.</p>
 <li>Tap the nozzle temperature display, and set the temperature to <strong>0°C</strong>. The
   nozzle heater will turn off, and the nozzle will start to cool until it
   reaches room temperature. The nozzle is much smaller than the print bed, so it
-  cools more quickly than the print bed.</li>
+  cools more quickly than the print bed.
+  <br /><br />
+  <img alt="Setting the nozzle and print bed temperatures to 0 on the LCD" src="../../img/lcd-set-temperature-off.webp" /></li>
 </ul>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -772,7 +797,7 @@ cooling.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-19T21:02:39+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-19</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-19T22:11:49+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-19</span>
   </span>
 
     
