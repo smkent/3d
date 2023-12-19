@@ -180,7 +180,7 @@ Steps:
 
 Steps animation:
 
-![PrusaSlicer g-code flavor adjustment][prusaslicer-g-code-flavor]{class="psimg" data-gallery="psprintprofile"}
+![PrusaSlicer G-code flavor adjustment][prusaslicer-g-code-flavor]{class="psimg" data-gallery="psprintprofile"}
 
 ### Custom print bed display
 
