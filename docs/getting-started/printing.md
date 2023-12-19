@@ -81,7 +81,7 @@ Import your chosen model file (such as Cali Cat's `calicat.stl`) by doing one of
 * Clicking the **Add** button on the top toolbar in the Plater view, and
   selecting `calicat.stl` in the file browser
   ![PrusaSlicer toolbar add button][prusaslicer-toolbar-add]{ .off-glb }
-* Using the keyboard shortcut `Ctrl`+`I` (⌘`I` on Mac), and selecting `calicat.stl`
+* Using the keyboard shortcut ++ctrl+i++ (++cmd+i++ on Mac), and selecting `calicat.stl`
   in the file browser
 
 Cali Cat will appear on the build plate in the Plater view.
