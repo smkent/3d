@@ -98,7 +98,7 @@ On the bottom of the right pane, click **Slice now**!
 
 After slicing the model, PrusaSlicer displays two important estimates:
 
-* The amount of filament preducted to be used in grams
+* The amount of filament predicted to be used in grams
 * The length of time the print is expected to take
 
 PrusaSlicer estimates Cali Cat will need around 7 grams of filament and will
