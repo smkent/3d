@@ -546,6 +546,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#load-filament-into-the-printer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Load filament into the printer
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -682,13 +691,44 @@ saving the G-code to the microSD card.</p>
 <p>The microSD card is ready for the printer. Select the option to safely eject or
 remove the microSD card in your computer's file manager. Then, disconnect it
 from the computer.</p>
+<h2 id="load-filament-into-the-printer">Load filament into the printer</h2>
+<p>Place the roll of filament you'd like to print with onto the printer's spool
+holder. Make a clean snip at the end of the filament, at a ~45° angle.</p>
+<p>Turn on the printer.</p>
+<p>Loading filament is best done some space between the nozzle and print bed. If
+the extruder is all the way at the bottom, the extruder should be raised using
+the LCD controls. On the movement menu on the LCD, tap the <strong>Z</strong> value and enter
+a value 30 to 50 millimeters greater than the displayed value (which is likely
+0mm). The extruder will then move upwards to the selected position.</p>
+<p>On the LCD's main menu, tap the gear icon in the bottom row, and then tap
+<strong>Refuel</strong>. This menu allows you to turn the extruder backwards or forwards to
+remove or add filament. I find <strong>80mm</strong> is a good distance value to use for
+loading filament, but you can always extrude more (or less) if this value
+doesn't fully load or unload filament.</p>
+<p>Tap the <strong>Feed</strong> button. Since the nozzle heater is off, the printer will prompt
+you to preheat the nozzle to <strong>200°C</strong>. Tap <strong>Yes</strong>, and wait for the nozzle to
+heat up.</p>
+<p>Guide this end of the filament through the filament runout sensor, and then down
+into the extruder's filament input on the top until you feel the filament stop
+moving.</p>
+<p>Tap the <strong>Feed</strong> button again. The extruder motor will turn and start to draw
+in the filament. After a few moments, filament should start coming out of the
+heated nozzle on the bottom of the extruder. If the extruder stops turning
+before filament comes out of the nozzle, then the extruder needs to turn
+forwards more to push the filament through the nozzle. Tap <strong>Feed</strong> again to
+repeat the process.</p>
+<p>After filament comes out of the nozzle and the extruder stops turning, filament
+is loaded and ready to print! Being <em>very careful</em> not to touch the hot nozzle,
+you can reach in to remove the piece of dangling filament so it doesn't get in
+the way when you print.</p>
+<p>Tap the back button on the LCD to return to the main menu.</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-19T05:07:40+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-19</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-19T05:38:44+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-19</span>
       
     
   </small>
