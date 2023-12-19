@@ -136,9 +136,15 @@ Turn on the printer.
 
 Loading filament is best done some space between the nozzle and print bed. If
 the extruder is all the way at the bottom, the extruder should be raised using
-the LCD controls. On the movement menu on the LCD, tap the **Z** value and enter
-a value 30 to 50 millimeters greater than the displayed value (which is likely
-0mm). The extruder will then move upwards to the selected position.
+the LCD controls. On the movement menu on the LCD, tap the **+Z** a few times to
+raise the extruder.
+
+![Raising the Z height on the LCD][lcd-raise-z]{data-gallery="lcdfilament"}
+
+Alternatively, a specific **Z** value can be entered manually. The extruder will
+then move to the selected height.
+
+![Setting Z to 50mm on the LCD][lcd-set-z-50]{data-gallery="lcdfilament"}
 
 On the LCD's main menu, tap the gear icon in the bottom row, and then tap
 **Refuel**. This menu allows you to turn the extruder backwards or forwards to
@@ -171,13 +177,15 @@ Tap the back button on the LCD to return to the main menu.
 
 [benchy]: https://www.thingiverse.com/thing:763622
 [calicat]: https://www.thingiverse.com/thing:1545913
-[thingiverse-calicat-download]: ../img/thingiverse-calicat-download.png
-[prusaslicer-plater]: ../img/prusaslicer-plater.png
+[lcd-raise-z]: ../img/lcd-raise-z.webp
+[lcd-set-z-50]: ../img/lcd-set-z-50.webp
 [prusaslicer-estimates]: ../img/prusaslicer-estimates.png
-[prusaslicer-toolbar-add]: ../img/prusaslicer-toolbar-add.png
-[prusaslicer-model-import]: ../img/prusaslicer-model-import.gif
-[prusaslicer-microsd-card-button]: ../img/prusaslicer-microsd-card-button.png
-[prusaslicer-material-selection-pla]: ../img/prusaslicer-material-selection-pla.png
-[prusaslicer-slice-now]: ../img/prusaslicer-slice-now.gif
 [prusaslicer-export-to-microsd-card]: ../img/prusaslicer-export-to-microsd-card.gif
+[prusaslicer-material-selection-pla]: ../img/prusaslicer-material-selection-pla.png
+[prusaslicer-microsd-card-button]: ../img/prusaslicer-microsd-card-button.png
+[prusaslicer-model-import]: ../img/prusaslicer-model-import.gif
+[prusaslicer-plater]: ../img/prusaslicer-plater.png
+[prusaslicer-slice-now]: ../img/prusaslicer-slice-now.gif
+[prusaslicer-toolbar-add]: ../img/prusaslicer-toolbar-add.png
 [slicer-setup]: slicer-setup.md
+[thingiverse-calicat-download]: ../img/thingiverse-calicat-download.png
