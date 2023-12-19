@@ -29,6 +29,6 @@ I've really enjoyed modeling a thing, and then printing and seeing it in real
 form.
 
 
-[printables-profile]: https://www.printables.com/@bulbasaur0_1139994
+[printables-profile]: https://www.printables.com/@bulbasaur0
 [repo-url]: https://github.com/smkent/3d.smkent.net
 [sovol-sv06-plus]: https://sovol3d.com/products/sovol-sv06-plus-fully-open-source-3d-printer-with-linear-rail-structure
