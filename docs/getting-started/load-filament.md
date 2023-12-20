@@ -2,6 +2,10 @@
 
 ## Prepare filament
 
+I recommend making your first print using [PLA][wiki-pla]. It's an easier
+material to print with and a small spool of PLA filament is included with the
+SV06 Plus.
+
 Place the roll of filament you'd like to print with onto the printer's spool
 holder. Make a clean snip at the end of the filament, at a ~45° angle.
 
@@ -92,3 +96,4 @@ Tap the **&lt;** button on the LCD to return to the main menu.
 [lcd-refuel-select]: ../img/lcd-refuel-select.webp
 [lcd-set-z-50]: ../img/lcd-set-z-50.webp
 [photo-filament-load-extrusion]: ../img/photo-filament-load-extrusion.jpg
+[wiki-pla]: https://en.wikipedia.org/wiki/Polylactic_acid

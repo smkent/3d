@@ -46,9 +46,9 @@ custom profile is not needed. Click **Next**.
 
 PrusaSlicer has both generic presets for various printing materials as well as
 specific presets for specific filaments. I have had good success using the
-generic profiles. This guide will focus in printing with [PLA][wiki-pla] and
-[PETG][wiki-petg] filaments starting with the generic filament profiles for
-each. Uncheck the other preselected filaments in the Filament Profiles Selection
+generic profiles. [PLA][wiki-pla] and [PETG][wiki-petg] are common filaments, so
+start with the generic filament profiles for each. Uncheck the other preselected
+filaments in the Filament Profiles Selection
 wizard page, and then click **Next**.
 
 ![PrusaSlicer wizard filament profiles selection page][prusaslicer-wizard-7]{class="psimg" data-gallery="pswiz"}
