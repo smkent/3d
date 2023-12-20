@@ -29,7 +29,7 @@ theme:
         icon: material/lightbulb
 
 nav:
-  - About: index.md
+  - Home: index.md
   - Getting Started:
     - getting-started/welcome.md
     - Background and safety: getting-started/background-and-safety.md
