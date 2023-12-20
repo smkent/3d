@@ -1,4 +1,4 @@
-# Welcome!
+# Getting Started
 
 I've found 3D printing to be a fun, useful, and educational hobby! 3D printing
 provides learning opportunities around materials, software, electronics, math,
