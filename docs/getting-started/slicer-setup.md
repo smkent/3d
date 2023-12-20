@@ -2,8 +2,8 @@
 
 A 3D printer works by building an object layer by layer. To print an object from
 a 3D model, a set of instructions on how to create the model layer-by-layer
-needs to be created. These instructions are called **G-code**. G-code is created
-using a type of software called a **slicer**.
+needs to be created. These instructions are called **[G-code][wiki-g-code]**.
+G-code is created using a type of software called a **[slicer][wiki-slicer]**.
 
 There are many slicer softwares available. Two popular options are
 [PrusaSlicer][prusaslicer] and [Ultimaker Cura][cura], which are free and open
@@ -263,5 +263,7 @@ Steps animation:
 [prusaslicer-wizard-9]: ../img/prusaslicer-wizard-9.png
 [prusaslicer]: https://www.prusa3d.com/page/prusaslicer_424/
 [sovol-sv06-plus-complete-assembly]: https://github.com/Sovol3d/SV06-PLUS/blob/master/SV06%20PLUS%203D/STEP/SV06%20Plus%20Complete%20Assembly%20300x300x340.rar
+[wiki-g-code]: https://en.wikipedia.org/wiki/G-code
 [wiki-petg]: https://en.wikipedia.org/wiki/PETG
 [wiki-pla]: https://en.wikipedia.org/wiki/Polylactic_acid
+[wiki-slicer]: https://en.wikipedia.org/wiki/Slicer_(3D_printing)

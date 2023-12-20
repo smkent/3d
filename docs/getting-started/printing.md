@@ -1,6 +1,6 @@
 # Printing
 
-This guide will lead you through making your first 3D print!
+Now you're ready to learn how to print a model with the printer!
 
 ## Pick a model
 
@@ -9,7 +9,7 @@ First, decide what you'd like to print! Two popular models to start with are:
 * [**Cali Cat - The Calibration Cat**][calicat] was my first print! The
   examples on this page will use Cali Cat.
 * [**#3DBenchy**][benchy], or "Benchy," a little boat and a very popular
-  calibration model.
+  calibration and benchmarking model.
 
 Download the files for the model you choose.
 
@@ -26,9 +26,10 @@ a microSD card to your computer so files can be saved on it.
 
 ## Slice model
 
-A 3D model is a representation of a 3-dimensional object. A 3D model needs to be
-"sliced," or converted, into a set of instructions for the printer to follow
-called G-code.
+As explained before on [Slicer setup][slicer-setup], a 3D model is a
+representation of a 3-dimensional object. A 3D model needs to be "sliced," or
+converted, into a set of instructions for the printer to follow called
+[G-code][wiki-g-code].
 
 Start PrusaSlicer. The default view is the Plater, or the build plate preview.
 
@@ -266,10 +267,10 @@ With any luck, you'll start to recognize Cali Cat while it's being printed!
 ![Printing Cali Cat!][clip-printing-calicat]{ .thumb }
 
 Sometimes, a print doesn't go as expected so it's a good idea to keep an eye on
-a 3D printer while it works. For example, the model being printed can come loose
-from the build plate or the printer doesn't build the mo del as you expected. If
+the printer while it works. For example, the model being printed can come loose
+from the build plate or the printer doesn't build the model as you expected. If
 you don't stop the printer when this happens, you might be visited by the
-spaghetti monster!
+**spaghetti monster**!
 
 ![Spaghetti monster][reddit-aargvark-spaghetti-monster]{ .thumb } <br />
 <small>(Picture from [/u/aargvark on Reddit][reddit-aargvark-post])</small>
@@ -336,8 +337,8 @@ Remove any remaining filament from the print bed (e.g. the skirt).
 [lcd-refuel-select]: ../img/lcd-refuel-select.webp
 [lcd-select-start-print]: ../img/lcd-select-start-print.webp
 [lcd-set-z-50]: ../img/lcd-set-z-50.webp
-[photo-filament-load-extrusion]: ../img/photo-filament-load-extrusion.jpg
 [photo-calicat-finished]: ../img/photo-calicat-finished.jpg
+[photo-filament-load-extrusion]: ../img/photo-filament-load-extrusion.jpg
 [prusaslicer-estimates]: ../img/prusaslicer-estimates.png
 [prusaslicer-export-to-microsd-card]: ../img/prusaslicer-export-to-microsd-card.gif
 [prusaslicer-material-selection-pla]: ../img/prusaslicer-material-selection-pla.png
@@ -351,3 +352,4 @@ Remove any remaining filament from the print bed (e.g. the skirt).
 [reddit-aargvark-spaghetti-monster]: ../img/reddit-aargvark-spaghetti-monster.jpg
 [slicer-setup]: slicer-setup.md
 [thingiverse-calicat-download]: ../img/thingiverse-calicat-download.png
+[wiki-g-code]: https://en.wikipedia.org/wiki/G-code
