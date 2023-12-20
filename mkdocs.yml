@@ -37,7 +37,9 @@ nav:
     - Slicer installation: getting-started/slicer-installation.md
     - Slicer configuration wizard: getting-started/slicer-configuration.md
     - Slicer tuning: getting-started/slicer-tuning.md
-    - Make your first print: getting-started/first-print.md
+    - Prepare model: getting-started/prepare-model.md
+    - Load filament: getting-started/load-filament.md
+    - Print!: getting-started/print.md
 
 markdown_extensions:
   - admonition
