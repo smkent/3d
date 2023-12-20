@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://3d.smkent.net/getting-started/</loc>
+         <lastmod>2023-12-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://3d.smkent.net/getting-started/background-and-safety/</loc>
          <lastmod>2023-12-20</lastmod>
          <changefreq>daily</changefreq>
@@ -52,11 +57,6 @@
     </url>
     <url>
          <loc>https://3d.smkent.net/getting-started/slicer-tuning/</loc>
-         <lastmod>2023-12-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://3d.smkent.net/getting-started/welcome/</loc>
          <lastmod>2023-12-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
