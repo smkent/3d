@@ -8,26 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://3d.smkent.net/">
+        <link rel="canonical" href="https://3d.smkent.net/getting-started/slicer-configuration/">
       
       
+        <link rel="prev" href="../slicer-installation/">
       
-        <link rel="next" href="getting-started/background-and-safety/">
+      
+        <link rel="next" href="../slicer-tuning/">
       
       
-      <link rel="icon" href="img/favicon.ico">
+      <link rel="icon" href="../../img/favicon.ico">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
     
     
       
-        <title>Welcome! - smkent's 3D printing guide with the Sovol SV06 Plus</title>
+        <title>Slicer configuration wizard - smkent's 3D printing guide with the Sovol SV06 Plus</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -41,23 +43,23 @@
         
         
         
-        <link rel="stylesheet" href="assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <link rel="stylesheet" href="../../assets/external/fonts.googleapis.com/css.49ea35f2.css">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
-      <link rel="stylesheet" href="css/timeago.css">
+      <link rel="stylesheet" href="../../css/timeago.css">
     
-      <link rel="stylesheet" href="css/custom.css">
+      <link rel="stylesheet" href="../../css/custom.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-   <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
         html.glightbox-open { overflow: initial; height: 100%; }
         .gslide-title { margin-top: 0px; user-select: text; }
         .gslide-desc { color: #666; user-select: text; }
@@ -68,7 +70,7 @@
             body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
             body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
             body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-            </style> <script src="assets/javascripts/glightbox.min.js"></script></head>
+            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -87,7 +89,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome" class="md-skip">
+        <a href="#prusaslicer-first-time-configuration" class="md-skip">
           Skip to content
         </a>
       
@@ -101,7 +103,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="smkent&#39;s 3D printing guide with the Sovol SV06 Plus" class="md-header__button md-logo" aria-label="smkent's 3D printing guide with the Sovol SV06 Plus" data-md-component="logo">
+    <a href="../.." title="smkent&#39;s 3D printing guide with the Sovol SV06 Plus" class="md-header__button md-logo" aria-label="smkent's 3D printing guide with the Sovol SV06 Plus" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg>
@@ -121,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Welcome!
+              Slicer configuration wizard
             
           </span>
         </div>
@@ -232,7 +234,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="." class="md-tabs__link">
+        <a href="../.." class="md-tabs__link">
           
   
   Getting Started
@@ -267,7 +269,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="smkent&#39;s 3D printing guide with the Sovol SV06 Plus" class="md-nav__button md-logo" aria-label="smkent's 3D printing guide with the Sovol SV06 Plus" data-md-component="logo">
+    <a href="../.." title="smkent&#39;s 3D printing guide with the Sovol SV06 Plus" class="md-nav__button md-logo" aria-label="smkent's 3D printing guide with the Sovol SV06 Plus" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg>
@@ -336,6 +338,111 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome!
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../background-and-safety/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Background and Safety
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../printer-assembly/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Printer assembly
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../printer-calibration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Printer calibration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../slicer-installation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Slicer installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -352,18 +459,18 @@
           
   
   <span class="md-ellipsis">
-    Welcome!
+    Slicer configuration wizard
   </span>
   
 
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="." class="md-nav__link md-nav__link--active">
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Welcome!
+    Slicer configuration wizard
   </span>
   
 
@@ -385,18 +492,45 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#about-3d-printing" class="md-nav__link">
+  <a href="#printer-selection" class="md-nav__link">
     <span class="md-ellipsis">
-      About 3D printing
+      Printer selection
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#about-the-sovol-sv06-plus" class="md-nav__link">
+  <a href="#filament-profiles" class="md-nav__link">
     <span class="md-ellipsis">
-      About the Sovol SV06 Plus
+      Filament profiles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automatic-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automatic updates
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optional-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Optional settings
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#view-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      View mode
     </span>
   </a>
   
@@ -418,112 +552,7 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/background-and-safety/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Background and Safety
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="getting-started/printer-assembly/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Printer assembly
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="getting-started/printer-calibration/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Printer calibration
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="getting-started/slicer-installation/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Slicer installation
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="getting-started/slicer-configuration/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Slicer configuration wizard
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="getting-started/slicer-tuning/" class="md-nav__link">
+      <a href="../slicer-tuning/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -544,7 +573,7 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/prepare-model/" class="md-nav__link">
+      <a href="../prepare-model/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -565,7 +594,7 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/load-filament/" class="md-nav__link">
+      <a href="../load-filament/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -586,7 +615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/print/" class="md-nav__link">
+      <a href="../print/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -625,41 +654,72 @@
   
 
 
-<h1 id="welcome">Welcome!</h1>
-<p>Several months after getting my 3D printer, I'm introducing others to the world
-of 3D printing! This guide is an introduction to 3D printing with the same
-printer I have, the <a href="https://sovol3d.com/products/sovol-sv06-plus-fully-open-source-3d-printer-with-linear-rail-structure">Sovol SV06 Plus</a>.</p>
-<p>Feedback, suggestions, and <a href="https://github.com/smkent/3d.smkent.net">pull requests</a> are welcome.</p>
-<h2 id="about-3d-printing">About 3D printing</h2>
-<p>I've found 3D printing to be a fun, useful, and educational hobby! 3D printing
-provides learning opportunities around materials, software, electronics, math,
-and more.</p>
-<p>3D printing requires attention and patience, but the results are well worth it!</p>
-<p>In just the first months of owning my 3D printer, I've made all sorts of things:</p>
-<ul>
-<li>Figures and toys (for humans and cats)</li>
-<li>Drawers and organizers for my desk and office</li>
-<li>Hardware, tools, and accessories for woodworking, such as custom router
-  templates</li>
-<li>Replacement parts for furniture and fixtures around the house</li>
-<li>Gifts for family and friends</li>
-</ul>
-<p>I've even started learning 3D modeling and
-<a href="https://www.printables.com/@bulbasaur0">creating my own printable models</a>!
-I've really enjoyed modeling a thing, and then printing and seeing it in real
-form.</p>
-<h2 id="about-the-sovol-sv06-plus">About the Sovol SV06 Plus</h2>
-<p><img alt="Sovol SV06 Plus product photo" class="off-glb" src="../img/sovol-sv06-plus-product-photo.png" /></p>
-<p>I selected the <a href="https://sovol3d.com/products/sovol-sv06-plus-fully-open-source-3d-printer-with-linear-rail-structure">Sovol SV06 Plus</a> for a handful of reasons:</p>
-<ul>
-<li>It has an all-metal hotend which supports a wide variety of materials</li>
-<li>The build area is large at 300 x 300 x 340 millimeters
-  (300 millimeters is about a foot)</li>
-<li>It's an open source clone of the popular
-  <a href="https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-3/">Prusa MK3S+ 3D printer</a>. This has a number of benefits from
-  repairability to software compatibility and community support.</li>
-<li>It's more affordably priced than alternatives with its feature set</li>
-</ul>
+<h1 id="prusaslicer-first-time-configuration">PrusaSlicer first-time configuration</h1>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Click any of the screenshots for a full-size or zoomable view.</p>
+</div>
+<p>When Starting PrusaSlicer for the first time, a configuration wizard appears:</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard welcome page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard welcome page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-1.png" /></a></p>
+<p>Click <strong>Next</strong> at the bottom to proceed through the wizard.</p>
+<h2 id="printer-selection">Printer selection</h2>
+<p>The first several pages in the configuration wizard lead you through the
+supported printers. By default, a Prusa printer preset is selected. Uncheck the
+checkbox under Original Prusa MK4 Input Shaper, and click <strong>Next</strong> to continue.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard Prusa FFF printers page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard Prusa FFF printers page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-2.png" /></a></p>
+<p>The next page provides options for Prusa SLA (resin) printers. Leave these
+unchecked and click <strong>Next</strong>.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard Prusa SLA printers page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard Prusa SLA printers page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-3.png" /></a></p>
+<p>Then, the configuration wizard provides options for selecting printers from
+other brands. The SV06 Plus is made by Sovol, so scroll down in the vendors list
+and click the <strong>Sovol</strong> checkbox. Then, click <strong>Next</strong>.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard printer vendors selection page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard printer vendors selection page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-4.png" /></a></p>
+<p>Now the configuration wizard provides options for selecting Sovol printers. By
+default, a SV06 preset is selected. Uncheck the <strong>SV06</strong> checkbox, and
+then check the <strong>SV06 Plus 0.4mm nozzle</strong> checkbox. Then, click <strong>Next</strong>.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard Sovol printer presets page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard Sovol printer presets page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-5.png" /></a></p>
+<p>The last printer selection page in the configuration wizard offers to provide a
+custom printer profile. Since there is a built-in preset for the SV06 Plus, a
+custom profile is not needed. Click <strong>Next</strong>.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard custom printer profile page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard custom printer profile page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-6.png" /></a></p>
+<h2 id="filament-profiles">Filament profiles</h2>
+<p>PrusaSlicer has both generic presets for various printing materials as well as
+specific presets for specific filaments. I have had good success using the
+generic profiles. This guide will focus in printing with <a href="https://en.wikipedia.org/wiki/Polylactic_acid">PLA</a> and
+<a href="https://en.wikipedia.org/wiki/PETG">PETG</a> filaments starting with the generic filament profiles for
+each. Uncheck the other preselected filaments in the Filament Profiles Selection
+wizard page, and then click <strong>Next</strong>.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard filament profiles selection page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard filament profiles selection page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-7.png" /></a></p>
+<h2 id="automatic-updates">Automatic updates</h2>
+<p>PrusaSlicer will check for application and configuration preset updates by
+default. I recommend leaving these checked. Click <strong>Next</strong> to continue.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard automatic updates page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard automatic updates page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-8.png" /></a></p>
+<h2 id="optional-settings">Optional settings</h2>
+<p>On this page, you can optionally enable PrusaSlicer's browser integration. With
+this enabled, you can click the PrusaSlicer logo next to a model file on
+<a href="https://printables.com">Printables</a> and have it automatically download and open in
+PrusaSlicer. When finished configuring this feature, click <strong>Next</strong>.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard download from URL settings page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard download from URL settings page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-9.png" /></a></p>
+<p>The reload from disk feature makes reloading model files easier while you're
+developing a new model. Enabling this feature includes full file paths in your
+saved project files (which would include your username on your local computer).
+If you plan to share project files on the internet, it's a good idea to leave
+this disabled (unchecked). After making your choice, click <strong>Next</strong>.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard reload from disk settings page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard reload from disk settings page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-10.png" /></a></p>
+<h2 id="view-mode">View mode</h2>
+<p>The view mode page is the last configuration wizard page. I recommend setting
+the view mode to <strong>Expert</strong>, so all of the options will be visible when
+preparing a model to print. Simple, advanced, and expert options will have a
+green, yellow, or red dot next to them when preparing a model in PrusaSlicer.</p>
+<p>Finally, I strongly recommend leaving "Use inches" <strong>unchecked</strong>, so that
+PrusaSlicer will use millimeters. Nearly all model files on the internet use
+millimeters for sizing, so using millimeters in PrusaSlicer makes working with
+3D models easier.</p>
+<p>Click <strong>Finish</strong> at the bottom to complete the wizard!</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard view mode page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard view mode page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-11.png" /></a></p>
+<p>PrusaSlicer now shows the main view. This is where PrusaSlicer will open each
+time it is run.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer initial view" data-desc-position="bottom" data-gallery="psinit"><img alt="PrusaSlicer initial view" class="psimg" data-gallery="psinit" src="../../img/prusaslicer-init-1.png" /></a></p>
 
 
 
@@ -709,15 +769,31 @@ form.</p>
       
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
+          
+          <a href="../slicer-installation/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Slicer installation">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Slicer installation
+              </div>
+            </div>
+          </a>
+        
         
           
-          <a href="getting-started/background-and-safety/" class="md-footer__link md-footer__link--next" aria-label="Next: Background and Safety">
+          <a href="../slicer-tuning/" class="md-footer__link md-footer__link--next" aria-label="Next: Slicer tuning">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Background and Safety
+                Slicer tuning
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -779,14 +855,14 @@ form.</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.footer", "navigation.sections", "navigation.tabs", "toc.integrate"], "search": "assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer", "navigation.sections", "navigation.tabs", "toc.integrate"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
-        <script src="js/timeago.min.js"></script>
+        <script src="../../js/timeago.min.js"></script>
       
-        <script src="js/timeago_mkdocs_material.js"></script>
+        <script src="../../js/timeago_mkdocs_material.js"></script>
       
     
   <script>document$.subscribe(() => {document.querySelectorAll('.glightbox').forEach(function(element) {

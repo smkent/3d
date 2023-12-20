@@ -8,11 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://3d.smkent.net/getting-started/printing/">
+        <link rel="canonical" href="https://3d.smkent.net/getting-started/slicer-tuning/">
       
       
-        <link rel="prev" href="../slicer-setup/">
+        <link rel="prev" href="../slicer-configuration/">
       
+      
+        <link rel="next" href="../prepare-model/">
       
       
       <link rel="icon" href="../../img/favicon.ico">
@@ -20,7 +22,7 @@
     
     
       
-        <title>Printing - smkent's 3D printing guide with the Sovol SV06 Plus</title>
+        <title>Slicer tuning - smkent's 3D printing guide with the Sovol SV06 Plus</title>
       
     
     
@@ -87,7 +89,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#printing" class="md-skip">
+        <a href="#tuning-prusaslicer-for-the-sovol-sv06-plus" class="md-skip">
           Skip to content
         </a>
       
@@ -121,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Printing
+              Slicer tuning
             
           </span>
         </div>
@@ -381,11 +383,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../printer-setup/" class="md-nav__link">
+      <a href="../printer-assembly/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Printer setup
+    Printer assembly
   </span>
   
 
@@ -402,11 +404,53 @@
   
   
     <li class="md-nav__item">
-      <a href="../slicer-setup/" class="md-nav__link">
+      <a href="../printer-calibration/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Slicer setup
+    Printer calibration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../slicer-installation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Slicer installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../slicer-configuration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Slicer configuration wizard
   </span>
   
 
@@ -436,7 +480,7 @@
           
   
   <span class="md-ellipsis">
-    Printing
+    Slicer tuning
   </span>
   
 
@@ -447,7 +491,7 @@
         
   
   <span class="md-ellipsis">
-    Printing
+    Slicer tuning
   </span>
   
 
@@ -469,114 +513,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#pick-a-model" class="md-nav__link">
+  <a href="#retraction-settings" class="md-nav__link">
     <span class="md-ellipsis">
-      Pick a model
+      Retraction settings
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#connect-microsd-card" class="md-nav__link">
+  <a href="#g-code-flavor" class="md-nav__link">
     <span class="md-ellipsis">
-      Connect microSD card
+      G-code flavor
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#slice-model" class="md-nav__link">
+  <a href="#custom-print-bed-display" class="md-nav__link">
     <span class="md-ellipsis">
-      Slice model
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Slice model">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#select-print-settings" class="md-nav__link">
-    <span class="md-ellipsis">
-      Select print settings
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#load-model" class="md-nav__link">
-    <span class="md-ellipsis">
-      Load model
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#slice" class="md-nav__link">
-    <span class="md-ellipsis">
-      Slice!
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#export-g-code" class="md-nav__link">
-    <span class="md-ellipsis">
-      Export G-code
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#move-microsd-card-to-printer" class="md-nav__link">
-    <span class="md-ellipsis">
-      Move microSD card to printer
+      Custom print bed display
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#load-filament-into-the-printer" class="md-nav__link">
+  <a href="#saving-printer-settings" class="md-nav__link">
     <span class="md-ellipsis">
-      Load filament into the printer
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#start-printing" class="md-nav__link">
-    <span class="md-ellipsis">
-      Start printing
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#monitoring-the-printer" class="md-nav__link">
-    <span class="md-ellipsis">
-      Monitoring the printer
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#removing-the-finished-print-from-the-build-plate" class="md-nav__link">
-    <span class="md-ellipsis">
-      Removing the finished print from the build plate
+      Saving printer settings
     </span>
   </a>
   
@@ -586,6 +552,69 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prepare-model/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Prepare model
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../load-filament/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Load filament
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../print/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Print!
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -616,244 +645,92 @@
   
 
 
-<h1 id="printing">Printing</h1>
-<p>This guide will lead you through making your first 3D print!</p>
-<h2 id="pick-a-model">Pick a model</h2>
-<p>First, decide what you'd like to print! Two popular models to start with are:</p>
+<h1 id="tuning-prusaslicer-for-the-sovol-sv06-plus">Tuning PrusaSlicer for the Sovol SV06 Plus</h1>
+<p>PrusaSlicer's default settings for the SV06 Plus are pretty good, but there are
+a few tweaks I recommend making.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>My full PrusaSlicer configuration, including these customizations, is
+available on GitHub as
+<a href="https://github.com/smkent/prusa-slicer-config">smkent/prusa-slicer-config</a>.</p>
+</div>
+<h2 id="retraction-settings">Retraction settings</h2>
+<p>The printer retracts (rewinds) filament when moving from one print line to
+another. The default configuration causes the printer to retract filament even
+when making very short moves, which isn't necessary and slows down printing when
+creating filled-in surfaces. I recommend adjusting these settings.</p>
+<p>Steps:</p>
 <ul>
-<li><a href="https://www.thingiverse.com/thing:1545913"><strong>Cali Cat - The Calibration Cat</strong></a> was my first print! The
-  examples on this page will use Cali Cat.</li>
-<li><a href="https://www.thingiverse.com/thing:763622"><strong>#3DBenchy</strong></a>, or "Benchy," a little boat and a very popular
-  calibration model.</li>
+<li>Click the <strong>Printer Settings</strong> tab at the top</li>
+<li>In the left panel, select <strong>Extruder 1</strong></li>
+<li>Scroll down to the <strong>Retraction</strong> section in the settings pane</li>
+<li>Change <strong>Minimum travel after retraction</strong> from 0.5 to <strong>2</strong>.</li>
+<li>Uncheck (disable) <strong>Wipe while retracting</strong>.</li>
 </ul>
-<p>Download the files for the model you choose.</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Thingiverse Cali Cat download button" data-desc-position="bottom" data-gallery="calicat"><img alt="Thingiverse Cali Cat download button" class="psimg" data-gallery="calicat" src="../../img/thingiverse-calicat-download.png" /></a></p>
-<p>Your browser will download a ZIP file, which contains one or more model files
-(generally in STL format). Unzip the ZIP file to a new folder on your
-computer.</p>
-<h2 id="connect-microsd-card">Connect microSD card</h2>
-<p>The instructions for the printer to use will be saved on a microSD card. Connect
-a microSD card to your computer so files can be saved on it.</p>
-<h2 id="slice-model">Slice model</h2>
-<p>A 3D model is a representation of a 3-dimensional object. A 3D model needs to be
-"sliced," or converted, into a set of instructions for the printer to follow
-called G-code.</p>
-<p>Start PrusaSlicer. The default view is the Plater, or the build plate preview.</p>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>The <strong>build plate</strong> is the flexible steel sheet that sits on top of the heated
-print bed on the printer.</p>
-</div>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer main page showing the plater" data-desc-position="bottom" data-gallery="psprint"><img alt="PrusaSlicer main page showing the plater" class="psimg" data-gallery="psprint" src="../../img/prusaslicer-plater.png" /></a></p>
-<h3 id="select-print-settings">Select print settings</h3>
-<p>The top three drop-downs in the right pane are the print presets. Each time you
-prepare (slice) a model, check that the correct presets are selected. The three
-types of presets are:</p>
-<ol>
-<li>
-<p><strong>Layer height</strong>: How high each printed layer should be. Taller layers print
-   faster (since fewer layers are needed), but the resulting object won't be as
-   strong. The options in this drop-down also depend on the size of nozzle
-   installed on your printer. Nearly all printers, including the Sovol SV06
-   Plus, default to a 0.4mm nozzle. A good default layer height is half of the
-   nozzle size, or in this case 0.2mm. The default selected print profile,
-   <strong>0.2mm SPEED</strong>, is a good choice for most prints.</p>
-</li>
-<li>
-<p><strong>Filament</strong>: Filament is the material that printer uses to make an object.
-   There are many types of filament. A very common and beginner-friendly type of
-   filament is called polylactic acid, or <strong>PLA</strong>. On first run, PrusaSlicer
-   defaults to PETG, a different type of material. Click the <strong>Filament</strong>
-   drop-down and change the selection to <strong>Generic PLA</strong>.
-   <br /><br />
-   <a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer PLA material selection" data-desc-position="bottom" data-gallery="psprint"><img alt="PrusaSlicer PLA material selection" class="psimg" data-gallery="psprint" src="../../img/prusaslicer-material-selection-pla.png" /></a></p>
-</li>
-<li>
-<p><strong>Printer</strong>: The printer to make G-code for. PrusaSlicer will default to the
-   custom <strong>Sovol SV06 Plus</strong> profile created after following the previous
-   <a href="../slicer-setup/">Slicer setup</a> guide.</p>
-</li>
-</ol>
-<h3 id="load-model">Load model</h3>
-<p>Loading the model you'd like to print into PrusaSlicer is called <strong>importing</strong>
-the model.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Import and open in PrusaSlicer are different. Open takes a project file
-instead of a model file.</p>
-</div>
-<p>Import your chosen model file (such as Cali Cat's <code>calicat.stl</code>) by doing one of:</p>
+<p>Steps animation:</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer retraction settings adjustment" data-desc-position="bottom" data-gallery="psprintprofile"><img alt="PrusaSlicer retraction settings adjustment" class="psimg" data-gallery="psprintprofile" src="../../img/prusaslicer-retraction-settings.gif" /></a></p>
+<h2 id="g-code-flavor">G-code flavor</h2>
+<p>Each printer has its own internal firmware which interprets the G-code created
+by a slicer. The G-code types can vary from one printer to another. The SV06
+Plus uses a firmware called <a href="https://marlinfw.org/">Marlin</a>.</p>
+<p>PrusaSlicer configures the SV06 Plus to create older-style Marlin G-code by
+default. The SV06 Plus ships with Marlin version 2.0.9.2 and can support a
+newer G-code profile in PrusaSlicer. I recommend changing the G-code flavor
+from "Marlin (legacy)" to "Marlin 2."</p>
+<p>Steps:</p>
 <ul>
-<li>Dragging and dropping <code>calicat.stl</code> from your file manager onto the open
-  PrusaSlicer window</li>
-<li>Clicking the <strong>Add</strong> button on the top toolbar in the Plater view, and
-  selecting <code>calicat.stl</code> in the file browser
-  <br /><br />
-  <img alt="PrusaSlicer toolbar add button" class="off-glb" src="../../img/prusaslicer-toolbar-add.png" /></li>
-<li>Using the keyboard shortcut <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> (<span class="keys"><kbd class="key-command">Cmd</kbd><span>+</span><kbd class="key-i">I</kbd></span> on Mac), and selecting <code>calicat.stl</code>
-  in the file browser</li>
+<li>Click the <strong>Printer Settings</strong> tab at the top</li>
+<li>In the left panel, select <strong>General</strong> (the first item)</li>
+<li>In the <strong>Firmware</strong> section, change <strong>G-code flavor</strong> from Marlin (legacy) to
+  <strong>Marlin 2</strong></li>
 </ul>
-<p>Cali Cat will appear on the build plate in the Plater view.</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer model import" data-desc-position="bottom" data-gallery="psprint"><img alt="PrusaSlicer model import" class="psimg" data-gallery="psprint" src="../../img/prusaslicer-model-import.gif" /></a></p>
-<h3 id="slice">Slice!</h3>
-<p>For your first print, all of the remaining default settings can be kept.</p>
-<p>On the bottom of the right pane, click <strong>Slice now</strong>!</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer slicing model" data-desc-position="bottom" data-gallery="psprint"><img alt="PrusaSlicer slicing model" class="psimg" data-gallery="psprint" src="../../img/prusaslicer-slice-now.gif" /></a></p>
-<p>After slicing the model, PrusaSlicer displays two important estimates:</p>
+<p>Steps animation:</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer G-code flavor adjustment" data-desc-position="bottom" data-gallery="psprintprofile"><img alt="PrusaSlicer G-code flavor adjustment" class="psimg" data-gallery="psprintprofile" src="../../img/prusaslicer-g-code-flavor.gif" /></a></p>
+<h2 id="custom-print-bed-display">Custom print bed display</h2>
+<p>This tweak is purely a visual preference within PrusaSlicer. I like to use a
+more accurate print bed model image in the model preview.</p>
+<p>First, save these two files to a folder on your computer:</p>
 <ul>
-<li>The amount of filament predicted to be used in grams</li>
-<li>The length of time the print is expected to take</li>
+<li><a href="../../static/sovol-sv06-plus-texture-white-logo.png"><code>sovol-sv06-plus-texture-white-logo.png</code></a>.
+  This is a print bed image I like, from <a href="https://www.printables.com/model/534551-sovol-sv06-plus-build-plate-package-texture-and-mo">Catfisher4's SV06 Plus Build Plate Package</a>.</li>
+<li><a href="../../static/sovol-sv06-plus-model.stl"><code>sovol-sv06-plus-model.stl</code></a>. This is
+  a print bed mesh model, which I exported from Sovol's
+  <a href="https://github.com/Sovol3d/SV06-PLUS/blob/master/SV06%20PLUS%203D/STEP/SV06%20Plus%20Complete%20Assembly%20300x300x340.rar">complete assembly model</a>.</li>
 </ul>
-<p>PrusaSlicer estimates Cali Cat will need around 7 grams of filament and will
-take 50 minutes to print.</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer estimates for Cali Cat" data-desc-position="bottom" data-gallery="psprint"><img alt="PrusaSlicer estimates for Cali Cat" class="psimg" data-gallery="psprint" src="../../img/prusaslicer-estimates.png" /></a></p>
-<h3 id="export-g-code">Export G-code</h3>
-<p>Slicing has created G-code that the printer can use. With a microSD card
-connected to your computer, there is a small icon on the very bottom right for
-saving the G-code to the microSD card.</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer microSD card export button" data-desc-position="bottom" data-gallery="psprint"><img alt="PrusaSlicer microSD card export button" class="psimg" data-gallery="psprint" src="../../img/prusaslicer-microsd-card-button.png" /></a></p>
-<p>Alternatively, you can click the Export G-Code button (in the same place where
-"Slice now" used to be) to save the file manually.</p>
-<p>Export the generated G-code to the microSD card.</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer export G-code to microSD card" data-desc-position="bottom" data-gallery="psprint"><img alt="PrusaSlicer export G-code to microSD card" class="psimg" data-gallery="psprint" src="../../img/prusaslicer-export-to-microsd-card.gif" /></a></p>
-<h2 id="move-microsd-card-to-printer">Move microSD card to printer</h2>
-<p>The microSD card is ready for the printer. Select the option to safely eject or
-remove the microSD card in your computer's file manager.</p>
-<p>Disconnect the microSD card from the computer, and insert it into the microSD
-("TF") slot on the printer next to the Micro USB port. The top of the microSD
-card should face inward (toward the print bed).</p>
-<h2 id="load-filament-into-the-printer">Load filament into the printer</h2>
-<p>Place the roll of filament you'd like to print with onto the printer's spool
-holder. Make a clean snip at the end of the filament, at a ~45° angle.</p>
-<p>Turn on the printer.</p>
-<p>Loading filament is best done some space between the nozzle and print bed. If
-the extruder is all the way at the bottom, the extruder should be raised using
-the LCD controls. On the movement menu on the LCD, tap the <strong>+Z</strong> a few times to
-raise the extruder.</p>
-<p><img alt="Raising the Z height on the LCD" class="off-glb" src="../../img/lcd-raise-z.webp" /></p>
-<p>Alternatively, a specific <strong>Z</strong> value can be entered manually. The extruder will
-then move to the selected height.</p>
-<p><img alt="Setting Z to 50mm on the LCD" class="off-glb" src="../../img/lcd-set-z-50.webp" /></p>
-<p>On the LCD's main menu, tap the gear icon in the bottom row, and then tap
-<strong>Refuel</strong>.</p>
-<p><img alt="Refuel option selection on the LCD" class="off-glb" src="../../img/lcd-refuel-select.webp" /></p>
-<p>This menu allows you to turn the extruder backwards or forwards to
-remove or add filament.</p>
-<p>Tap the <strong>Feed</strong> button. Since the nozzle heater is off, the printer will prompt
-you to preheat the nozzle to <strong>200°C</strong>. Tap <strong>Yes</strong>, and wait for the nozzle to
-heat up.</p>
-<p><img alt="Selecting filament feed and heat up prompt on the LCD" class="off-glb" src="../../img/lcd-feed-heat.webp" /></p>
-<p>Guide this end of the filament through the filament runout sensor, and then down
-into the extruder's filament input on the top until you feel the filament stop
-moving.</p>
-<p>I find <strong>80mm</strong> is a good distance value to use for loading filament, but you
-can always extrude more (or less) if this value doesn't fully load or unload
-filament. The default distance value is 10mm which is very short. Enter a longer
-distance value.</p>
-<p><img alt="Filament load distance value entry on the LCD" class="off-glb" src="../../img/lcd-feed-distance.webp" /></p>
-<p>Tap the <strong>Feed</strong> button again. The extruder motor will turn and start to draw
-in the filament.</p>
-<p><img alt="Feed button on the refuel menu on the LCD" class="off-glb" src="../../img/lcd-refuel-hot-feed.jpg" /></p>
-<p>After a few moments, filament should start coming out of the
-heated nozzle on the bottom of the extruder.</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Photo of filament coming out of the nozzle" data-desc-position="bottom"><img alt="Photo of filament coming out of the nozzle" class="thumb" src="../../img/photo-filament-load-extrusion.jpg" /></a></p>
-<p>If the extruder stops turning before filament comes out of the nozzle, then the
-extruder needs to turn forwards more to push the filament through the nozzle. In
-this case, tap <strong>Feed</strong> again to repeat the process.</p>
-<p>After filament comes out of the nozzle and the extruder stops turning, filament
-is loaded and ready to print! Being <em>very careful</em> not to touch the hot nozzle,
-you can reach in to remove the piece of dangling filament so it doesn't get in
-the way when you print.</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Removing extra filament from underneath the nozzle" data-desc-position="bottom"><img alt="Removing extra filament from underneath the nozzle" class="thumb" src="../../img/clip-remove-extra-filament.webp" /></a></p>
-<p>Tap the <strong>&lt;</strong> button on the LCD to return to the main menu.</p>
-<p><img alt="Refuel menu back button on the LCD" class="off-glb" src="../../img/lcd-refuel-back.jpg" /></p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>If you decide not to print after loading filament, be sure to turn off the
-nozzle heater from the main menu using the temperature controls.</p>
-</div>
-<h2 id="start-printing">Start printing</h2>
-<p>Now all that's left is to select the G-code file and start the print!</p>
-<p>On the LCD's main menu, tap the large <strong>+ Select the file</strong> button, tap the
-<strong>calicat...</strong> G-code file, and then tap <strong>Print</strong>.</p>
-<p><img alt="Selecting a file and starting a print on the LCD" class="off-glb" src="../../img/lcd-select-start-print.webp" /></p>
-<p>The printer will heat up the nozzle and heated bed to <strong>210°C</strong> and the heated
-bed to <strong>60°C</strong>. These are the temperatures configured in PrusaSlicer for PLA.</p>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>If the printer displays different temperatures, that usually means the wrong
-filament / material preset was selected in your slicer (PrusaSlicer).</p>
-<p>In this case, tap the <strong>Stop</strong> button to stop the print, re-slice the model
-file in PrusaSlicer, save the new G-code file to the microSD card, and try
-your print again.</p>
-</div>
-<p>Once the nozzle and heated bed reach their configured temperatures, the LCD will
-show an animation and the printer will start working!</p>
-<p><img alt="LCD print progress view" class="off-glb" src="../../img/lcd-print-progress.webp" /></p>
-<p>The printer will do several things each time it starts a print:</p>
+<p>Then, follow these steps to update the print bed configuration in PrusaSlicer:</p>
 <ul>
-<li>The extruder will home (move to the furthest left, back, and down position) to
-  re-establish its coordinate system</li>
-<li>The printer will draw a line of filament, either on the left or front side of
-  the print bed, called a <strong>purge line</strong>. It is normal for some filament to ooze
-  out of the nozzle before it starts moving. Creating a purge line before
-  working on a model helps the printer to wipe off this extra filament so it
-  doesn't get attached to the model.</li>
-<li>For most models, the printer will draw a border around the area where it will
-  start printing the model. This is called a <strong>skirt</strong>. The skirt is a good
-  visual indicator of the size of the model to be printed.
-  <a href="https://help.prusa3d.com/article/skirt-and-brim_133969">The skirt is configurable within PrusaSlicer</a>
-  when preparing a model.</li>
+<li>Click the <strong>Printer Settings</strong> tab at the top</li>
+<li>In the left panel, select <strong>General</strong> (the first item)</li>
+<li>In the <strong>Size and Coordinates</strong> section at the top, click the <strong>Bed shape</strong>
+  option's <strong>Set</strong> button. A dialog will appear.</li>
+<li>In the dialog's <strong>Texture</strong> section, click <strong>Load</strong>. Find the folder where you
+  saved <code>sovol-sv06-plus-texture-white-logo.png</code> and select that file.</li>
+<li>In the dialog's <strong>Model</strong> section, click <strong>Load</strong>. Find the folder where you
+  saved <code>sovol-sv06-plus-model.stl</code> and select that file.</li>
+<li>Click <strong>OK</strong> to close the dialog</li>
+<li>Click the <strong>Plater</strong> tab at the top to return to the main view. The updated
+  print bed texture is now visible.</li>
 </ul>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>If the skirt is a different size than you expected, it might mean you have
-selected a different file than you meant or that the print file isn't
-working properly.</p>
-<p>In this case, tap the <strong>Stop</strong> button to stop the print, re-slice the model
-file in PrusaSlicer, save the new G-code file to the microSD card, and try
-your print again.</p>
-</div>
+<p>Steps animation:</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer bed texture configuration" data-desc-position="bottom" data-gallery="psprintprofile"><img alt="PrusaSlicer bed texture configuration" class="psimg" data-gallery="psprintprofile" src="../../img/prusaslicer-bed-texture.gif" /></a></p>
+<h2 id="saving-printer-settings">Saving printer settings</h2>
+<p>Now all that's left is to save these changes to a new printer preset.</p>
+<p>PrusaSlicer tracks configuration via presets, which work in a hierarchical
+fashion. By creating a new printer preset, PrusaSlicer will use all of the
+default settings from the SV06 Plus preset plus the settings changes made
+above.</p>
+<p>Steps:</p>
 <ul>
-<li>Finally, the printer will start building your model!</li>
+<li>Click the <strong>Printer Settings</strong> tab at the top</li>
+<li>The printer presets drop-down is at the top, with "SV06 PLUS (modified)" selected.
+  Click the save icon just to the right of that drop-down. A dialog will appear.</li>
+<li>Enter a name for your new printer preset, such as <strong>Sovol SV06 Plus</strong></li>
+<li>Click <strong>OK</strong> to save this new printer preset</li>
+<li>The new preset is now the active printer preset, seen in both the Printer
+  Settings tab and again on the Plater tab (main view).</li>
 </ul>
-<h2 id="monitoring-the-printer">Monitoring the printer</h2>
-<p>With any luck, you'll start to recognize Cali Cat while it's being printed!</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Printing Cali Cat!" data-desc-position="bottom"><img alt="Printing Cali Cat!" class="thumb" src="../../img/clip-printing-calicat.webp" /></a></p>
-<p>Sometimes, a print doesn't go as expected so it's a good idea to keep an eye on
-a 3D printer while it works. Sometimes, objects can come loose from the build
-plate or printing doesn't build the model properly. If you don't stop the
-printer when this happens, you might be visited by the spaghetti monster!</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Spaghetti monster" data-desc-position="bottom"><img alt="Spaghetti monster" class="thumb" src="../../img/reddit-aargvark-spaghetti-monster.jpg" /></a> <br />
-<small>(Picture from <a href="https://old.reddit.com/r/Sovol/comments/13658vh/comment/jin66ha/">/u/aargvark on Reddit</a>)</small></p>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>You can stop a print in progress using the <strong>Stop</strong> button on the LCD.</p>
-<p>If the printer needs to be stopped quickly, turn off the power switch.</p>
-</div>
-<p>After patiently waiting for about an hour, the printer will finish printing Cali
-Cat!</p>
-<p>Tap <strong>Finish print</strong> on the LCD to return to the main menu.</p>
-<p><img alt="Finished print information on the LCD" class="off-glb" src="../../img/lcd-print-finished.jpg" /></p>
-<h2 id="removing-the-finished-print-from-the-build-plate">Removing the finished print from the build plate</h2>
-<p>When the printer finishes, I recommend waiting for the print bed to cool down 10
-to 20 degrees Celsius. This helps prevent the finished print from deforming from
-the bed heat when it is removed from the build plate.</p>
-<p>The purge line can be removed with the printer's included scraper.</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Removing the purge line from the build plate with the scraper" data-desc-position="bottom"><img alt="Removing the purge line from the build plate with the scraper" class="thumb" src="../../img/clip-removing-purge-line.webp" /></a></p>
-<p>To remove a finished print from the build plate, grip the build plate handles
-with your fingers and gently lift. Often times, a finished print will simply pop
-off the build plate.</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Removing Cali Cat from the build plate" data-desc-position="bottom"><img alt="Removing Cali Cat from the build plate" class="thumb" src="../../img/clip-removing-calicat.webp" /></a></p>
-<p>If a model has a larger surface area on the print bed (such as something low and
-flat), you can lift the build plate off of the print bed and gently bend the
-build plate inward, curving the surface off of the finished print.</p>
-<p>After you've removed your finished print, place the build plate back on the
-print bed with the notches aligned with the screws on the back end.</p>
-<p>Remove any remaining filament from the print bed (e.g. the skirt).</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Removing the skirt from the build plate with the scraper" data-desc-position="bottom"><img alt="Removing the skirt from the build plate with the scraper" class="thumb" src="../../img/clip-removing-skirt.webp" /></a></p>
-<p><strong>Congratulations on your first 3D print!</strong></p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Finished Cali Cat" data-desc-position="bottom"><img alt="Finished Cali Cat" class="thumb" src="../../img/photo-calicat-finished.jpg" /></a></p>
+<p>Steps animation:</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer saving new printer preset" data-desc-position="bottom" data-gallery="psprintprofile"><img alt="PrusaSlicer saving new printer preset" class="psimg" data-gallery="psprintprofile" src="../../img/prusaslicer-save-printer-preset.gif" /></a></p>
 
 
 
@@ -874,7 +751,7 @@ print bed with the notches aligned with the screws on the back end.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-20T06:57:20+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-20</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-20T20:00:57+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-20</span>
   </span>
 
     
@@ -904,7 +781,7 @@ print bed with the notches aligned with the screws on the back end.</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../slicer-setup/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Slicer setup">
+          <a href="../slicer-configuration/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Slicer configuration wizard">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -914,11 +791,27 @@ print bed with the notches aligned with the screws on the back end.</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Slicer setup
+                Slicer configuration wizard
               </div>
             </div>
           </a>
         
+        
+          
+          <a href="../prepare-model/" class="md-footer__link md-footer__link--next" aria-label="Next: Prepare model">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Prepare model
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
         
       </nav>
     

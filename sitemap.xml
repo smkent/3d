@@ -11,17 +11,42 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://3d.smkent.net/getting-started/printer-setup/</loc>
+         <loc>https://3d.smkent.net/getting-started/load-filament/</loc>
          <lastmod>2023-12-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://3d.smkent.net/getting-started/printing/</loc>
+         <loc>https://3d.smkent.net/getting-started/prepare-model/</loc>
          <lastmod>2023-12-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://3d.smkent.net/getting-started/slicer-setup/</loc>
+         <loc>https://3d.smkent.net/getting-started/print/</loc>
+         <lastmod>2023-12-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://3d.smkent.net/getting-started/printer-assembly/</loc>
+         <lastmod>2023-12-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://3d.smkent.net/getting-started/printer-calibration/</loc>
+         <lastmod>2023-12-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://3d.smkent.net/getting-started/slicer-configuration/</loc>
+         <lastmod>2023-12-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://3d.smkent.net/getting-started/slicer-installation/</loc>
+         <lastmod>2023-12-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://3d.smkent.net/getting-started/slicer-tuning/</loc>
          <lastmod>2023-12-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
