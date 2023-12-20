@@ -31,7 +31,7 @@ theme:
 nav:
   - Getting Started:
     - index.md
-    - Background and Safety: getting-started/background-and-safety.md
+    - Background and safety: getting-started/background-and-safety.md
     - Printer assembly: getting-started/printer-assembly.md
     - Printer calibration: getting-started/printer-calibration.md
     - Slicer installation: getting-started/slicer-installation.md
