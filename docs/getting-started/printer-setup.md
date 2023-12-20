@@ -4,17 +4,6 @@ glightbox: false
 
 # Printer setup
 
-## About the Sovol SV06 Plus
-
-I selected the [Sovol SV06 Plus][sovol-sv06-plus] for a handful of reasons:
-
-* It has an all-metal hotend which supports a wide variety of materials
-* The build area is large at 300 x 300 x 340 millimeters
-  (300 millimeters is about a foot)
-* It's an open source clone of the popular
-  [Prusa MK3S+ 3D printer][prusa-mk3s+]. This has a number of benefits from
-  repairability to software compatibility and community support.
-
 ## Assembly
 
 The SV06 Plus comes mostly pre-assembled except for the various body parts.
@@ -250,9 +239,7 @@ Initial printer calibration is now complete!
 [lcd-set-temperature-off]: ../img/lcd-set-temperature-off.webp
 [lcd-set-temperature]: ../img/lcd-set-temperature.webp
 [lcd-z-offset]: ../img/lcd-z-offset.jpg
-[prusa-mk3s+]: https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-3/
 [sovol-sv06-plus-initial-leveling]: https://www.youtube.com/watch?v=qc4_DRD2l2M
 [sovol-sv06-plus-unboxing-assembly]: https://www.youtube.com/watch?v=1ZwAHHkcED4
 [sovol-sv06-plus-user-manual]: ../static/User%20Manual_SV06%20Plus.pdf
-[sovol-sv06-plus]: https://sovol3d.com/products/sovol-sv06-plus-fully-open-source-3d-printer-with-linear-rail-structure
 [wiki-thermal-expansion]: https://en.wikipedia.org/wiki/Thermal_expansion

@@ -1,8 +1,6 @@
-# Printing
+# Make your first print
 
-Now you're ready to learn how to print a model with the printer!
-
-## Pick a model
+## Choose a model
 
 First, decide what you'd like to print! Two popular models to start with are:
 
