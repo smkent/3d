@@ -1,4 +1,4 @@
-site_name: smkent's 3D printing guide with the Sovol SV06 Plus
+site_name: 3D Printing & Sovol SV06 Plus
 site_url: https://3d.smkent.net
 repo_name: smkent/3d
 repo_url: https://github.com/smkent/3d
@@ -29,8 +29,9 @@ theme:
         icon: material/lightbulb
 
 nav:
+  - About: index.md
   - Getting Started:
-    - index.md
+    - getting-started/welcome.md
     - Background and safety: getting-started/background-and-safety.md
     - Printer assembly: getting-started/printer-assembly.md
     - Printer calibration: getting-started/printer-calibration.md
