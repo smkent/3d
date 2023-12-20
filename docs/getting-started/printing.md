@@ -282,6 +282,10 @@ printer when this happens, you might be visited by the spaghetti monster!
 After patiently waiting for about an hour, the printer will finish printing Cali
 Cat!
 
+Tap **Finish print** on the LCD to return to the main menu.
+
+![Finished print information on the LCD][lcd-print-finished]{ .off-glb }
+
 ## Removing the finished print from the build plate
 
 When the printer finishes, I recommend waiting for the print bed to cool down 10
@@ -323,6 +327,7 @@ Remove any remaining filament from the print bed (e.g. the skirt).
 [clip-removing-skirt]: ../img/clip-removing-skirt.webp
 [lcd-feed-distance]: ../img/lcd-feed-distance.webp
 [lcd-feed-heat]: ../img/lcd-feed-heat.webp
+[lcd-print-finished]: ../img/lcd-print-finished.jpg
 [lcd-print-progress]: ../img/lcd-print-progress.webp
 [lcd-raise-z]: ../img/lcd-raise-z.webp
 [lcd-refuel-back]: ../img/lcd-refuel-back.jpg
