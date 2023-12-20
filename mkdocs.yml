@@ -32,9 +32,14 @@ nav:
   - Getting Started:
     - index.md
     - Background and Safety: getting-started/background-and-safety.md
-    - Printer setup: getting-started/printer-setup.md
-    - Slicer setup: getting-started/slicer-setup.md
-    - Printing: getting-started/printing.md
+    - Printer assembly: getting-started/printer-assembly.md
+    - Printer calibration: getting-started/printer-calibration.md
+    - Slicer installation: getting-started/slicer-installation.md
+    - Slicer configuration wizard: getting-started/slicer-configuration.md
+    - Slicer tuning: getting-started/slicer-tuning.md
+    - Prepare model: getting-started/prepare-model.md
+    - Load filament: getting-started/load-filament.md
+    - Print!: getting-started/print.md
 
 markdown_extensions:
   - admonition

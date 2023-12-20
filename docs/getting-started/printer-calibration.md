@@ -2,41 +2,7 @@
 glightbox: false
 ---
 
-# Printer setup
-
-## About the Sovol SV06 Plus
-
-I selected the [Sovol SV06 Plus][sovol-sv06-plus] for a handful of reasons:
-
-* It has an all-metal hotend which supports a wide variety of materials
-* The build area is large at 300 x 300 x 340 millimeters
-  (300 millimeters is about a foot)
-* It's an open source clone of the popular
-  [Prusa MK3S+ 3D printer][prusa-mk3s+]. This has a number of benefits from
-  repairability to software compatibility and community support.
-
-## Assembly
-
-The SV06 Plus comes mostly pre-assembled except for the various body parts.
-Pages 3-12 of the [user manual][sovol-sv06-plus-user-manual] describe how to
-assemble the printer. Assembly largely involves:
-
-* Attaching the gantry (vertical assembly) to the horizontal base assembly
-* Attaching the extruder, power supply, mainboard, and LCD components
-* Connecting the wiring harnesses to the power supply, extruder, motors, and LCD
-
-Sovol also has
-[an assembly tutorial video][sovol-sv06-plus-unboxing-assembly]:
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1ZwAHHkcED4?si=RHlAd7f-gOVw2ChE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-!!! info
-
-    After assembling the printer, check the voltage selector on the power
-    supply. Mine was set to 230V out of the box. Change the selector to 115V for
-    use in the US.
-
-## Calibration
+# Sovol SV06 Plus first-time calibration
 
 Being 3-dimensional, a 3D printer has 3 axes: X (left to right), Y (front to
 back), and Z (top to bottom).
@@ -52,7 +18,7 @@ level the printer for the first time. Sovol also has
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qc4_DRD2l2M?si=sRzR6dqLxlRPJBZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-### Leveling the X-axis
+## Leveling the X-axis
 
 The X-axis are the horizontal rods that the extruder moves left and right on.
 The SV06 Plus uses two vertical rods for the Z-axis. The X-axis needs to be
@@ -87,7 +53,7 @@ Steps:
 * The printer will slowly lower the extruder back down to the bed and return to
   the leveling menu.
 
-### Preparation for bed calibration
+## Preparation for bed calibration
 
 Both the print bed and nozzle are made of metal and heat up when printing.
 [Metal expands and contracts with temperature][wiki-thermal-expansion].
@@ -127,7 +93,7 @@ Steps:
   <br /><br />
   ![Selecting the Leveling option on the LCD][lcd-leveling-select]
 
-### Setting the nozzle height offset (Z-offset)
+## Setting the nozzle height offset (Z-offset)
 
 The foundation of a good 3D print is the first or base layer. To make sure the
 first layer of a printed object sticks to the bed, the nozzle's initial height
@@ -176,7 +142,7 @@ Steps:
   <br /><br />
   ![Saving the leveling settings on the LCD][lcd-leveling-save]
 
-### Leveling the bed
+## Leveling the bed
 
 The print bed is a flexible and removable sheet with a special coating, on top
 of a larger metal plate with a heating element that is attached to the printer.
@@ -206,7 +172,7 @@ Steps:
   <br /><br />
   ![Saving the leveling settings on the LCD][lcd-leveling-save]
 
-### Completing calibration
+## Completing calibration
 
 The nozzle and print bed were heated to prepare for calibrating the print bed.
 As the heaters were turned on manually from the main menu, they will remain set
@@ -250,9 +216,6 @@ Initial printer calibration is now complete!
 [lcd-set-temperature-off]: ../img/lcd-set-temperature-off.webp
 [lcd-set-temperature]: ../img/lcd-set-temperature.webp
 [lcd-z-offset]: ../img/lcd-z-offset.jpg
-[prusa-mk3s+]: https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-3/
 [sovol-sv06-plus-initial-leveling]: https://www.youtube.com/watch?v=qc4_DRD2l2M
-[sovol-sv06-plus-unboxing-assembly]: https://www.youtube.com/watch?v=1ZwAHHkcED4
 [sovol-sv06-plus-user-manual]: ../static/User%20Manual_SV06%20Plus.pdf
-[sovol-sv06-plus]: https://sovol3d.com/products/sovol-sv06-plus-fully-open-source-3d-printer-with-linear-rail-structure
 [wiki-thermal-expansion]: https://en.wikipedia.org/wiki/Thermal_expansion

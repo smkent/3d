@@ -28,7 +28,23 @@ I've even started learning 3D modeling and
 I've really enjoyed modeling a thing, and then printing and seeing it in real
 form.
 
+## About the Sovol SV06 Plus
+
+![Sovol SV06 Plus product photo][sovol-sv06-plus-product-photo]{ .off-glb }
+
+I selected the [Sovol SV06 Plus][sovol-sv06-plus] for a handful of reasons:
+
+* It has an all-metal hotend which supports a wide variety of materials
+* The build area is large at 300 x 300 x 340 millimeters
+  (300 millimeters is about a foot)
+* It's an open source clone of the popular
+  [Prusa MK3S+ 3D printer][prusa-mk3s+]. This has a number of benefits from
+  repairability to software compatibility and community support.
+* It's more affordably priced than alternatives with its feature set
+
 
 [printables-profile]: https://www.printables.com/@bulbasaur0
+[prusa-mk3s+]: https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-3/
 [repo-url]: https://github.com/smkent/3d.smkent.net
 [sovol-sv06-plus]: https://sovol3d.com/products/sovol-sv06-plus-fully-open-source-3d-printer-with-linear-rail-structure
+[sovol-sv06-plus-product-photo]: ../img/sovol-sv06-plus-product-photo.png
