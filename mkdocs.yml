@@ -41,6 +41,7 @@ nav:
     - Prepare model: getting-started/prepare-model.md
     - Load filament: getting-started/load-filament.md
     - Print!: getting-started/print.md
+    - Share your make: getting-started/publish-make.md
 
 markdown_extensions:
   - admonition
