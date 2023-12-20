@@ -16,6 +16,12 @@ layer at a time.
 It's important to know how to use a 3D printer safely, like any other tool. 3D
 printing involves high temperatures and moving parts.
 
+!!! info
+
+    If your printer ever needs to be turned off right away due to a problem,
+    it's always safe to simply turn off the power switch. A 3D printer does not
+    need to be shut down like a computer.
+
 ### Heat safety
 
 * Both the nozzle, where the plastic is extruded, get very hot while printing.

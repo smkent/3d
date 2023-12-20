@@ -265,11 +265,62 @@ With any luck, you'll start to recognize Cali Cat while it's being printed!
 
 ![Printing Cali Cat!][clip-printing-calicat]{ .thumb }
 
+Sometimes, a print doesn't go as expected so it's a good idea to keep an eye on
+a 3D printer while it works. Sometimes, objects can come loose from the build
+plate or printing doesn't build the model properly. If you don't stop the
+printer when this happens, you might be visited by the spaghetti monster!
+
+![Spaghetti monster][reddit-aargvark-spaghetti-monster]{ .thumb } <br />
+<small>(Picture from [/u/aargvark on Reddit][reddit-aargvark-post])</small>
+
+!!! info
+
+    You can stop a print in progress using the **Stop** button on the LCD.
+
+    If the printer needs to be stopped quickly, turn off the power switch.
+
+After patiently waiting for about an hour, the printer will finish printing Cali
+Cat!
+
+## Removing the finished print from the build plate
+
+When the printer finishes, I recommend waiting for the print bed to cool down 10
+to 20 degrees Celsius. This helps prevent the finished print from deforming from
+the bed heat when it is removed from the build plate.
+
+The purge line can be removed with the printer's included scraper.
+
+![Removing the purge line from the build plate with the scraper][clip-removing-purge-line]{ .thumb }
+
+To remove a finished print from the build plate, grip the build plate handles
+with your fingers and gently lift. Often times, a finished print will simply pop
+off the build plate.
+
+![Removing Cali Cat from the build plate][clip-removing-calicat]{ .thumb }
+
+If a model has a larger surface area on the print bed (such as something low and
+flat), you can lift the build plate off of the print bed and gently bend the
+build plate inward, curving the surface off of the finished print.
+
+After you've removed your finished print, place the build plate back on the
+print bed with the notches aligned with the screws on the back end.
+
+Remove any remaining filament from the print bed (e.g. the skirt).
+
+![Removing the skirt from the build plate with the scraper][clip-removing-skirt]{ .thumb }
+
+**Congratulations on your first 3D print!**
+
+![Finished Cali Cat][photo-calicat-finished]{ .thumb }
+
 
 [benchy]: https://www.thingiverse.com/thing:763622
 [calicat]: https://www.thingiverse.com/thing:1545913
-[clip-remove-extra-filament]: ../img/clip-remove-extra-filament.webp
 [clip-printing-calicat]: ../img/clip-printing-calicat.webp
+[clip-remove-extra-filament]: ../img/clip-remove-extra-filament.webp
+[clip-removing-calicat]: ../img/clip-removing-calicat.webp
+[clip-removing-purge-line]: ../img/clip-removing-purge-line.webp
+[clip-removing-skirt]: ../img/clip-removing-skirt.webp
 [lcd-feed-distance]: ../img/lcd-feed-distance.webp
 [lcd-feed-heat]: ../img/lcd-feed-heat.webp
 [lcd-print-progress]: ../img/lcd-print-progress.webp
@@ -280,6 +331,7 @@ With any luck, you'll start to recognize Cali Cat while it's being printed!
 [lcd-select-start-print]: ../img/lcd-select-start-print.webp
 [lcd-set-z-50]: ../img/lcd-set-z-50.webp
 [photo-filament-load-extrusion]: ../img/photo-filament-load-extrusion.jpg
+[photo-calicat-finished]: ../img/photo-calicat-finished.jpg
 [prusaslicer-estimates]: ../img/prusaslicer-estimates.png
 [prusaslicer-export-to-microsd-card]: ../img/prusaslicer-export-to-microsd-card.gif
 [prusaslicer-material-selection-pla]: ../img/prusaslicer-material-selection-pla.png
@@ -289,5 +341,7 @@ With any luck, you'll start to recognize Cali Cat while it's being printed!
 [prusaslicer-skirt]: https://help.prusa3d.com/article/skirt-and-brim_133969
 [prusaslicer-slice-now]: ../img/prusaslicer-slice-now.gif
 [prusaslicer-toolbar-add]: ../img/prusaslicer-toolbar-add.png
+[reddit-aargvark-post]: https://old.reddit.com/r/Sovol/comments/13658vh/comment/jin66ha/
+[reddit-aargvark-spaghetti-monster]: ../img/reddit-aargvark-spaghetti-monster.jpg
 [slicer-setup]: slicer-setup.md
 [thingiverse-calicat-download]: ../img/thingiverse-calicat-download.png
