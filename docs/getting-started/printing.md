@@ -1,6 +1,6 @@
 # Printing
 
-It's time to make your first 3D print!
+This guide will lead you through making your first 3D print!
 
 ## Pick a model
 
@@ -123,11 +123,14 @@ Export the generated G-code to the microSD card.
 
 ![PrusaSlicer export G-code to microSD card][prusaslicer-export-to-microsd-card]{class="psimg" data-gallery="psprint"}
 
-## Safely remove microSD card
+## Move microSD card to printer
 
 The microSD card is ready for the printer. Select the option to safely eject or
-remove the microSD card in your computer's file manager. Then, disconnect it
-from the computer.
+remove the microSD card in your computer's file manager.
+
+Disconnect the microSD card from the computer, and insert it into the microSD
+("TF") slot on the printer next to the Micro USB port. The top of the microSD
+card should face inward (toward the print bed).
 
 ## Load filament into the printer
 
@@ -203,16 +206,78 @@ Tap the **&lt;** button on the LCD to return to the main menu.
     If you decide not to print after loading filament, be sure to turn off the
     nozzle heater from the main menu using the temperature controls.
 
+## Start printing
+
+Now all that's left is to select the G-code file and start the print!
+
+On the LCD's main menu, tap the large **+ Select the file** button, tap the
+**calicat...** G-code file, and then tap **Print**.
+
+![Selecting a file and starting a print on the LCD][lcd-select-start-print]{ .off-glb }
+
+The printer will heat up the nozzle and heated bed to **210°C** and the heated
+bed to **60°C**. These are the temperatures configured in PrusaSlicer for PLA.
+
+!!! info
+
+    If the printer displays different temperatures, that usually means the wrong
+    filament / material preset was selected in your slicer (PrusaSlicer).
+
+    In this case, tap the **Stop** button to stop the print, re-slice the model
+    file in PrusaSlicer, save the new G-code file to the microSD card, and try
+    your print again.
+
+Once the nozzle and heated bed reach their configured temperatures, the LCD will
+show an animation and the printer will start working!
+
+![LCD print progress view][lcd-print-progress]{ .off-glb }
+
+The printer will do several things each time it starts a print:
+
+* The extruder will home (move to the furthest left, back, and down position) to
+  re-establish its coordinate system
+* The printer will draw a line of filament, either on the left or front side of
+  the print bed, called a **purge line**. It is normal for some filament to ooze
+  out of the nozzle before it starts moving. Creating a purge line before
+  working on a model helps the printer to wipe off this extra filament so it
+  doesn't get attached to the model.
+* For most models, the printer will draw a border around the area where it will
+  start printing the model. This is called a **skirt**. The skirt is a good
+  visual indicator of the size of the model to be printed.
+  [The skirt is configurable within PrusaSlicer][prusaslicer-skirt]
+  when preparing a model.
+
+!!! info
+
+    If the skirt is a different size than you expected, it might mean you have
+    selected a different file than you meant or that the print file isn't
+    working properly.
+
+    In this case, tap the **Stop** button to stop the print, re-slice the model
+    file in PrusaSlicer, save the new G-code file to the microSD card, and try
+    your print again.
+
+* Finally, the printer will start building your model!
+
+## Monitoring the printer
+
+With any luck, you'll start to recognize Cali Cat while it's being printed!
+
+![Printing Cali Cat!][clip-printing-calicat]{ .thumb }
+
 
 [benchy]: https://www.thingiverse.com/thing:763622
 [calicat]: https://www.thingiverse.com/thing:1545913
 [clip-remove-extra-filament]: ../img/clip-remove-extra-filament.webp
+[clip-printing-calicat]: ../img/clip-printing-calicat.webp
 [lcd-feed-distance]: ../img/lcd-feed-distance.webp
 [lcd-feed-heat]: ../img/lcd-feed-heat.webp
+[lcd-print-progress]: ../img/lcd-print-progress.webp
 [lcd-raise-z]: ../img/lcd-raise-z.webp
 [lcd-refuel-back]: ../img/lcd-refuel-back.jpg
 [lcd-refuel-hot-feed]: ../img/lcd-refuel-hot-feed.jpg
 [lcd-refuel-select]: ../img/lcd-refuel-select.webp
+[lcd-select-start-print]: ../img/lcd-select-start-print.webp
 [lcd-set-z-50]: ../img/lcd-set-z-50.webp
 [photo-filament-load-extrusion]: ../img/photo-filament-load-extrusion.jpg
 [prusaslicer-estimates]: ../img/prusaslicer-estimates.png
@@ -221,6 +286,7 @@ Tap the **&lt;** button on the LCD to return to the main menu.
 [prusaslicer-microsd-card-button]: ../img/prusaslicer-microsd-card-button.png
 [prusaslicer-model-import]: ../img/prusaslicer-model-import.gif
 [prusaslicer-plater]: ../img/prusaslicer-plater.png
+[prusaslicer-skirt]: https://help.prusa3d.com/article/skirt-and-brim_133969
 [prusaslicer-slice-now]: ../img/prusaslicer-slice-now.gif
 [prusaslicer-toolbar-add]: ../img/prusaslicer-toolbar-add.png
 [slicer-setup]: slicer-setup.md
