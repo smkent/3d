@@ -36,6 +36,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://3d.smkent.net/getting-started/publish-make/</loc>
+         <lastmod>2023-12-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://3d.smkent.net/getting-started/slicer-configuration/</loc>
          <lastmod>2023-12-20</lastmod>
          <changefreq>daily</changefreq>
