@@ -1,3 +1,5 @@
+# About 3D printing
+
 ## How does 3D printing work?
 
 3D printing can refer to a number of technologies. The most popular technology,
@@ -45,9 +47,9 @@ printing involves high temperatures and moving parts.
 
 ### Materials safety
 
-* 3D printing process emits VOCs, which can vary by material used and printing
-  temperature. The best permanent home for a 3D printer is a ventilated space or
-  enclosure. (Building an enclosure can be a fun side project!)
+* The 3D printing process emits VOCs, which can vary by material used and
+  printing temperature. The best permanent home for a 3D printer is a ventilated
+  space or enclosure. (Building an enclosure can be a fun side project!)
 
 ### General safety
 
