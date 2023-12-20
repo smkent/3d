@@ -15,18 +15,23 @@ theme:
     - navigation.tabs
     - toc.integrate
   palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: light blue
+      primary: custom
       accent: yellow
       toggle:
-        name: Switch to light mode
+        name: Switch to dark mode
         icon: material/lightbulb-outline
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: light blue
+      primary: custom
+      accent: deep purple
       toggle:
-        name: Switch to dark mode
+        name: Switch to system preference for light/dark mode
         icon: material/lightbulb
 
 nav:

@@ -1,3 +1,18 @@
+[data-md-color-scheme=default],
+[data-md-color-scheme=slate] {
+    --md-primary-fg-color: #49a6cf;
+    --md-primary-fg-color--dark: #377d9c;
+}
+
+.md-tabs {
+    background-color: var(--md-primary-fg-color--dark);
+}
+
+/* Default, light theme */
+[data-md-color-scheme=default] {
+  --md-default-bg-color: #f6f6f6;
+}
+
 .thumb {
     width: 500px;
 }
