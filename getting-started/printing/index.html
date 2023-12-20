@@ -538,9 +538,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#safely-remove-microsd-card" class="md-nav__link">
+  <a href="#move-microsd-card-to-printer" class="md-nav__link">
     <span class="md-ellipsis">
-      Safely remove microSD card
+      Move microSD card to printer
     </span>
   </a>
   
@@ -550,6 +550,24 @@
   <a href="#load-filament-into-the-printer" class="md-nav__link">
     <span class="md-ellipsis">
       Load filament into the printer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#start-printing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start printing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monitoring-the-printer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monitoring the printer
     </span>
   </a>
   
@@ -590,7 +608,7 @@
 
 
 <h1 id="printing">Printing</h1>
-<p>It's time to make your first 3D print!</p>
+<p>This guide will lead you through making your first 3D print!</p>
 <h2 id="pick-a-model">Pick a model</h2>
 <p>First, decide what you'd like to print! Two popular models to start with are:</p>
 <ul>
@@ -689,10 +707,12 @@ saving the G-code to the microSD card.</p>
 "Slice now" used to be) to save the file manually.</p>
 <p>Export the generated G-code to the microSD card.</p>
 <p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer export G-code to microSD card" data-desc-position="bottom" data-gallery="psprint"><img alt="PrusaSlicer export G-code to microSD card" class="psimg" data-gallery="psprint" src="../../img/prusaslicer-export-to-microsd-card.gif" /></a></p>
-<h2 id="safely-remove-microsd-card">Safely remove microSD card</h2>
+<h2 id="move-microsd-card-to-printer">Move microSD card to printer</h2>
 <p>The microSD card is ready for the printer. Select the option to safely eject or
-remove the microSD card in your computer's file manager. Then, disconnect it
-from the computer.</p>
+remove the microSD card in your computer's file manager.</p>
+<p>Disconnect the microSD card from the computer, and insert it into the microSD
+("TF") slot on the printer next to the Micro USB port. The top of the microSD
+card should face inward (toward the print bed).</p>
 <h2 id="load-filament-into-the-printer">Load filament into the printer</h2>
 <p>Place the roll of filament you'd like to print with onto the printer's spool
 holder. Make a clean snip at the end of the filament, at a ~45° angle.</p>
@@ -743,6 +763,54 @@ the way when you print.</p>
 <p>If you decide not to print after loading filament, be sure to turn off the
 nozzle heater from the main menu using the temperature controls.</p>
 </div>
+<h2 id="start-printing">Start printing</h2>
+<p>Now all that's left is to select the G-code file and start the print!</p>
+<p>On the LCD's main menu, tap the large <strong>+ Select the file</strong> button, tap the
+<strong>calicat...</strong> G-code file, and then tap <strong>Print</strong>.</p>
+<p><img alt="Selecting a file and starting a print on the LCD" class="off-glb" src="../../img/lcd-select-start-print.webp" /></p>
+<p>The printer will heat up the nozzle and heated bed to <strong>210°C</strong> and the heated
+bed to <strong>60°C</strong>. These are the temperatures configured in PrusaSlicer for PLA.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>If the printer displays different temperatures, that usually means the wrong
+filament / material preset was selected in your slicer (PrusaSlicer).</p>
+<p>In this case, tap the <strong>Stop</strong> button to stop the print, re-slice the model
+file in PrusaSlicer, save the new G-code file to the microSD card, and try
+your print again.</p>
+</div>
+<p>Once the nozzle and heated bed reach their configured temperatures, the LCD will
+show an animation and the printer will start working!</p>
+<p><img alt="LCD print progress view" class="off-glb" src="../../img/lcd-print-progress.webp" /></p>
+<p>The printer will do several things each time it starts a print:</p>
+<ul>
+<li>The extruder will home (move to the furthest left, back, and down position) to
+  re-establish its coordinate system</li>
+<li>The printer will draw a line of filament, either on the left or front side of
+  the print bed, called a <strong>purge line</strong>. It is normal for some filament to ooze
+  out of the nozzle before it starts moving. Creating a purge line before
+  working on a model helps the printer to wipe off this extra filament so it
+  doesn't get attached to the model.</li>
+<li>For most models, the printer will draw a border around the area where it will
+  start printing the model. This is called a <strong>skirt</strong>. The skirt is a good
+  visual indicator of the size of the model to be printed.
+  <a href="https://help.prusa3d.com/article/skirt-and-brim_133969">The skirt is configurable within PrusaSlicer</a>
+  when preparing a model.</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>If the skirt is a different size than you expected, it might mean you have
+selected a different file than you meant or that the print file isn't
+working properly.</p>
+<p>In this case, tap the <strong>Stop</strong> button to stop the print, re-slice the model
+file in PrusaSlicer, save the new G-code file to the microSD card, and try
+your print again.</p>
+</div>
+<ul>
+<li>Finally, the printer will start building your model!</li>
+</ul>
+<h2 id="monitoring-the-printer">Monitoring the printer</h2>
+<p>With any luck, you'll start to recognize Cali Cat while it's being printed!</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Printing Cali Cat!" data-desc-position="bottom"><img alt="Printing Cali Cat!" class="thumb" src="../../img/clip-printing-calicat.webp" /></a></p>
 
 
 
@@ -763,7 +831,7 @@ nozzle heater from the main menu using the temperature controls.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-20T03:55:59+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-20</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-20T04:50:25+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-20</span>
   </span>
 
     
