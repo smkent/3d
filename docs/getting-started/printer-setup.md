@@ -104,6 +104,8 @@ Steps:
 
 * If the Leveling menu is displayed, tap **&lt;** on the LCD to return to the
   main menu.
+  <br /><br />
+  ![Leveling menu back button on the LCD][lcd-leveling-back]
 * Tap the print bed temperature display, and set the temperature to **60°C**.
   The print bed will slowly start heating until it reaches this temperature.
 * Tap the nozzle temperature display, and set the temperature to **210°C**. The
@@ -214,6 +216,8 @@ Steps:
 
 * If the Leveling menu is displayed, tap **&lt;** on the LCD to return to the
   main menu.
+  <br /><br />
+  ![Leveling menu back button on the LCD][lcd-leveling-back]
 * Tap the print bed temperature display, and set the temperature to **0°C**.
   The print bed heater will turn off, and the print bed will start to cool until
   it reaches room temperature.
@@ -238,6 +242,7 @@ Initial printer calibration is now complete!
 [lcd-auto-level-select]: ../img/lcd-auto-level-select.webp
 [lcd-auto-z-align]: ../img/lcd-auto-z-align.jpg
 [lcd-increase-z-offset]: ../img/lcd-increase-z-offset.webp
+[lcd-leveling-back]: ../img/lcd-leveling-back.jpg
 [lcd-leveling-save]: ../img/lcd-leveling-save.jpg
 [lcd-leveling-save]: ../img/lcd-leveling-save.jpg
 [lcd-leveling-select]: ../img/lcd-leveling-select.webp
