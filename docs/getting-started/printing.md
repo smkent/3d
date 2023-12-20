@@ -206,7 +206,7 @@ Tap the **&lt;** button on the LCD to return to the main menu.
     If you decide not to print after loading filament, be sure to turn off the
     nozzle heater from the main menu using the temperature controls.
 
-## Start printing
+## Start the print
 
 Now all that's left is to select the G-code file and start the print!
 
@@ -259,16 +259,17 @@ The printer will do several things each time it starts a print:
 
 * Finally, the printer will start building your model!
 
-## Monitoring the printer
+## Monitor the printer
 
 With any luck, you'll start to recognize Cali Cat while it's being printed!
 
 ![Printing Cali Cat!][clip-printing-calicat]{ .thumb }
 
 Sometimes, a print doesn't go as expected so it's a good idea to keep an eye on
-a 3D printer while it works. Sometimes, objects can come loose from the build
-plate or printing doesn't build the model properly. If you don't stop the
-printer when this happens, you might be visited by the spaghetti monster!
+a 3D printer while it works. For example, the model being printed can come loose
+from the build plate or the printer doesn't build the mo del as you expected. If
+you don't stop the printer when this happens, you might be visited by the
+spaghetti monster!
 
 ![Spaghetti monster][reddit-aargvark-spaghetti-monster]{ .thumb } <br />
 <small>(Picture from [/u/aargvark on Reddit][reddit-aargvark-post])</small>
@@ -286,7 +287,7 @@ Tap **Finish print** on the LCD to return to the main menu.
 
 ![Finished print information on the LCD][lcd-print-finished]{ .off-glb }
 
-## Removing the finished print from the build plate
+## Remove the finished print
 
 When the printer finishes, I recommend waiting for the print bed to cool down 10
 to 20 degrees Celsius. This helps prevent the finished print from deforming from
