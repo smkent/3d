@@ -132,7 +132,7 @@ Disconnect the microSD card from the computer, and insert it into the microSD
 ("TF") slot on the printer next to the Micro USB port. The top of the microSD
 card should face inward (toward the print bed).
 
-## Load filament into the printer
+## Load filament
 
 Place the roll of filament you'd like to print with onto the printer's spool
 holder. Make a clean snip at the end of the filament, at a ~45° angle.
