@@ -17,5 +17,5 @@ your first model. If you're new to 3D printing, start here!
 
 
 [github-pages]: https://pages.github.com/
-[repo-url]: https://github.com/smkent/3d.smkent.net
+[repo-url]: https://github.com/smkent/3d
 [sovol-sv06-plus]: https://sovol3d.com/products/sovol-sv06-plus-fully-open-source-3d-printer-with-linear-rail-structure
