@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://3d.smkent.net/getting-started/slicer-installation/">
+        <link rel="canonical" href="https://3d.smkent.net/first-print/slicer-configuration/">
       
       
-        <link rel="prev" href="../printer-calibration/">
+        <link rel="prev" href="../slicer-installation/">
       
       
-        <link rel="next" href="../slicer-configuration/">
+        <link rel="next" href="../slicer-tuning/">
       
       
       <link rel="icon" href="../../img/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Slicer installation - 3D Printing & Sovol SV06 Plus</title>
+        <title>Slicer configuration wizard - 3D Printing & Sovol SV06 Plus</title>
       
     
     
@@ -89,7 +89,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#slicer-installation" class="md-skip">
+        <a href="#prusaslicer-first-time-configuration-wizard" class="md-skip">
           Skip to content
         </a>
       
@@ -197,7 +197,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Slicer installation
+              Slicer configuration wizard
             
           </span>
         </div>
@@ -340,7 +340,7 @@
   
     
   
-  Getting Started
+  First Print Guide
 
         </a>
       </li>
@@ -545,7 +545,7 @@
               
   
   <span class="md-ellipsis">
-    Getting Started
+    First Print Guide
   </span>
   
 
@@ -561,7 +561,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            Getting Started
+            First Print Guide
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -634,6 +634,27 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../slicer-installation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Slicer installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -650,7 +671,7 @@
           
   
   <span class="md-ellipsis">
-    Slicer installation
+    Slicer configuration wizard
   </span>
   
 
@@ -661,7 +682,7 @@
         
   
   <span class="md-ellipsis">
-    Slicer installation
+    Slicer configuration wizard
   </span>
   
 
@@ -683,18 +704,45 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-is-a-slicer" class="md-nav__link">
+  <a href="#printer-selection" class="md-nav__link">
     <span class="md-ellipsis">
-      What is a slicer?
+      Printer selection
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#filament-profiles" class="md-nav__link">
     <span class="md-ellipsis">
-      Installation
+      Filament profiles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automatic-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automatic updates
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optional-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Optional settings
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#view-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      View mode
     </span>
   </a>
   
@@ -704,27 +752,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../slicer-configuration/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Slicer configuration wizard
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -882,7 +909,7 @@
 
   <!-- Edit button -->
   
-    <a href="https://github.com/smkent/3d/edit/main/docs/getting-started/slicer-installation.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/smkent/3d/edit/main/docs/first-print/slicer-configuration.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -893,36 +920,79 @@
     
       
     
-    <a href="https://github.com/smkent/3d/blob/main/docs/getting-started/slicer-installation.md?plain=1" title="View source of this page" class="md-content__button md-icon">
+    <a href="https://github.com/smkent/3d/blob/main/docs/first-print/slicer-configuration.md?plain=1" title="View source of this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z"/></svg>
     </a>
   
 
 
-<h1 id="slicer-installation">Slicer installation</h1>
-<h2 id="what-is-a-slicer">What is a slicer?</h2>
-<p>A 3D printer works by building an object layer by layer. To print an object from
-a 3D model, a set of instructions on how to create the model layer-by-layer
-needs to be created. These instructions are called <strong><a href="https://en.wikipedia.org/wiki/G-code">G-code</a></strong>.
-G-code is created using a type of software called a <strong><a href="https://en.wikipedia.org/wiki/Slicer_(3D_printing)">slicer</a></strong>.</p>
-<p>There are many slicer softwares available. Two popular options are
-<a href="https://www.prusa3d.com/page/prusaslicer_424/">PrusaSlicer</a> and <a href="https://ultimaker.com/software/ultimaker-cura/">Ultimaker Cura</a>, which are free and open
-source.</p>
-<p>For the Sovol SV06 Plus, I've had the best results using <strong>PrusaSlicer</strong>.</p>
-<h2 id="installation">Installation</h2>
-<p>Download and install <a href="https://www.prusa3d.com/page/prusaslicer_424/">PrusaSlicer</a> on your computer. PrusaSlicer is
-available for Windows, Mac OS X, and Linux. PrusaSlicer can alternatively be
-downloaded from the
-<a href="https://github.com/prusa3d/PrusaSlicer/releases">PrusaSlicer repository on GitHub</a> (be sure to
-select the right file for your operating system).</p>
-<p>Start PrusaSlicer after it is installed. On first run, PrusaSlicer may show a
-prompt about SSL certificates. Check <strong>Remember my choice</strong> and then click
-<strong>Yes</strong>.</p>
-<p><img alt="SSL certificates dialog" class="psimg off-glb" src="../../img/prusaslicer-ssl-certs.png" /></p>
-<p>PrusaSlicer may also ask whether it's OK to send system information. This is
-optional, so select whichever option you prefer.</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer data collection prompt" data-desc-position="bottom" data-gallery="psdc"><img alt="PrusaSlicer data collection prompt" class="psimg" data-gallery="psdc" src="../../img/prusaslicer-data-collection.png" /></a></p>
+<h1 id="prusaslicer-first-time-configuration-wizard">PrusaSlicer first-time configuration wizard</h1>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Click any of the screenshots for a full-size or zoomable view.</p>
+</div>
+<p>When Starting PrusaSlicer for the first time, a configuration wizard appears:</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard welcome page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard welcome page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-1.png" /></a></p>
+<p>Click <strong>Next</strong> at the bottom to proceed through the wizard.</p>
+<h2 id="printer-selection">Printer selection</h2>
+<p>The first several pages in the configuration wizard lead you through the
+supported printers. By default, a Prusa printer preset is selected. Uncheck the
+checkbox under Original Prusa MK4 Input Shaper, and click <strong>Next</strong> to continue.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard Prusa FFF printers page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard Prusa FFF printers page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-2.png" /></a></p>
+<p>The next page provides options for Prusa SLA (resin) printers. Leave these
+unchecked and click <strong>Next</strong>.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard Prusa SLA printers page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard Prusa SLA printers page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-3.png" /></a></p>
+<p>Then, the configuration wizard provides options for selecting printers from
+other brands. The SV06 Plus is made by Sovol, so scroll down in the vendors list
+and click the <strong>Sovol</strong> checkbox. Then, click <strong>Next</strong>.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard printer vendors selection page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard printer vendors selection page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-4.png" /></a></p>
+<p>Now the configuration wizard provides options for selecting Sovol printers. By
+default, a SV06 preset is selected. Uncheck the <strong>SV06</strong> checkbox, and
+then check the <strong>SV06 Plus 0.4mm nozzle</strong> checkbox. Then, click <strong>Next</strong>.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard Sovol printer presets page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard Sovol printer presets page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-5.png" /></a></p>
+<p>The last printer selection page in the configuration wizard offers to provide a
+custom printer profile. Since there is a built-in preset for the SV06 Plus, a
+custom profile is not needed. Click <strong>Next</strong>.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard custom printer profile page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard custom printer profile page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-6.png" /></a></p>
+<h2 id="filament-profiles">Filament profiles</h2>
+<p>PrusaSlicer has both generic presets for various printing materials as well as
+specific presets for specific filaments. I have had good success using the
+generic profiles. <a href="https://en.wikipedia.org/wiki/Polylactic_acid">PLA</a> and <a href="https://en.wikipedia.org/wiki/PETG">PETG</a> are common filaments, so
+start with the generic filament profiles for each. Uncheck the other preselected
+filaments in the Filament Profiles Selection
+wizard page, and then click <strong>Next</strong>.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard filament profiles selection page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard filament profiles selection page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-7.png" /></a></p>
+<h2 id="automatic-updates">Automatic updates</h2>
+<p>PrusaSlicer will check for application and configuration preset updates by
+default. I recommend leaving these checked. Click <strong>Next</strong> to continue.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard automatic updates page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard automatic updates page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-8.png" /></a></p>
+<h2 id="optional-settings">Optional settings</h2>
+<p>On this page, you can optionally enable PrusaSlicer's browser integration. With
+this enabled, you can click the PrusaSlicer logo next to a model file on
+<a href="https://printables.com">Printables</a> and have it automatically download and open in
+PrusaSlicer. When finished configuring this feature, click <strong>Next</strong>.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard download from URL settings page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard download from URL settings page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-9.png" /></a></p>
+<p>The reload from disk feature makes reloading model files easier while you're
+developing a new model. Enabling this feature includes full file paths in your
+saved project files (which would include your username on your local computer).
+If you plan to share project files on the internet, it's a good idea to leave
+this disabled (unchecked). After making your choice, click <strong>Next</strong>.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard reload from disk settings page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard reload from disk settings page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-10.png" /></a></p>
+<h2 id="view-mode">View mode</h2>
+<p>The view mode page is the last configuration wizard page. I recommend setting
+the view mode to <strong>Expert</strong>, so all of the options will be visible when
+preparing a model to print. Simple, advanced, and expert options will have a
+green, yellow, or red dot next to them when preparing a model in PrusaSlicer.</p>
+<p>Finally, I strongly recommend leaving "Use inches" <strong>unchecked</strong>, so that
+PrusaSlicer will use millimeters. Nearly all model files on the internet use
+millimeters for sizing, so using millimeters in PrusaSlicer makes working with
+3D models easier.</p>
+<p>Click <strong>Finish</strong> at the bottom to complete the wizard!</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer wizard view mode page" data-desc-position="bottom" data-gallery="pswiz"><img alt="PrusaSlicer wizard view mode page" class="psimg" data-gallery="pswiz" src="../../img/prusaslicer-wizard-11.png" /></a></p>
+<p>PrusaSlicer now shows the main view. This is where PrusaSlicer will open each
+time it is run.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="PrusaSlicer initial view" data-desc-position="bottom" data-gallery="psinit"><img alt="PrusaSlicer initial view" class="psimg" data-gallery="psinit" src="../../img/prusaslicer-init-1.png" /></a></p>
 
 
 
@@ -945,7 +1015,7 @@ optional, so select whichever option you prefer.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-21T02:12:07+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-21</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-21T04:45:20+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-21</span>
   </span>
 
     
@@ -984,7 +1054,7 @@ optional, so select whichever option you prefer.</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../printer-calibration/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Printer calibration">
+          <a href="../slicer-installation/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Slicer installation">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -994,20 +1064,20 @@ optional, so select whichever option you prefer.</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Printer calibration
+                Slicer installation
               </div>
             </div>
           </a>
         
         
           
-          <a href="../slicer-configuration/" class="md-footer__link md-footer__link--next" aria-label="Next: Slicer configuration wizard">
+          <a href="../slicer-tuning/" class="md-footer__link md-footer__link--next" aria-label="Next: Slicer tuning">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Slicer configuration wizard
+                Slicer tuning
               </div>
             </div>
             <div class="md-footer__button md-icon">
