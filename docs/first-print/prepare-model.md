@@ -52,11 +52,11 @@ types of presets are:
    nozzle size, or in this case 0.2mm. The default selected print profile,
    **0.2mm SPEED**, is a good choice for most prints.
 
-2. **Filament**: Filament is the material that printer uses to make an object.
-   There are many types of filament. A very common and beginner-friendly type of
-   filament is called polylactic acid, or **PLA**. On first run, PrusaSlicer
-   defaults to PETG, a different type of material. Click the **Filament**
-   drop-down and change the selection to **Generic PLA**.
+2. **Filament**: Filament is the material that a 3D printer uses to make an
+   object. There are many types of filament. A very common and beginner-friendly
+   type of filament is called polylactic acid, or **PLA**. On first run,
+   PrusaSlicer defaults to PETG, a different type of material. Click the
+   **Filament** drop-down and change the selection to **Generic PLA**.
    <br /><br />
    ![PrusaSlicer PLA material selection][prusaslicer-material-selection-pla]{class="psimg" data-gallery="psprint"}
 
