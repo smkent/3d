@@ -24,8 +24,8 @@ a microSD card to your computer so files can be saved on it.
 
 ## Slice model
 
-As explained before on [Slicer setup][slicer-setup], a 3D model is a
-representation of a 3-dimensional object. A 3D model needs to be "sliced," or
+As explained before on [Slicer installation][slicer-installation], a 3D model is
+a representation of a 3-dimensional object. A 3D model needs to be "sliced," or
 converted, into a set of instructions for the printer to follow called
 [G-code][wiki-g-code].
 
@@ -62,7 +62,7 @@ types of presets are:
 
 3. **Printer**: The printer to make G-code for. PrusaSlicer will default to the
    custom **Sovol SV06 Plus** profile created after following the previous
-   [Slicer setup][slicer-setup] guide.
+   [Slicer tuning][slicer-tuning] guide.
 
 ### Load model
 
@@ -143,6 +143,7 @@ card should face inward (toward the print bed).
 [prusaslicer-skirt]: https://help.prusa3d.com/article/skirt-and-brim_133969
 [prusaslicer-slice-now]: ../img/prusaslicer-slice-now.gif
 [prusaslicer-toolbar-add]: ../img/prusaslicer-toolbar-add.png
-[slicer-setup]: slicer-setup.md
+[slicer-installation]: slicer-installation.md
+[slicer-tuning]: slicer-tuning.md
 [thingiverse-calicat-download]: ../img/thingiverse-calicat-download.png
 [wiki-g-code]: https://en.wikipedia.org/wiki/G-code
