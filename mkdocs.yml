@@ -2,13 +2,17 @@ site_name: 3D Printing & Sovol SV06 Plus
 site_url: https://3d.smkent.net
 repo_name: smkent/3d
 repo_url: https://github.com/smkent/3d
+edit_uri: "edit/main/docs/"
 
 theme:
   name: material
+  custom_dir: overrides
   icon:
     logo: material/printer-3d-nozzle
   favicon: img/favicon.ico
   features:
+    - content.action.edit
+    - content.action.view
     - navigation.footer
     - navigation.indexes
     - navigation.sections
