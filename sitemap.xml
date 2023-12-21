@@ -75,4 +75,14 @@
          <lastmod>2023-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://3d.smkent.net/upgrades/</loc>
+         <lastmod>2023-12-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://3d.smkent.net/upgrades/printable/</loc>
+         <lastmod>2023-12-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
