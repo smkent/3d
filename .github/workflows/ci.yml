@@ -43,7 +43,7 @@ jobs:
         run: poetry run poe lint
 
       - name: 🏗️ Build site
-        run: poetry run mkdocs build
+        run: poetry run mkdocs build --strict
 
       - name: 🚀 Deploy site
         run: poetry run mkdocs gh-deploy
