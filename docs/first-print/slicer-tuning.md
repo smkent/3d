@@ -34,10 +34,10 @@ Each printer has its own internal firmware which interprets the G-code created
 by a slicer. The G-code types can vary from one printer to another. The SV06
 Plus uses a firmware called [Marlin][marlin].
 
-PrusaSlicer configures the SV06 Plus to create older-style Marlin G-code by
-default. The SV06 Plus ships with Marlin version 2.0.9.2 and can support a
-newer G-code profile in PrusaSlicer. I recommend changing the G-code flavor
-from "Marlin (legacy)" to "Marlin 2."
+PrusaSlicer creates older-style Marlin G-code for the SV06 Plus by default. The
+SV06 Plus ships with Marlin version 2.0.9.2 and can support a newer G-code
+profile in PrusaSlicer. I recommend changing the G-code flavor from "Marlin
+(legacy)" to "Marlin 2."
 
 Steps:
 
