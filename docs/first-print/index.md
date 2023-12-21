@@ -1,4 +1,4 @@
-# Getting Started
+# First Print Guide
 
 I've found 3D printing to be a fun, useful, and educational hobby! 3D printing
 provides learning opportunities around materials, software, electronics, math,
@@ -20,7 +20,7 @@ I've even started learning 3D modeling and
 I've really enjoyed modeling a thing, and then printing and seeing it in real
 form.
 
-This **Getting Started** guide will walk you through setting up the Sovol SV06
+This **First Print Guide** guide will walk you through setting up the Sovol SV06
 Plus 3D printer and printing your first model!
 
 ## About the Sovol SV06 Plus
