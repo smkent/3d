@@ -1,4 +1,4 @@
-# 3D printing guide and reference for the Sovol SV06 Plus
+# 3D printing with the Sovol SV06 Plus
 
 Several months after getting my 3D printer, I'm introducing others to the world
 of 3D printing! This site serves as a guide and reference for 3D printing with
