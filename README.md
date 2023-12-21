@@ -1,7 +1,9 @@
-# 3d
+# 3D printing guide and reference for the Sovol SV06 Plus
 
 [![Build](https://img.shields.io/github/checks-status/smkent/3d/main?label=build)][gh-actions]
 [![GitHub stars](https://img.shields.io/github/stars/smkent/3d?style=social)][repo]
+
+**View the site here: [3d.smkent.net][site]**
 
 ## Development
 
@@ -47,3 +49,4 @@ Created from [smkent/cookie-python][cookie-python] using
 [pipx]: https://pypa.github.io/pipx/
 [poetry]: https://python-poetry.org/docs/#installation
 [repo]: https://github.com/smkent/3d
+[site]: https://3d.smkent.net

@@ -8,8 +8,8 @@ theme:
   name: material
   custom_dir: overrides
   icon:
-    logo: material/printer-3d-nozzle
-  favicon: img/favicon.ico
+    logo: logo
+  favicon: img/favicon.png
   features:
     - content.action.edit
     - content.action.view
@@ -68,7 +68,7 @@ extra_css:
 extra:
   social:
     - name: bulbasaur0 on Printables
-      link: https://www.printables.com/@bulbasaur0_1139994
+      link: https://www.printables.com/@bulbasaur0
       icon: simple/printables
     - name: bulbasaur0 on Thingiverse
       link: https://www.thingiverse.com/bulbasaur0/makes
