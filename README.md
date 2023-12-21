@@ -1,4 +1,4 @@
-# 3D printing guide and reference for the Sovol SV06 Plus
+# 3D printing with the Sovol SV06 Plus
 
 [![Build](https://img.shields.io/github/checks-status/smkent/3d/main?label=build)][gh-actions]
 [![GitHub stars](https://img.shields.io/github/stars/smkent/3d?style=social)][repo]
