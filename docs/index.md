@@ -16,6 +16,11 @@ This beginner-friendly guide will walk you through setting up the Sovol SV06
 Plus 3D printer and printing your first model. If you're new to 3D printing,
 start here!
 
+<span class="topic">[**Printing Reference**](reference/index.md)</span>
+
+After you've made your first print, find more topics in this reference to expand
+your 3D printing skills.
+
 
 [github-pages]: https://pages.github.com/
 [repo-url]: https://github.com/smkent/3d
