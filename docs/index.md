@@ -10,7 +10,7 @@ welcome!
 
 # Topics
 
-[The beginner-friendly **Getting Started** guide](getting-started/index.md)
+[The beginner-friendly **First Print Guide** guide](first-print/index.md)
 will walk you through setting up the Sovol SV06 Plus 3D printer and printing
 your first model. If you're new to 3D printing, start here!
 

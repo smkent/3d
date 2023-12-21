@@ -41,18 +41,18 @@ theme:
 
 nav:
   - Home: index.md
-  - Getting Started:
-    - getting-started/index.md
-    - Background and safety: getting-started/background-and-safety.md
-    - Printer assembly: getting-started/printer-assembly.md
-    - Printer calibration: getting-started/printer-calibration.md
-    - Slicer installation: getting-started/slicer-installation.md
-    - Slicer configuration wizard: getting-started/slicer-configuration.md
-    - Slicer tuning: getting-started/slicer-tuning.md
-    - Preparing a model: getting-started/prepare-model.md
-    - Loading filament: getting-started/load-filament.md
-    - Making your first print!: getting-started/print.md
-    - Sharing your make: getting-started/publish-make.md
+  - First Print Guide:
+    - first-print/index.md
+    - Background and safety: first-print/background-and-safety.md
+    - Printer assembly: first-print/printer-assembly.md
+    - Printer calibration: first-print/printer-calibration.md
+    - Slicer installation: first-print/slicer-installation.md
+    - Slicer configuration wizard: first-print/slicer-configuration.md
+    - Slicer tuning: first-print/slicer-tuning.md
+    - Preparing a model: first-print/prepare-model.md
+    - Loading filament: first-print/load-filament.md
+    - Making your first print!: first-print/print.md
+    - Sharing your make: first-print/publish-make.md
 
 markdown_extensions:
   - admonition
