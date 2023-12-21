@@ -8,7 +8,7 @@ Commons][creative-commons] licenses.
 
 * :simple-printables: [**Printables**][printables] by Prusa.
   [This is where I publish models I've made or remixed][printables-profile].
-* :simple-thingiverse: [**Thingiverse**][thingiverse] by Ultimaker. Thingiverse
+* :simple-thingiverse: [**Thingiverse**][thingiverse] by UltiMaker. Thingiverse
   has been around longer than many other sites and has a wide selection of
   models.
 * :simple-thangs: [**Thangs**][thangs], with models both on their own site and
