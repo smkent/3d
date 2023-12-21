@@ -15,8 +15,8 @@ Turn on the printer.
 
 Loading filament is best done some space between the nozzle and print bed. If
 the extruder is all the way at the bottom, the extruder should be raised using
-the LCD controls. On the movement menu on the LCD, tap the **+Z** a few times to
-raise the extruder.
+the LCD controls. On the movement menu on the LCD, tap the **+Z** button a few
+times to raise the extruder.
 
 ![Raising the Z height on the LCD][lcd-raise-z]{ .off-glb }
 
