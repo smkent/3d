@@ -2,7 +2,7 @@
 glightbox: false
 ---
 
-# Sovol SV06 Plus first-time calibration
+# Printer first-time calibration
 
 Being 3-dimensional, a 3D printer has 3 axes: X (left to right), Y (front to
 back), and Z (top to bottom).

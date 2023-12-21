@@ -2,7 +2,7 @@
 glightbox: false
 ---
 
-# Assembling the Sovol SV06 Plus
+# Printer assembly
 
 The SV06 Plus comes mostly pre-assembled except for the various body parts.
 Pages 3-12 of the [user manual][sovol-sv06-plus-user-manual] describe how to

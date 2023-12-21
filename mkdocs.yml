@@ -49,10 +49,10 @@ nav:
     - Slicer installation: getting-started/slicer-installation.md
     - Slicer configuration wizard: getting-started/slicer-configuration.md
     - Slicer tuning: getting-started/slicer-tuning.md
-    - Prepare model: getting-started/prepare-model.md
-    - Load filament: getting-started/load-filament.md
-    - Print!: getting-started/print.md
-    - Share your make: getting-started/publish-make.md
+    - Preparing a model: getting-started/prepare-model.md
+    - Loading filament: getting-started/load-filament.md
+    - Making your first print!: getting-started/print.md
+    - Sharing your make: getting-started/publish-make.md
 
 markdown_extensions:
   - admonition

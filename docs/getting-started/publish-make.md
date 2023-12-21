@@ -1,4 +1,4 @@
-# Share your created 3D print
+# Sharing your make
 
 This step is optional but highly recommended!
 
