@@ -21,6 +21,10 @@ start here!
 After you've made your first print, find more topics in this reference to expand
 your 3D printing skills.
 
+<span class="topic">[**External Resources**](external-resources/index.md)</span>
+
+A collection of web sites and communities with useful information.
+
 
 [github-pages]: https://pages.github.com/
 [repo-url]: https://github.com/smkent/3d

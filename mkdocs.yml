@@ -56,6 +56,8 @@ nav:
   - Printing Reference:
     - reference/index.md
     - reference/finding-models.md
+  - External Resources:
+    - external-resources/index.md
 
 markdown_extensions:
   - admonition
