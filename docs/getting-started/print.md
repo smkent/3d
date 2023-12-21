@@ -1,4 +1,4 @@
-# Make your first print!
+# Making your first print!
 
 ## Start the print
 

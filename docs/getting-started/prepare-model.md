@@ -1,4 +1,4 @@
-# Prepare a model to print
+# Preparing a model to print
 
 ## Choose a model
 

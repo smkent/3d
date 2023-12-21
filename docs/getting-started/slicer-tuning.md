@@ -1,4 +1,4 @@
-# Tuning PrusaSlicer for the Sovol SV06 Plus
+# PrusaSlicer tuning for the Sovol SV06 Plus
 
 PrusaSlicer's default settings for the SV06 Plus are pretty good, but there are
 a few tweaks I recommend making.

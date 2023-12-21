@@ -1,4 +1,4 @@
-# PrusaSlicer installation
+# Slicer installation
 
 ## What is a slicer?
 

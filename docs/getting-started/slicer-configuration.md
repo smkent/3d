@@ -1,4 +1,4 @@
-# PrusaSlicer first-time configuration
+# PrusaSlicer first-time configuration wizard
 
 !!! tip
 
