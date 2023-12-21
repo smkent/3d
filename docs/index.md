@@ -8,12 +8,13 @@ printer I have, the [Sovol SV06 Plus][sovol-sv06-plus].
 [GitHub Pages][github-pages]. Feedback, suggestions, and pull requests are
 welcome!
 
-# Topics
+----
 
-[The beginner-friendly **First Print Guide** guide](first-print/index.md)
-will walk you through setting up the Sovol SV06 Plus 3D printer and printing
-your first model. If you're new to 3D printing, start here!
+<span class="topic">[**First Print Guide**](first-print/index.md)</span>
 
+This beginner-friendly guide will walk you through setting up the Sovol SV06
+Plus 3D printer and printing your first model. If you're new to 3D printing,
+start here!
 
 
 [github-pages]: https://pages.github.com/

@@ -13,6 +13,10 @@
   --md-default-bg-color: #f6f6f6;
 }
 
+.topic {
+    font-size: 200%;
+}
+
 .thumb {
     width: 500px;
 }
