@@ -3,7 +3,7 @@
 [![Build](https://img.shields.io/github/checks-status/smkent/3d/main?label=build)][gh-actions]
 [![GitHub stars](https://img.shields.io/github/stars/smkent/3d?style=social)][repo]
 
-![Site logo][logo]
+[![Site logo][logo]][site]
 
 **View the site here: [3d.smkent.net][site]**
 
