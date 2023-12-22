@@ -91,6 +91,8 @@ On the LCD's main menu, tap the nozzle temperature display to open the
 temperature controls. Select the nozzle temperature and enter **210°C**. The
 nozzle will begin to heat. Tap **&lt;** to return to the main menu.
 
+![Setting the nozzle temperature on the LCD][lcd-set-nozzle-temperature]
+
 #### Unlock extruder motor
 
 The printer's stepper motors, including the extruder's motor, normally hold
@@ -153,6 +155,7 @@ Tap the **&lt;** button on the LCD to return to the main menu.
 [lcd-refuel-hot-feed]: ../img/lcd-refuel-hot-feed.jpg
 [lcd-refuel-select]: ../img/lcd-refuel-select.webp
 [lcd-set-z-50]: ../img/lcd-set-z-50.webp
+[lcd-set-nozzle-temperature]: ../img/lcd-set-nozzle-temperature.webp
 [lcd-unlock-motors]: ../img/lcd-unlock-motors.webp
 [photo-cut-filament]: ../img/photo-cut-filament.jpg
 [photo-filament-load-extrusion]: ../img/photo-filament-load-extrusion.jpg
