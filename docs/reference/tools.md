@@ -4,7 +4,7 @@ These are additional tools that are helpful for 3D printing.
 
 ## Nipper storage
 
-A simple holder to safely your 3D printer nippers.
+A simple holder to safely store your 3D printer nippers.
 
 * [:simple-printables:{ .printables } Nipper Cutter Holder (remix)][nipper-holder-remix] by me,
   a remixed version of
