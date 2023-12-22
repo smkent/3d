@@ -42,10 +42,12 @@
 
 ## Further reading
 
+* [3D Printing Troubleshooting: All Problems & Solutions][all3dp-troubleshooting] by All3DP
 * [Print Quality Troubleshooting Guide][simplify3d-print-quality-troubleshooting-guide] by Simplify3D
 * [Please Don't Take Apart Your Sovol SV06 To Grease The Bearings!][patshead-bearings] by Pat's Blog
 
 
+[all3dp-troubleshooting]: https://all3dp.com/1/common-3d-printing-problems-troubleshooting-3d-printer-issues/
 [bassamantor-everything-sovol-sv06]: https://github.com/bassamanator/everything-sovol-sv06
 [blakadder-sv06-kb]: https://sv06.blakadder.com/
 [patshead-bearings]: https://blog.patshead.com/2023/05/please-dont-take-apart-your-sovol-sv06-to-grease-the-bearings.html
