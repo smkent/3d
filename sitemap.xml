@@ -76,6 +76,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://3d.smkent.net/reference/tools/</loc>
+         <lastmod>2023-12-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://3d.smkent.net/upgrades/</loc>
          <lastmod>2023-12-22</lastmod>
          <changefreq>daily</changefreq>
