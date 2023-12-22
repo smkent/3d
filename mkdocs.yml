@@ -9,6 +9,8 @@ theme:
   custom_dir: overrides
   icon:
     logo: logo
+    admonition:
+      hardware: material/bolt
   favicon: img/favicon.png
   features:
     - content.action.edit
