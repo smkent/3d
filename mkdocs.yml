@@ -59,6 +59,7 @@ nav:
     - reference/index.md
     - reference/finding-models.md
     - reference/tools.md
+    - reference/troubleshooting.md
   - Add-ons & Upgrades:
     - upgrades/index.md
     - upgrades/printable.md
