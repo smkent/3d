@@ -6,6 +6,10 @@ The heat bed cable on the Sovol SV06 Plus normally hangs behind the printer
 frame. This two-piece model adds support to the heat bed cable to reduce strain
 and help it fit into a smaller space.
 
+!!! hardware "Hardware"
+
+    3 small zip ties are needed for this model.
+
 [:simple-printables:{ .printables } Sovol SV06 Plus Heat Bed Cable Support Bundle for tight spaces][heat-bed-cable-support] by me
 
 ![Sovol SV06 Plus Heat Bed Cable Support Bundle for tight spaces][photo-heat-bed-cable-support]{ .thumb-small }
@@ -42,6 +46,10 @@ inlet. This reduces the amount of wasted filament at the end of a spool. With
 some minor wiring adjustment, the sensor can also be connected right to the side
 port on the extruder so the separate wiring harness to the mainboard box is not
 needed.
+
+!!! hardware "Hardware"
+
+    2 M3x10 screws are needed for this model.
 
 [:simple-printables:{ .printables } Filament runout sensor extruder mount for Sovol SV06 Plus][runout-sensor-mount] by me
 

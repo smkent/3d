@@ -21,3 +21,23 @@
 
 .printables { color: #ec703e; }
 .youtube { color: #ee0f0f; }
+
+* {
+    --hardware-color: #947bd6;
+    --hardware-color--summary: #947bd619;
+}
+
+.md-typeset .admonition.hardware,
+.md-typeset details.hardware {
+  border-color: var(--hardware-color);
+}
+.md-typeset .hardware > .admonition-title,
+.md-typeset .hardware > summary {
+  background-color: var(--hardware-color--summary);
+}
+.md-typeset .hardware > .admonition-title::before,
+.md-typeset .hardware > summary::before {
+  background-color: var(--hardware-color);
+  -webkit-mask-image: var(--md-admonition-icon--hardware);
+          mask-image: var(--md-admonition-icon--hardware);
+}
