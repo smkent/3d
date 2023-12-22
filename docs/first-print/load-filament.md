@@ -7,11 +7,13 @@ material to print with and a small spool of PLA filament is included with the
 SV06 Plus.
 
 Place the roll of filament you'd like to print with onto the printer's spool
-holder. Make a clean snip at the end of the filament, at a ~45° angle.
+holder. Make a clean cut near the end of the filament, at a ~45° angle.
 
-Turn on the printer.
+![Cutting the filament at an angle][photo-cut-filament]{ .thumb }
 
 ## Position extruder
+
+Turn on the printer.
 
 Loading filament is best done some space between the nozzle and print bed. If
 the extruder is all the way at the bottom, the extruder should be raised using
@@ -32,8 +34,8 @@ On the LCD's main menu, tap the gear icon in the bottom row, and then tap
 
 ![Refuel option selection on the LCD][lcd-refuel-select]{ .off-glb }
 
-This menu allows you to turn the extruder backwards or forwards to
-remove or add filament.
+On this menu, you can tell the extruder to turn backwards or forwards to remove
+or add filament.
 
 Tap the **Feed** button. Since the nozzle heater is off, the printer will prompt
 you to preheat the nozzle to **200°C**. Tap **Yes**, and wait for the nozzle to
@@ -46,6 +48,8 @@ heat up.
 Guide this end of the filament through the filament runout sensor, and then down
 into the extruder's filament input on the top until you feel the filament stop
 moving.
+
+![Inserting filament into the extruder inlet][clip-insert-filament]{ .thumb }
 
 I find **80mm** is a good distance value to use for loading filament, but you
 can always extrude more (or less) if this value doesn't fully load or unload
@@ -87,6 +91,7 @@ Tap the **&lt;** button on the LCD to return to the main menu.
     nozzle heater from the main menu using the temperature controls.
 
 
+[clip-insert-filament]: ../img/clip-insert-filament.webp
 [clip-remove-extra-filament]: ../img/clip-remove-extra-filament.webp
 [lcd-feed-distance]: ../img/lcd-feed-distance.webp
 [lcd-feed-heat]: ../img/lcd-feed-heat.webp
@@ -95,5 +100,6 @@ Tap the **&lt;** button on the LCD to return to the main menu.
 [lcd-refuel-hot-feed]: ../img/lcd-refuel-hot-feed.jpg
 [lcd-refuel-select]: ../img/lcd-refuel-select.webp
 [lcd-set-z-50]: ../img/lcd-set-z-50.webp
+[photo-cut-filament]: ../img/photo-cut-filament.jpg
 [photo-filament-load-extrusion]: ../img/photo-filament-load-extrusion.jpg
 [wiki-pla]: https://en.wikipedia.org/wiki/Polylactic_acid
