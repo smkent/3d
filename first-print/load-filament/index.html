@@ -764,6 +764,26 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#filament-loading-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Filament loading methods
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Filament loading methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#loading-with-lcd-controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Loading with LCD controls
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Loading with LCD controls">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#heat-the-nozzle" class="md-nav__link">
     <span class="md-ellipsis">
       Heat the nozzle
@@ -771,13 +791,74 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#insert-filament" class="md-nav__link">
     <span class="md-ellipsis">
       Insert filament
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loading-filament-manually" class="md-nav__link">
+    <span class="md-ellipsis">
+      Loading filament manually
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Loading filament manually">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#heat-the-nozzle_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Heat the nozzle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unlock-extruder-motor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unlock extruder motor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#insert-filament_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Insert filament
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#turn-extruder-wheel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn extruder wheel
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1200,7 +1281,13 @@ times to raise the extruder.</p>
 <p>Alternatively, a specific <strong>Z</strong> value can be entered manually. The extruder will
 then move to the selected height.</p>
 <p><img alt="Setting Z to 50mm on the LCD" class="off-glb" src="../../img/lcd-set-z-50.webp" /></p>
-<h2 id="heat-the-nozzle">Heat the nozzle</h2>
+<h2 id="filament-loading-methods">Filament loading methods</h2>
+<p>There are two ways turn the extruder to load filament.
+<a href="#loading-filament-manually">The extruder can be turned by hand</a>
+after unlocking the motor, or
+<a href="#loading-with-lcd-controls">turned a specific amount using the LCD menu</a>.</p>
+<h3 id="loading-with-lcd-controls">Loading with LCD controls</h3>
+<h4 id="heat-the-nozzle">Heat the nozzle</h4>
 <p>On the LCD's main menu, tap the gear icon in the bottom row, and then tap
 <strong>Refuel</strong>.</p>
 <p><img alt="Refuel option selection on the LCD" class="off-glb" src="../../img/lcd-refuel-select.webp" /></p>
@@ -1210,7 +1297,7 @@ or add filament.</p>
 you to preheat the nozzle to <strong>200°C</strong>. Tap <strong>Yes</strong>, and wait for the nozzle to
 heat up.</p>
 <p><img alt="Selecting filament feed and heat up prompt on the LCD" class="off-glb" src="../../img/lcd-feed-heat.webp" /></p>
-<h2 id="insert-filament">Insert filament</h2>
+<h4 id="insert-filament">Insert filament</h4>
 <p>Guide this end of the filament through the filament runout sensor, and then down
 into the extruder's filament input on the top until you feel the filament stop
 moving.</p>
@@ -1229,6 +1316,32 @@ heated nozzle on the bottom of the extruder.</p>
 <p>If the extruder stops turning before filament comes out of the nozzle, then the
 extruder needs to turn forwards more to push the filament through the nozzle. In
 this case, tap <strong>Feed</strong> again to repeat the process.</p>
+<p>Continue reading at <a href="#remove-excess">Remove excess</a>.</p>
+<h3 id="loading-filament-manually">Loading filament manually</h3>
+<h4 id="heat-the-nozzle_1">Heat the nozzle</h4>
+<p>On the LCD's main menu, tap the nozzle temperature display to open the
+temperature controls. Select the nozzle temperature and enter <strong>210°C</strong>. The
+nozzle will begin to heat. Tap <strong>&lt;</strong> to return to the main menu.</p>
+<h4 id="unlock-extruder-motor">Unlock extruder motor</h4>
+<p>The printer's stepper motors, including the extruder's motor, normally hold
+their position so the printer's firmware stays in sync with its actual position
+on each axis.</p>
+<p>To load filament manually, the motors must be disengaged, or <strong>unlocked</strong>.</p>
+<p>Tap the movement icon on the bottom left corner of the LCD. On this menu, tap
+the extruder <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 15H6l7-14v8h5l-7 14v-8Z"/></svg></span> icon to unlock the motors.</p>
+<p><img alt="Unlocking the motors on the LCD" class="off-glb" src="../../img/lcd-unlock-motors.webp" /></p>
+<h4 id="insert-filament_1">Insert filament</h4>
+<p>Guide this end of the filament through the filament runout sensor, and then down
+into the extruder's filament input on the top until you feel the filament stop
+moving.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Inserting filament into the extruder inlet" data-desc-position="bottom"><img alt="Inserting filament into the extruder inlet" class="thumb" src="../../img/clip-insert-filament.webp" /></a></p>
+<h4 id="turn-extruder-wheel">Turn extruder wheel</h4>
+<p>Turn the extruder wheel clockwise with your finger. The extruder will begin to
+draw in the filament.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Turning the extruder wheel manually" data-desc-position="bottom"><img alt="Turning the extruder wheel manually" class="thumb" src="../../img/clip-turn-extruder.webp" /></a></p>
+<p>After a few moments, filament should start coming out of the
+heated nozzle on the bottom of the extruder.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Photo of filament coming out of the nozzle" data-desc-position="bottom"><img alt="Photo of filament coming out of the nozzle" class="thumb" src="../../img/photo-filament-load-extrusion.jpg" /></a></p>
 <h2 id="remove-excess">Remove excess</h2>
 <p>After filament comes out of the nozzle and the extruder stops turning, filament
 is loaded and ready to print! Being <em>very careful</em> not to touch the hot nozzle,
@@ -1264,7 +1377,7 @@ nozzle heater from the main menu using the temperature controls.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-22T06:13:17+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-22</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-22T06:29:02+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-22</span>
   </span>
 
     
