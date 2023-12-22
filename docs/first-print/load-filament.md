@@ -104,6 +104,12 @@ To load filament manually, the motors must be disengaged, or **unlocked**.
 Tap the movement icon on the bottom left corner of the LCD. On this menu, tap
 the extruder :material-lightning-bolt: icon to unlock the motors.
 
+!!! warning
+
+    After the motors are unlocked, the printer's position state can get out of
+    sync. Use the Home (:material-home:) button to reset the printer before
+    using any of the other movement controls on the LCD.
+
 ![Unlocking the motors on the LCD][lcd-unlock-motors]{ .off-glb }
 
 #### Insert filament
