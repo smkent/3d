@@ -13,14 +13,17 @@
         always the cheapest. Some parts on the SV06 Plus can also be substituted
         with generic replacements.
 
+* :simple-github: [Sovol SV06 Plus open source model files and firmware source code][sovol-sv06-plus-repo]
+
 ## Communities
 
-* [Sovol forum for the SV06 Plus][sovol-sv06-plus-forum]
-* [/r/Sovol on Reddit][reddit-sovol] for Sovol printer help and discussion
-* [/r/3DPrinting on Reddit][reddit-3dprinting] for general 3D printing
+* :simple-sovol: [Sovol forum for the SV06 Plus][sovol-sv06-plus-forum]
+* :simple-reddit: [/r/Sovol on Reddit][reddit-sovol] for Sovol printer help and
   discussion
-* [/r/FixMyPrint on Reddit][reddit-fixmyprint] for general 3D printer help and
-  troubleshooting
+* :simple-reddit: [/r/3DPrinting on Reddit][reddit-3dprinting] for general 3D
+  printing discussion
+* :simple-reddit: [/r/FixMyPrint on Reddit][reddit-fixmyprint] for general 3D
+  printer help and troubleshooting
 
 ## Knowledge bases
 
@@ -45,6 +48,7 @@
 
 [bassamantor-everything-sovol-sv06]: https://github.com/bassamanator/everything-sovol-sv06
 [blakadder-sv06-kb]: https://sv06.blakadder.com/
+[patshead-bearings]: https://blog.patshead.com/2023/05/please-dont-take-apart-your-sovol-sv06-to-grease-the-bearings.html
 [reddit-3dprinting]: https://old.reddit.com/r/3DPrinting/
 [reddit-fixmyprint]: https://old.reddit.com/r/FixMyPrint/
 [reddit-sovol]: https://old.reddit.com/r/Sovol/
@@ -52,7 +56,7 @@
 [sovol-downloads]: https://www.sovol3d.com/pages/download
 [sovol-sv06-plus-forum]: https://forum.sovol3d.com/c/sovl-sv06-plus/52
 [sovol-sv06-plus-parts]: https://www.sovol3d.com/collections/fdm-parts/For-Sovol-SV06-Plus
+[sovol-sv06-plus-repo]: https://github.com/sovol3d/sv06-PLUS/
 [sovol-sv06-plus]: https://www.sovol3d.com/products/sovol-sv06-plus-fully-open-source-3d-printer-with-linear-rail-structure
 [sovol]: https://sovol3d.com
 [teaching-tech]: https://teachingtechyt.github.io/
-[patshead-bearings]: https://blog.patshead.com/2023/05/please-dont-take-apart-your-sovol-sv06-to-grease-the-bearings.html
