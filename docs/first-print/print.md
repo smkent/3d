@@ -84,8 +84,9 @@ Tap **Finish print** on the LCD to return to the main menu.
 ## Remove the finished print
 
 When the printer finishes, I recommend waiting for the print bed to cool down 10
-to 20 degrees Celsius. This helps prevent the finished print from deforming from
-the bed heat when it is removed from the build plate.
+to 20 degrees Celsius (from 60°C to 40-50°C, for example). This helps prevent
+the finished print from deforming from the bed heat when it is removed from the
+build plate.
 
 The purge line can be removed with the printer's included scraper.
 
