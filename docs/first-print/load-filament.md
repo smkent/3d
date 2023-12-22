@@ -27,7 +27,16 @@ then move to the selected height.
 
 ![Setting Z to 50mm on the LCD][lcd-set-z-50]{ .off-glb }
 
-## Heat the nozzle
+## Filament loading methods
+
+There are two ways turn the extruder to load filament.
+[The extruder can be turned by hand](#loading-filament-manually)
+after unlocking the motor, or
+[turned a specific amount using the LCD menu](#loading-with-lcd-controls).
+
+### Loading with LCD controls
+
+#### Heat the nozzle
 
 On the LCD's main menu, tap the gear icon in the bottom row, and then tap
 **Refuel**.
@@ -43,7 +52,7 @@ heat up.
 
 ![Selecting filament feed and heat up prompt on the LCD][lcd-feed-heat]{ .off-glb }
 
-## Insert filament
+#### Insert filament
 
 Guide this end of the filament through the filament runout sensor, and then down
 into the extruder's filament input on the top until you feel the filament stop
@@ -72,6 +81,49 @@ If the extruder stops turning before filament comes out of the nozzle, then the
 extruder needs to turn forwards more to push the filament through the nozzle. In
 this case, tap **Feed** again to repeat the process.
 
+Continue reading at [Remove excess](#remove-excess).
+
+### Loading filament manually
+
+#### Heat the nozzle
+
+On the LCD's main menu, tap the nozzle temperature display to open the
+temperature controls. Select the nozzle temperature and enter **210°C**. The
+nozzle will begin to heat. Tap **&lt;** to return to the main menu.
+
+#### Unlock extruder motor
+
+The printer's stepper motors, including the extruder's motor, normally hold
+their position so the printer's firmware stays in sync with its actual position
+on each axis.
+
+To load filament manually, the motors must be disengaged, or **unlocked**.
+
+Tap the movement icon on the bottom left corner of the LCD. On this menu, tap
+the extruder :material-lightning-bolt: icon to unlock the motors.
+
+![Unlocking the motors on the LCD][lcd-unlock-motors]{ .off-glb }
+
+#### Insert filament
+
+Guide this end of the filament through the filament runout sensor, and then down
+into the extruder's filament input on the top until you feel the filament stop
+moving.
+
+![Inserting filament into the extruder inlet][clip-insert-filament]{ .thumb }
+
+#### Turn extruder wheel
+
+Turn the extruder wheel clockwise with your finger. The extruder will begin to
+draw in the filament.
+
+![Turning the extruder wheel manually][clip-turn-extruder]{ .thumb }
+
+After a few moments, filament should start coming out of the
+heated nozzle on the bottom of the extruder.
+
+![Photo of filament coming out of the nozzle][photo-filament-load-extrusion]{ .thumb }
+
 ## Remove excess
 
 After filament comes out of the nozzle and the extruder stops turning, filament
@@ -93,6 +145,7 @@ Tap the **&lt;** button on the LCD to return to the main menu.
 
 [clip-insert-filament]: ../img/clip-insert-filament.webp
 [clip-remove-extra-filament]: ../img/clip-remove-extra-filament.webp
+[clip-turn-extruder]: ../img/clip-turn-extruder.webp
 [lcd-feed-distance]: ../img/lcd-feed-distance.webp
 [lcd-feed-heat]: ../img/lcd-feed-heat.webp
 [lcd-raise-z]: ../img/lcd-raise-z.webp
@@ -100,6 +153,7 @@ Tap the **&lt;** button on the LCD to return to the main menu.
 [lcd-refuel-hot-feed]: ../img/lcd-refuel-hot-feed.jpg
 [lcd-refuel-select]: ../img/lcd-refuel-select.webp
 [lcd-set-z-50]: ../img/lcd-set-z-50.webp
+[lcd-unlock-motors]: ../img/lcd-unlock-motors.webp
 [photo-cut-filament]: ../img/photo-cut-filament.jpg
 [photo-filament-load-extrusion]: ../img/photo-filament-load-extrusion.jpg
 [wiki-pla]: https://en.wikipedia.org/wiki/Polylactic_acid
