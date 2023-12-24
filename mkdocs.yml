@@ -58,6 +58,7 @@ nav:
   - Printing Reference:
     - reference/index.md
     - reference/finding-models.md
+    - reference/nozzle.md
     - reference/tools.md
     - reference/troubleshooting.md
   - Add-ons & Upgrades:

@@ -37,7 +37,7 @@ I selected the [Sovol SV06 Plus][sovol-sv06-plus] for a handful of reasons:
   repairability to software compatibility and community support.
 * It's more affordably priced than alternatives with its feature set
 
-## Additional Resources
+## Additional resources
 
 In addition to this guide, there are many other resources that can help
 introduce you to 3D printing and teach you about your printer. Here is a sample:
