@@ -793,6 +793,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#remove-filament" class="md-nav__link">
+    <span class="md-ellipsis">
+      Remove filament
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#insert-filament" class="md-nav__link">
     <span class="md-ellipsis">
       Insert filament
@@ -835,6 +844,24 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#turn-extruder-wheel-backward" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn extruder wheel backward
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-filament_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Remove filament
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#insert-filament_1" class="md-nav__link">
     <span class="md-ellipsis">
       Insert filament
@@ -844,9 +871,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#turn-extruder-wheel" class="md-nav__link">
+  <a href="#turn-extruder-wheel-forward" class="md-nav__link">
     <span class="md-ellipsis">
-      Turn extruder wheel
+      Turn extruder wheel forward
     </span>
   </a>
   
@@ -1320,18 +1347,47 @@ or add filament.</p>
 you to preheat the nozzle to <strong>200°C</strong>. Tap <strong>Yes</strong>, and wait for the nozzle to
 heat up.</p>
 <p><img alt="Selecting filament feed and heat up prompt on the LCD" class="off-glb" src="../../img/lcd-feed-heat.webp" /></p>
+<div class="admonition question">
+<p class="admonition-title">Next step</p>
+<p>If no filament is already loaded, continue reading at
+<a href="#insert-filament">Insert filament</a>.</p>
+</div>
+<h4 id="remove-filament">Remove filament</h4>
+<p>I find <strong>80mm</strong> is a good distance value to use for loading and unloading
+filament, but you can always extrude more (or less) if this value doesn't fully
+load or unload filament. The default distance value is 10mm which is very short.
+Enter a longer distance value.</p>
+<p><img alt="Filament load distance value entry on the LCD" class="off-glb" src="../../img/lcd-feed-distance.webp" /></p>
+<p>Tap the <strong>Retreat</strong> button. The extruder motor will turn counterclockwise and
+start to raise the filament from the extruder.</p>
+<p><img alt="Retreat button on the refuel menu on the LCD" class="off-glb" src="../../img/lcd-refuel-hot-retreat.jpg" /></p>
+<p>Gently try to lift the filament from the extruder, but don't pull hard enough
+for the filament to break apart (this can cause a clog). If the filament does
+not lift out of the extruder when the extruder stops turning, then the extruder
+needs to turn backwards more to release the filament. In this case, tap
+<strong>Retreat</strong> again to repeat the process.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the filament lifts a little but still feels stuck in the extruder,
+tap <strong>Retreat</strong> again to continue turning the extruder backwards. Sometimes
+filament releases in segments, so be careful not to pull them apart and
+leave some filament in the extruder.</p>
+</div>
+<p>Once the filament is removed from the extruder, snip off the end so it is ready
+for next time. Then, clip or secure the filament spool so it won't unwind in
+storage.</p>
 <h4 id="insert-filament">Insert filament</h4>
 <p>Guide this end of the filament through the filament runout sensor, and then down
 into the extruder's filament input on the top until you feel the filament stop
 moving.</p>
 <p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Inserting filament into the extruder inlet" data-desc-position="bottom"><img alt="Inserting filament into the extruder inlet" class="thumb" src="../../img/clip-insert-filament.webp" /></a></p>
-<p>I find <strong>80mm</strong> is a good distance value to use for loading filament, but you
-can always extrude more (or less) if this value doesn't fully load or unload
-filament. The default distance value is 10mm which is very short. Enter a longer
-distance value.</p>
+<p>I find <strong>80mm</strong> is a good distance value to use for loading and unloading
+filament, but you can always extrude more (or less) if this value doesn't fully
+load or unload filament. The default distance value is 10mm which is very short.
+Enter a longer distance value.</p>
 <p><img alt="Filament load distance value entry on the LCD" class="off-glb" src="../../img/lcd-feed-distance.webp" /></p>
-<p>Tap the <strong>Feed</strong> button again. The extruder motor will turn and start to draw
-in the filament.</p>
+<p>Tap the <strong>Feed</strong> button again. The extruder motor will turn clockwise and start
+to draw in the filament.</p>
 <p><img alt="Feed button on the refuel menu on the LCD" class="off-glb" src="../../img/lcd-refuel-hot-feed.jpg" /></p>
 <p>After a few moments, filament should start coming out of the
 heated nozzle on the bottom of the extruder.</p>
@@ -1339,7 +1395,10 @@ heated nozzle on the bottom of the extruder.</p>
 <p>If the extruder stops turning before filament comes out of the nozzle, then the
 extruder needs to turn forwards more to push the filament through the nozzle. In
 this case, tap <strong>Feed</strong> again to repeat the process.</p>
+<div class="admonition success">
+<p class="admonition-title">Next step</p>
 <p>Continue reading at <a href="#remove-excess">Remove excess</a>.</p>
+</div>
 <h3 id="loading-filament-manually">Loading filament manually</h3>
 <h4 id="heat-the-nozzle_1">Heat the nozzle</h4>
 <p>On the LCD's main menu, tap the nozzle temperature display to open the
@@ -1360,12 +1419,33 @@ sync. Use the Home (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg
 using any of the other movement controls on the LCD.</p>
 </div>
 <p><img alt="Unlocking the motors on the LCD" class="off-glb" src="../../img/lcd-unlock-motors.webp" /></p>
+<div class="admonition question">
+<p class="admonition-title">Next step</p>
+<p>If no filament is already loaded, continue reading at
+<a href="#insert-filament_1">Insert filament</a>.</p>
+</div>
+<h4 id="turn-extruder-wheel-backward">Turn extruder wheel backward</h4>
+<p>Turn the extruder wheel counterclockwise with your finger. The extruder will
+begin to raise the filament out of the top.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Turning the extruder wheel manually" data-desc-position="bottom"><img alt="Turning the extruder wheel manually" class="thumb" src="../../img/clip-turn-extruder-reverse.webp" /></a></p>
+<h4 id="remove-filament_1">Remove filament</h4>
+<p>Gently try to lift the filament from the extruder, but don't pull hard enough
+for the filament to break apart (this can cause a clog). If the filament does
+not lift out of the extruder, continue turning the extruder wheel
+counterclockwise with your finger until the filament releases.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the filament lifts a little but still feels stuck in the extruder,
+continue turning the extruder wheel counterclockwise to release the rest of
+the filament. Sometimes filament releases in segments, so be careful not to
+pull them apart and leave some filament in the extruder.</p>
+</div>
 <h4 id="insert-filament_1">Insert filament</h4>
 <p>Guide this end of the filament through the filament runout sensor, and then down
 into the extruder's filament input on the top until you feel the filament stop
 moving.</p>
 <p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Inserting filament into the extruder inlet" data-desc-position="bottom"><img alt="Inserting filament into the extruder inlet" class="thumb" src="../../img/clip-insert-filament.webp" /></a></p>
-<h4 id="turn-extruder-wheel">Turn extruder wheel</h4>
+<h4 id="turn-extruder-wheel-forward">Turn extruder wheel forward</h4>
 <p>Turn the extruder wheel clockwise with your finger. The extruder will begin to
 draw in the filament.</p>
 <p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Turning the extruder wheel manually" data-desc-position="bottom"><img alt="Turning the extruder wheel manually" class="thumb" src="../../img/clip-turn-extruder.webp" /></a></p>
@@ -1407,7 +1487,7 @@ nozzle heater from the main menu using the temperature controls.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-12-22T07:09:50+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-12-22</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-01-03T19:28:31+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-01-03</span>
   </span>
 
     
