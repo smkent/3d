@@ -52,6 +52,42 @@ heat up.
 
 ![Selecting filament feed and heat up prompt on the LCD][lcd-feed-heat]{ .off-glb }
 
+!!! question "Next step"
+
+    If no filament is already loaded, continue reading at
+    [Insert filament](#insert-filament).
+
+#### Remove filament
+
+I find **80mm** is a good distance value to use for loading and unloading
+filament, but you can always extrude more (or less) if this value doesn't fully
+load or unload filament. The default distance value is 10mm which is very short.
+Enter a longer distance value.
+
+![Filament load distance value entry on the LCD][lcd-feed-distance]{ .off-glb }
+
+Tap the **Retreat** button. The extruder motor will turn counterclockwise and
+start to raise the filament from the extruder.
+
+![Retreat button on the refuel menu on the LCD][lcd-refuel-hot-retreat]{ .off-glb }
+
+Gently try to lift the filament from the extruder, but don't pull hard enough
+for the filament to break apart (this can cause a clog). If the filament does
+not lift out of the extruder when the extruder stops turning, then the extruder
+needs to turn backwards more to release the filament. In this case, tap
+**Retreat** again to repeat the process.
+
+!!! note
+
+    If the filament lifts a little but still feels stuck in the extruder,
+    tap **Retreat** again to continue turning the extruder backwards. Sometimes
+    filament releases in segments, so be careful not to pull them apart and
+    leave some filament in the extruder.
+
+Once the filament is removed from the extruder, snip off the end so it is ready
+for next time. Then, clip or secure the filament spool so it won't unwind in
+storage.
+
 #### Insert filament
 
 Guide this end of the filament through the filament runout sensor, and then down
@@ -60,15 +96,15 @@ moving.
 
 ![Inserting filament into the extruder inlet][clip-insert-filament]{ .thumb }
 
-I find **80mm** is a good distance value to use for loading filament, but you
-can always extrude more (or less) if this value doesn't fully load or unload
-filament. The default distance value is 10mm which is very short. Enter a longer
-distance value.
+I find **80mm** is a good distance value to use for loading and unloading
+filament, but you can always extrude more (or less) if this value doesn't fully
+load or unload filament. The default distance value is 10mm which is very short.
+Enter a longer distance value.
 
 ![Filament load distance value entry on the LCD][lcd-feed-distance]{ .off-glb }
 
-Tap the **Feed** button again. The extruder motor will turn and start to draw
-in the filament.
+Tap the **Feed** button again. The extruder motor will turn clockwise and start
+to draw in the filament.
 
 ![Feed button on the refuel menu on the LCD][lcd-refuel-hot-feed]{ .off-glb }
 
@@ -81,7 +117,9 @@ If the extruder stops turning before filament comes out of the nozzle, then the
 extruder needs to turn forwards more to push the filament through the nozzle. In
 this case, tap **Feed** again to repeat the process.
 
-Continue reading at [Remove excess](#remove-excess).
+!!! success "Next step"
+
+    Continue reading at [Remove excess](#remove-excess).
 
 ### Loading filament manually
 
@@ -112,6 +150,32 @@ the extruder :material-lightning-bolt: icon to unlock the motors.
 
 ![Unlocking the motors on the LCD][lcd-unlock-motors]{ .off-glb }
 
+!!! question "Next step"
+
+    If no filament is already loaded, continue reading at
+    [Insert filament](#insert-filament_1).
+
+#### Turn extruder wheel backward
+
+Turn the extruder wheel counterclockwise with your finger. The extruder will
+begin to raise the filament out of the top.
+
+![Turning the extruder wheel manually][clip-turn-extruder-reverse]{ .thumb }
+
+#### Remove filament
+
+Gently try to lift the filament from the extruder, but don't pull hard enough
+for the filament to break apart (this can cause a clog). If the filament does
+not lift out of the extruder, continue turning the extruder wheel
+counterclockwise with your finger until the filament releases.
+
+!!! note
+
+    If the filament lifts a little but still feels stuck in the extruder,
+    continue turning the extruder wheel counterclockwise to release the rest of
+    the filament. Sometimes filament releases in segments, so be careful not to
+    pull them apart and leave some filament in the extruder.
+
 #### Insert filament
 
 Guide this end of the filament through the filament runout sensor, and then down
@@ -120,7 +184,7 @@ moving.
 
 ![Inserting filament into the extruder inlet][clip-insert-filament]{ .thumb }
 
-#### Turn extruder wheel
+#### Turn extruder wheel forward
 
 Turn the extruder wheel clockwise with your finger. The extruder will begin to
 draw in the filament.
@@ -153,12 +217,14 @@ Tap the **&lt;** button on the LCD to return to the main menu.
 
 [clip-insert-filament]: ../img/clip-insert-filament.webp
 [clip-remove-extra-filament]: ../img/clip-remove-extra-filament.webp
+[clip-turn-extruder-reverse]: ../img/clip-turn-extruder-reverse.webp
 [clip-turn-extruder]: ../img/clip-turn-extruder.webp
 [lcd-feed-distance]: ../img/lcd-feed-distance.webp
 [lcd-feed-heat]: ../img/lcd-feed-heat.webp
 [lcd-raise-z]: ../img/lcd-raise-z.webp
 [lcd-refuel-back]: ../img/lcd-refuel-back.jpg
 [lcd-refuel-hot-feed]: ../img/lcd-refuel-hot-feed.jpg
+[lcd-refuel-hot-retreat]: ../img/lcd-refuel-hot-retreat.jpg
 [lcd-refuel-select]: ../img/lcd-refuel-select.webp
 [lcd-set-z-50]: ../img/lcd-set-z-50.webp
 [lcd-set-nozzle-temperature]: ../img/lcd-set-nozzle-temperature.webp
