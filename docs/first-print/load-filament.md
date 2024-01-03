@@ -176,6 +176,10 @@ counterclockwise with your finger until the filament releases.
     the filament. Sometimes filament releases in segments, so be careful not to
     pull them apart and leave some filament in the extruder.
 
+Once the filament is removed from the extruder, snip off the end so it is ready
+for next time. Then, clip or secure the filament spool so it won't unwind in
+storage.
+
 #### Insert filament
 
 Guide this end of the filament through the filament runout sensor, and then down
