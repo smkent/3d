@@ -1,0 +1,27 @@
+# Third-party assets saved to docs/vendor/ during docs build
+
+# Fontsource fonts, written to fonts/ with a generated fonts.css
+[fonts]
+version = "5.3.0"
+subsets = ["latin", "latin-ext"]
+text = { name = "roboto", weights = [300, 400, 500, 700] }
+code = { name = "roboto-mono", weights = [400, 700] }
+
+# Files saved to the given paths
+[files]
+# Zensical loads GLightbox from unpkg.com unless it's already present
+"glightbox/glightbox.min.css" = "https://cdn.jsdelivr.net/npm/glightbox@3.3.1/dist/css/glightbox.min.css"
+"glightbox/glightbox.min.js" = "https://cdn.jsdelivr.net/npm/glightbox@3.3.1/dist/js/glightbox.min.js"
+"glightbox/LICENSE.md" = "https://cdn.jsdelivr.net/npm/glightbox@3.3.1/LICENSE.md"
+
+# Files saved to external/<host>/<path>
+[external]
+urls = [
+  "https://media.printables.com/media/prints/24371/images/3205709_9cfabb81-ee64-490a-9b02-eda5e45f5cd0/thumbs/inside/1280x960/png/title.webp",
+  "https://raw.githubusercontent.com/smkent/monoscad/main/sovol-sv06-plus/dual-spool-holder/images/publish/photo-spools-front.jpg",
+  "https://raw.githubusercontent.com/smkent/monoscad/main/sovol-sv06-plus/extruder-runout-mount/images/publish/photo1.jpg",
+  "https://raw.githubusercontent.com/smkent/monoscad/main/sovol-sv06-plus/heat-bed-cable-support/images/publish/v2-photo1.jpg",
+  "https://raw.githubusercontent.com/smkent/monoscad/main/sovol-sv06-plus/mainboard-cable-support/images/readme/photo-installed.jpg",
+  "https://raw.githubusercontent.com/smkent/monoscad/main/sovol-sv06-plus/spool-holder-remix/images/readme/spin-video.gif",
+  "https://raw.githubusercontent.com/smkent/monoscad/main/tweaks/nipper-holder/images/publish/photo1.jpg",
+]

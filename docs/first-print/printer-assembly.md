@@ -1,7 +1,3 @@
----
-glightbox: false
----
-
 # Printer assembly
 
 The SV06 Plus comes mostly pre-assembled except for the various body parts.

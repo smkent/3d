@@ -50,5 +50,5 @@ Examples:
 [metric-bits-amazon]: https://amazon.com/dp/B09GVFQPMT/
 [nipper-holder-original]: https://www.printables.com/model/575171-nipper-cutter-holder
 [nipper-holder-remix]: https://www.printables.com/model/664520
-[photo-filament-clip]: https://media.printables.com/media/prints/24371/images/3205709_9cfabb81-ee64-490a-9b02-eda5e45f5cd0/thumbs/inside/1280x960/png/title.webp
-[photo-nipper-holder-remix]: https://raw.githubusercontent.com/smkent/monoscad/main/tweaks/nipper-holder/images/publish/photo1.jpg
+[photo-filament-clip]: ../vendor/external/media.printables.com/media/prints/24371/images/3205709_9cfabb81-ee64-490a-9b02-eda5e45f5cd0/thumbs/inside/1280x960/png/title.webp
+[photo-nipper-holder-remix]: ../vendor/external/raw.githubusercontent.com/smkent/monoscad/main/tweaks/nipper-holder/images/publish/photo1.jpg
