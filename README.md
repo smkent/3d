@@ -5,7 +5,7 @@
 [![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen?logo=renovatebot)](https://renovatebot.com)
 [![GitHub stars](https://img.shields.io/github/stars/smkent/3d?style=social)](https://github.com/smkent/3d)
 
-[![Site logo](docs/img/logo-readme.png)](https://3d.smkent.net)
+[![Site logo](https://3d.smkent.net/img/logo-readme.png)](https://3d.smkent.net)
 
 **View the site here: [3d.smkent.net](https://3d.smkent.net)**
 

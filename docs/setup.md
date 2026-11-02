@@ -32,6 +32,8 @@ enable it for `smkent/3d`.
 
 [Settings → Pages][repo-settings-pages] → Source → GitHub Actions
 
+[Settings → Pages][repo-settings-pages] → Custom domain → `3d.smkent.net`
+
 [renovate]: https://github.com/apps/renovate
 [repo-settings]: https://github.com/smkent/3d/settings
 [repo-settings-branches]: https://github.com/smkent/3d/settings/branches

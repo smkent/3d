@@ -1,0 +1,171 @@
+[project]
+site_name = "3D Printing with the Sovol SV06 Plus"
+site_description = "3D printing with the Sovol SV06 Plus"
+site_author = "Stephen Kent"
+site_url = "https://3d.smkent.net"
+repo_url = "https://github.com/smkent/3d"
+repo_name = "smkent/3d"
+edit_uri = "edit/main/docs/"
+copyright = "&copy; 2023 Stephen Kent and contributors"
+extra_css = ["css/custom.css"]
+
+nav = [
+  { "Home" = "index.md" },
+  { "First Print Guide" = [
+    "first-print/index.md",
+    { "Background and safety" = "first-print/background-and-safety.md" },
+    { "Printer assembly" = "first-print/printer-assembly.md" },
+    { "Printer calibration" = "first-print/printer-calibration.md" },
+    { "Slicer installation" = "first-print/slicer-installation.md" },
+    { "Slicer configuration wizard" = "first-print/slicer-configuration.md" },
+    { "Slicer tuning" = "first-print/slicer-tuning.md" },
+    { "Preparing a model" = "first-print/prepare-model.md" },
+    { "Loading filament" = "first-print/load-filament.md" },
+    { "Making your first print!" = "first-print/print.md" },
+    { "Sharing your make" = "first-print/publish-make.md" },
+  ] },
+  { "Printing Reference" = [
+    "reference/index.md",
+    "reference/finding-models.md",
+    "reference/nozzle.md",
+    "reference/tools.md",
+    "reference/troubleshooting.md",
+  ] },
+  { "Add-ons & Upgrades" = [
+    "upgrades/index.md",
+    "upgrades/printable.md",
+  ] },
+  { "External Resources" = [
+    "external-resources/index.md",
+  ] },
+  { "About" = [
+    "license.md",
+    "contributing.md",
+    { "Development" = [
+      "development/requirements.md",
+      "development/workflow.md",
+      "development/updates.md",
+    ] },
+    { "Project Operations" = [
+      "setup.md",
+    ] },
+  ] },
+]
+
+# ----------------------------------------------------------------------------
+# Theme
+# ----------------------------------------------------------------------------
+[project.theme]
+language = "en"
+custom_dir = "overrides"
+favicon = "img/favicon.png"
+features = [
+  "content.action.edit",
+  "content.action.view",
+  "content.code.annotate",
+  "content.code.copy",
+  "content.tooltips",
+  "navigation.expand",
+  "navigation.footer",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.path",
+  "navigation.sections",
+  "navigation.tabs",
+  "navigation.tabs.sticky",
+  "navigation.top",
+  "search.highlight",
+  "toc.follow",
+  "toc.integrate",
+]
+
+[project.theme.icon]
+logo = "logo"
+
+[project.theme.icon.admonition]
+hardware = "material/bolt"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "material/brightness-auto"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "custom"
+accent = "yellow"
+toggle.icon = "material/lightbulb-outline"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "custom"
+accent = "deep purple"
+toggle.icon = "material/lightbulb"
+toggle.name = "Switch to system preference for light/dark mode"
+
+[[project.extra.social]]
+name = "bulbasaur0 on Printables"
+icon = "simple/printables"
+link = "https://www.printables.com/@bulbasaur0"
+
+[[project.extra.social]]
+name = "bulbasaur0 on Thingiverse"
+icon = "simple/thingiverse"
+link = "https://www.thingiverse.com/bulbasaur0/makes"
+
+[[project.extra.social]]
+name = "smkent on GitHub"
+icon = "fontawesome/brands/github"
+link = "https://github.com/smkent"
+
+# ----------------------------------------------------------------------------
+# Markdown extensions
+# ----------------------------------------------------------------------------
+[project.markdown_extensions.admonition]
+
+[project.markdown_extensions.attr_list]
+
+[project.markdown_extensions.def_list]
+
+[project.markdown_extensions.footnotes]
+
+[project.markdown_extensions.md_in_html]
+
+[project.markdown_extensions.meta]
+
+[project.markdown_extensions.toc]
+permalink = true
+
+[project.markdown_extensions.pymdownx.details]
+
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji"
+emoji_generator = "zensical.extensions.emoji.to_svg"
+options.custom_icons = ["overrides/.icons"]
+
+[project.markdown_extensions.pymdownx.highlight]
+
+[project.markdown_extensions.pymdownx.inlinehilite]
+
+[project.markdown_extensions.pymdownx.keys]
+
+[project.markdown_extensions.pymdownx.snippets]
+base_path = ["."]
+check_paths = true
+
+[project.markdown_extensions.pymdownx.superfences]
+
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
+
+# ----------------------------------------------------------------------------
+# Plugins
+# ----------------------------------------------------------------------------
+[project.plugins.glightbox]
+auto_caption = true
