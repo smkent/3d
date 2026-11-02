@@ -12,6 +12,7 @@ jactionlint = "latest"
 "pipx:copier" = "latest"
 "pipx:zensical" = "latest"
 prek = "latest"
+ruff = "latest"
 taplo = "latest"
 uv = "latest"
 
@@ -26,6 +27,7 @@ arg "[port]" help="Bind port" default="8000"
 
 [tasks.docs-build]
 description = "Build documentation site"
+depends = ["vendor"]
 raw_args = true
 run = "zensical build -c"
 
@@ -47,3 +49,8 @@ run = "betterleaks git . --redact"
 description = "Run tests"
 raw_args = true
 run = "echo \"No test command defined. Set the \\`test\\` command in mise.toml -> [tasks.test] -> \\`run\\`.\""
+
+[tasks.vendor]
+description = "Download third-party docs site assets"
+raw_args = true
+run = "uv run scripts/vendor.py"

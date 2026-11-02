@@ -75,11 +75,11 @@ needed.
 [heat-bed-cable-support]: https://www.printables.com/model/584534
 [mainboard-cable-support]: https://www.printables.com/model/689656
 [itsrouteburn-mainboard-cable-support]: https://www.printables.com/model/689656
-[photo-dual-spool-holder]: https://raw.githubusercontent.com/smkent/monoscad/main/sovol-sv06-plus/dual-spool-holder/images/publish/photo-spools-front.jpg
-[photo-heat-bed-cable-support]: https://raw.githubusercontent.com/smkent/monoscad/main/sovol-sv06-plus/heat-bed-cable-support/images/publish/v2-photo1.jpg
-[photo-mainboard-cable-support]: https://raw.githubusercontent.com/smkent/monoscad/main/sovol-sv06-plus/mainboard-cable-support/images/readme/photo-installed.jpg
-[photo-runout-sensor-mount]: https://raw.githubusercontent.com/smkent/monoscad/main/sovol-sv06-plus/extruder-runout-mount/images/publish/photo1.jpg
-[photo-spool-holder-remix]: https://raw.githubusercontent.com/smkent/monoscad/main/sovol-sv06-plus/spool-holder-remix/images/readme/spin-video.gif
+[photo-dual-spool-holder]: ../vendor/external/raw.githubusercontent.com/smkent/monoscad/main/sovol-sv06-plus/dual-spool-holder/images/publish/photo-spools-front.jpg
+[photo-heat-bed-cable-support]: ../vendor/external/raw.githubusercontent.com/smkent/monoscad/main/sovol-sv06-plus/heat-bed-cable-support/images/publish/v2-photo1.jpg
+[photo-mainboard-cable-support]: ../vendor/external/raw.githubusercontent.com/smkent/monoscad/main/sovol-sv06-plus/mainboard-cable-support/images/readme/photo-installed.jpg
+[photo-runout-sensor-mount]: ../vendor/external/raw.githubusercontent.com/smkent/monoscad/main/sovol-sv06-plus/extruder-runout-mount/images/publish/photo1.jpg
+[photo-spool-holder-remix]: ../vendor/external/raw.githubusercontent.com/smkent/monoscad/main/sovol-sv06-plus/spool-holder-remix/images/readme/spin-video.gif
 [rogerquin-spool-holder]: https://www.printables.com/model/409684-spool-holder-for-sovol-sv06-3d-printer
 [runout-sensor-mount]: https://www.printables.com/model/669108
 [spool-holder-remix]: https://www.printables.com/model/669125
