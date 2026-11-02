@@ -56,7 +56,7 @@ For a more comprehensive guide, see these links:
 [all3dp-troubleshooting]: https://all3dp.com/1/common-3d-printing-problems-troubleshooting-3d-printer-issues/
 [photo-z-offset-samples]: ../img/photo-z-offset-samples.jpg
 [printer-calibration-leveling-the-bed]: ../first-print/printer-calibration.md#leveling-the-bed
-[printer-calibration-z-offset]: ../first-print/printer-calibration.md##setting-the-nozzle-height-offset-z-offset
+[printer-calibration-z-offset]: ../first-print/printer-calibration.md#setting-the-nozzle-height-offset-z-offset
 [prusaslicer-z-offset-test]: ../img/prusaslicer-z-offset-test.webp
 [simplify3d-print-quality-troubleshooting]: https://www.simplify3d.com/resources/print-quality-troubleshooting/
 [tac0man-bed-level-test]: https://www.printables.com/model/200367-5-minute-bed-leveling-test

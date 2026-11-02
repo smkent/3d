@@ -72,5 +72,5 @@ mat, or similar surface ready where the removed hot nozzle can be placed.
 
 
 [hobby-hoarder-hotend-nozzle]: https://www.youtube.com/watch?v=OzRAVkXjw3I
-[printer-calibration-z-offset]: ../first-print/printer-calibration.md##setting-the-nozzle-height-offset-z-offset
+[printer-calibration-z-offset]: ../first-print/printer-calibration.md#setting-the-nozzle-height-offset-z-offset
 [sovol-sv06-replace-nozzle]: https://www.youtube.com/watch?v=B0Kz2Hi6jxc
