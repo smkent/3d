@@ -1,7 +1,3 @@
----
-glightbox: false
----
-
 # Printer first-time calibration
 
 Being 3-dimensional, a 3D printer has 3 axes: X (left to right), Y (front to
@@ -10,7 +6,7 @@ back), and Z (top to bottom).
 Before using the printer, the X axis and Z axis
 need to be calibrated. Each calibration step is explained below.
 
-![Axes illustration][axes-image]
+![Axes illustration][axes-image]{ .off-glb }
 
 Pages 13-16 of the [user manual][sovol-sv06-plus-user-manual] explains how to
 level the printer for the first time. Sovol also has
@@ -30,7 +26,7 @@ Steps:
 * Turn on the printer.
 * Tap the **Leveling** option on the LCD.
   <br /><br />
-  ![Selecting the Leveling option on the LCD][lcd-leveling-select]
+  ![Selecting the Leveling option on the LCD][lcd-leveling-select]{ .off-glb }
 * The printer will "home," which means the X-axis (extruder head),
   Y-axis (print bed), and Z-axis (vertical lift) will one at a time move all the
   way to the left, back, and bottom, respectively. In doing this, the printer
@@ -39,7 +35,7 @@ Steps:
   The Leveling menu will appear when homing is complete.
 * Tap **Auto Z-Align**.
   <br /><br />
-  ![Auto Z-Align leveling menu option on the LCD][lcd-auto-z-align]
+  ![Auto Z-Align leveling menu option on the LCD][lcd-auto-z-align]{ .off-glb }
 * The printer will slowly raise the extruder all the way to the top of the
   printer, and then gently press the extruder against the very top of the gantry
   (top bar). This causes both ends of the X-axis to move as far up as they can,
@@ -71,14 +67,14 @@ Steps:
 * If the Leveling menu is displayed, tap **&lt;** on the LCD to return to the
   main menu.
   <br /><br />
-  ![Leveling menu back button on the LCD][lcd-leveling-back]
+  ![Leveling menu back button on the LCD][lcd-leveling-back]{ .off-glb }
 * Tap the print bed temperature display, and set the temperature to **60°C**.
   The print bed will slowly start heating until it reaches this temperature.
 * Tap the nozzle temperature display, and set the temperature to **210°C**. The
   nozzle will start heating until it reaches this temperature. The nozzle is
   much smaller than the print bed, so it heats more quickly than the print bed.
   <br /><br />
-  ![Setting the nozzle and print bed temperatures on the LCD][lcd-set-temperature]
+  ![Setting the nozzle and print bed temperatures on the LCD][lcd-set-temperature]{ .off-glb }
 
 !!! warning
 
@@ -91,7 +87,7 @@ Steps:
 * Tap the **Leveling** option on the main menu to return to the Leveling menu.
   The printer will move to home once again before displaying the Leveling menu.
   <br /><br />
-  ![Selecting the Leveling option on the LCD][lcd-leveling-select]
+  ![Selecting the Leveling option on the LCD][lcd-leveling-select]{ .off-glb }
 
 ## Setting the nozzle height offset (Z-offset)
 
@@ -109,7 +105,7 @@ The Leveling menu on the LCD will display the current Z offset value, along with
 controls to increase (raise) and decrease (lower) the Z offset by 0.05 or 0.01
 millimeters.
 
-![Z offset on the Leveling menu on the LCD][lcd-z-offset]
+![Z offset on the Leveling menu on the LCD][lcd-z-offset]{ .off-glb }
 
 The goal is to set the nozzle height to approximately 0.2
 millimeters higher than the bed. This can be done with a spare sheet of printer
@@ -123,14 +119,14 @@ Steps:
   the nozzle slightly and try again. You may need to repeat this several times
   depending on how the printer was calibrated at the factory.
   <br /><br />
-  ![Raising the Z offset value on the LCD][lcd-increase-z-offset]
+  ![Raising the Z offset value on the LCD][lcd-increase-z-offset]{ .off-glb }
 * Move the piece of paper slightly while it is underneath the nozzle. It should
   move freely with no resistance.
 * While still slightly moving the paper under the nozzle, lower the Z offset by
   0.05 millimeters at a time until you start to feel resistance while moving
   the paper.
   <br /><br />
-  ![Lowering the Z offset value on the LCD][lcd-lower-z-offset]
+  ![Lowering the Z offset value on the LCD][lcd-lower-z-offset]{ .off-glb }
 * Slide the paper out from underneath the nozzle. You should feel some
   resistance, but the paper should not rip or tear. If it does, the nozzle is
   too low.
@@ -140,7 +136,7 @@ Steps:
 * Tap **Save** on the LCD so the printer will remember it later after being
   turned off.
   <br /><br />
-  ![Saving the leveling settings on the LCD][lcd-leveling-save]
+  ![Saving the leveling settings on the LCD][lcd-leveling-save]{ .off-glb }
 
 ## Leveling the bed
 
@@ -159,18 +155,18 @@ Steps:
 
 * On the Leveling menu on the LCD, tap **Auto-Leveling**.
   <br /><br />
-  ![Auto Leveling leveling menu option on the LCD][lcd-auto-level-select]
+  ![Auto Leveling leveling menu option on the LCD][lcd-auto-level-select]{ .off-glb }
 * The printer will automatically perform a scan at 25 different grid points on
   the heated bed, and will display progress on the LCD screen. (The below
   animation is sped up.)
   <br /><br />
-  ![Auto-leveling animation displayed on the LCD][lcd-auto-level-animation]
+  ![Auto-leveling animation displayed on the LCD][lcd-auto-level-animation]{ .off-glb }
 * When finished, the extruder will move back to the center and re-display the
   Leveling menu.
 * The bed leveling scan is now complete. Tap **Save** on the LCD so the printer
   will remember the scan data later after being turned off.
   <br /><br />
-  ![Saving the leveling settings on the LCD][lcd-leveling-save]
+  ![Saving the leveling settings on the LCD][lcd-leveling-save]{ .off-glb }
 
 ## Completing calibration
 
@@ -183,7 +179,7 @@ Steps:
 * If the Leveling menu is displayed, tap **&lt;** on the LCD to return to the
   main menu.
   <br /><br />
-  ![Leveling menu back button on the LCD][lcd-leveling-back]
+  ![Leveling menu back button on the LCD][lcd-leveling-back]{ .off-glb }
 * Tap the print bed temperature display, and set the temperature to **0°C**.
   The print bed heater will turn off, and the print bed will start to cool until
   it reaches room temperature.
@@ -192,7 +188,7 @@ Steps:
   reaches room temperature. The nozzle is much smaller than the print bed, so it
   cools more quickly than the print bed.
   <br /><br />
-  ![Setting the nozzle and print bed temperatures to 0 on the LCD][lcd-set-temperature-off]
+  ![Setting the nozzle and print bed temperatures to 0 on the LCD][lcd-set-temperature-off]{ .off-glb }
 
 !!! warning
 

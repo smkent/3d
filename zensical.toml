@@ -58,6 +58,7 @@ nav = [
 [project.theme]
 language = "en"
 custom_dir = "overrides"
+variant = "classic"
 favicon = "img/favicon.png"
 features = [
   "content.action.edit",
@@ -65,15 +66,11 @@ features = [
   "content.code.annotate",
   "content.code.copy",
   "content.tooltips",
-  "navigation.expand",
   "navigation.footer",
   "navigation.indexes",
   "navigation.instant",
-  "navigation.path",
   "navigation.sections",
   "navigation.tabs",
-  "navigation.tabs.sticky",
-  "navigation.top",
   "search.highlight",
   "toc.follow",
   "toc.integrate",
