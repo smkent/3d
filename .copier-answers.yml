@@ -1,0 +1,17 @@
+# Changes here will be overwritten by Copier
+_commit: v0.37.0
+_src_path: gh:smkent/copier-project
+copyright_holder: Stephen Kent
+copyright_license: GPL-3.0-or-later
+copyright_year: '2023'
+enable_docs: true
+github_user: smkent
+llm_contribution_policy: accepted-with-disclosure
+project_description: 3D printing with the Sovol SV06 Plus
+project_name: 3d
+project_type: application
+project_visibility: public
+template_attribution: true
+template_variant: generic
+user_email: smkent@smkent.net
+user_name: Stephen Kent

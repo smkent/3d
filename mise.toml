@@ -1,0 +1,49 @@
+min_version = "2026.2.5"
+
+[hooks]
+postinstall = [
+  "[ -e .git ] && prek --quiet install || { echo \"No git repository found.\"; }",
+]
+
+[tools]
+betterleaks = "latest"
+jactionlint = "latest"
+"pipx:commit-check" = "latest"
+"pipx:copier" = "latest"
+"pipx:zensical" = "latest"
+prek = "latest"
+taplo = "latest"
+uv = "latest"
+
+[tasks.docs]
+description = "Run documentation site locally"
+depends = ["docs-build"]
+run = 'zensical serve -a "${usage_host:-localhost}:${usage_port:-8000}"'
+usage = '''
+flag "--host <host>" help="Bind IP" default="localhost"
+arg "[port]" help="Bind port" default="8000"
+'''
+
+[tasks.docs-build]
+description = "Build documentation site"
+raw_args = true
+run = "zensical build -c"
+
+[tasks.lint]
+description = "Run all formatters and static checks"
+raw_args = true
+run = "prek run --all-files"
+
+[tasks.lt]
+description = "Run all formatters, static checks, and tests"
+run = [{ task = "lint" }, { task = "test" }]
+
+[tasks.secretscan]
+description = "Scan git history for secrets"
+raw_args = true
+run = "betterleaks git . --redact"
+
+[tasks.test]
+description = "Run tests"
+raw_args = true
+run = "echo \"No test command defined. Set the \\`test\\` command in mise.toml -> [tasks.test] -> \\`run\\`.\""

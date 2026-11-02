@@ -1,55 +1,23 @@
 # 3D printing with the Sovol SV06 Plus
 
-[![Build](https://img.shields.io/github/checks-status/smkent/3d/main?label=build)][gh-actions]
-[![GitHub stars](https://img.shields.io/github/stars/smkent/3d?style=social)][repo]
+[![License](https://img.shields.io/github/license/smkent/3d)](https://github.com/smkent/3d/blob/main/COPYING)
+[![CI](https://github.com/smkent/3d/actions/workflows/ci.yaml/badge.svg)](https://github.com/smkent/3d/actions/workflows/ci.yaml)
+[![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen?logo=renovatebot)](https://renovatebot.com)
+[![GitHub stars](https://img.shields.io/github/stars/smkent/3d?style=social)](https://github.com/smkent/3d)
 
-[![Site logo][logo]][site]
+[![Site logo](docs/img/logo-readme.png)](https://3d.smkent.net)
 
-**View the site here: [3d.smkent.net][site]**
+**View the site here: [3d.smkent.net](https://3d.smkent.net)**
 
-## Development
+## License
 
-### [Poetry][poetry] installation
+Copyright (C) 2023 Stephen Kent and contributors
 
-Via [`pipx`][pipx]:
+Licensed under the GNU General Public License v3.0 or later
+([`GPL-3.0-or-later`](https://github.com/smkent/3d/blob/main/COPYING)).
 
-```console
-pip install pipx
-pipx install poetry
-pipx inject poetry poetry-pre-commit-plugin
-```
+## Project template
 
-Via `pip`:
+This project is based on and maintained with [copier-project][copier-project].
 
-```console
-pip install poetry
-poetry self add poetry-pre-commit-plugin
-```
-
-### Development tasks
-
-#### Project setup
-
-* Setup: `poetry install`
-* Run static checks: `poetry run poe lint` or
-  `poetry run pre-commit run --all-files`
-
-#### Site development
-
-* Start the live-reloading docs server: `poetry run mkdocs serve`
-* Build the documentation site: `poetry run mkdocs build`
-
----
-
-Created from [smkent/cookie-python][cookie-python] using
-[cookiecutter][cookiecutter]
-
-[cookie-python]: https://github.com/smkent/cookie-python
-[cookiecutter]: https://github.com/cookiecutter/cookiecutter
-[gh-actions]: https://github.com/smkent/3d/actions?query=branch%3Amain
-[logo]: docs/img/logo-readme.png
-[mkdocs]: https://www.mkdocs.org
-[pipx]: https://pypa.github.io/pipx/
-[poetry]: https://python-poetry.org/docs/#installation
-[repo]: https://github.com/smkent/3d
-[site]: https://3d.smkent.net
+[copier-project]: https://smkent.github.io/copier-project
